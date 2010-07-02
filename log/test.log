@@ -1,0 +1,1629 @@
+# Logfile created on Mon Sep 28 15:07:47 +0100 2009  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Unable to load activity_picture, underlying cause no such file to load -- activity_picture 
+
+ /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:158:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:265:in `require_or_load'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:224:in `depend_on'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:136:in `require_dependency'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:851:in `try_to_load_dependency'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:866:in `require_fixture_classes'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:863:in `each'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:863:in `require_fixture_classes'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:846:in `fixtures'
+./test_helper.rb:43
+unit/helpers/search_helper_test.rb:1:in `require'
+unit/helpers/search_helper_test.rb:1
+Unable to load attributable, underlying cause no such file to load -- attributable 
+
+ /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:158:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:265:in `require_or_load'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:224:in `depend_on'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:136:in `require_dependency'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:851:in `try_to_load_dependency'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:866:in `require_fixture_classes'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:863:in `each'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:863:in `require_fixture_classes'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:846:in `fixtures'
+./test_helper.rb:43
+unit/helpers/search_helper_test.rb:1:in `require'
+unit/helpers/search_helper_test.rb:1
+Unable to load attribute, underlying cause no such file to load -- attribute 
+
+ /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:158:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:265:in `require_or_load'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:224:in `depend_on'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:136:in `require_dependency'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:851:in `try_to_load_dependency'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:866:in `require_fixture_classes'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:863:in `each'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:863:in `require_fixture_classes'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:846:in `fixtures'
+./test_helper.rb:43
+unit/helpers/search_helper_test.rb:1:in `require'
+unit/helpers/search_helper_test.rb:1
+Unable to load bar_type, underlying cause no such file to load -- bar_type 
+
+ /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:158:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:265:in `require_or_load'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:224:in `depend_on'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:136:in `require_dependency'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:851:in `try_to_load_dependency'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:866:in `require_fixture_classes'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:863:in `each'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:863:in `require_fixture_classes'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:846:in `fixtures'
+./test_helper.rb:43
+unit/helpers/search_helper_test.rb:1:in `require'
+unit/helpers/search_helper_test.rb:1
+Unable to load connection, underlying cause no such file to load -- connection 
+
+ /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:158:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:265:in `require_or_load'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:224:in `depend_on'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:136:in `require_dependency'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:851:in `try_to_load_dependency'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:866:in `require_fixture_classes'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:863:in `each'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:863:in `require_fixture_classes'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:846:in `fixtures'
+./test_helper.rb:43
+unit/helpers/search_helper_test.rb:1:in `require'
+unit/helpers/search_helper_test.rb:1
+Unable to load cuisine, underlying cause no such file to load -- cuisine 
+
+ /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:158:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:265:in `require_or_load'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:224:in `depend_on'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:136:in `require_dependency'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:851:in `try_to_load_dependency'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:866:in `require_fixture_classes'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:863:in `each'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:863:in `require_fixture_classes'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:846:in `fixtures'
+./test_helper.rb:43
+unit/helpers/search_helper_test.rb:1:in `require'
+unit/helpers/search_helper_test.rb:1
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (0.0ms)[0m   [0mMysql::Error: Table 'pulse_test.activities' doesn't exist: SHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'pulse_test.places' doesn't exist: SHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (0.0ms)[0m   [0mMysql::Error: Table 'pulse_test.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+Unable to load activity_picture, underlying cause no such file to load -- activity_picture 
+
+ /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:158:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:265:in `require_or_load'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:224:in `depend_on'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:136:in `require_dependency'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:851:in `try_to_load_dependency'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:866:in `require_fixture_classes'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:863:in `each'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:863:in `require_fixture_classes'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:846:in `fixtures'
+./test_helper.rb:43
+unit/helpers/search_helper_test.rb:1:in `require'
+unit/helpers/search_helper_test.rb:1
+Unable to load attributable, underlying cause no such file to load -- attributable 
+
+ /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:158:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:265:in `require_or_load'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:224:in `depend_on'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:136:in `require_dependency'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:851:in `try_to_load_dependency'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:866:in `require_fixture_classes'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:863:in `each'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:863:in `require_fixture_classes'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:846:in `fixtures'
+./test_helper.rb:43
+unit/helpers/search_helper_test.rb:1:in `require'
+unit/helpers/search_helper_test.rb:1
+Unable to load attribute, underlying cause no such file to load -- attribute 
+
+ /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:158:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:265:in `require_or_load'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:224:in `depend_on'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:136:in `require_dependency'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:851:in `try_to_load_dependency'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:866:in `require_fixture_classes'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:863:in `each'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:863:in `require_fixture_classes'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:846:in `fixtures'
+./test_helper.rb:43
+unit/helpers/search_helper_test.rb:1:in `require'
+unit/helpers/search_helper_test.rb:1
+Unable to load bar_type, underlying cause no such file to load -- bar_type 
+
+ /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:158:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:265:in `require_or_load'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:224:in `depend_on'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:136:in `require_dependency'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:851:in `try_to_load_dependency'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:866:in `require_fixture_classes'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:863:in `each'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:863:in `require_fixture_classes'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:846:in `fixtures'
+./test_helper.rb:43
+unit/helpers/search_helper_test.rb:1:in `require'
+unit/helpers/search_helper_test.rb:1
+Unable to load connection, underlying cause no such file to load -- connection 
+
+ /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:158:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:265:in `require_or_load'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:224:in `depend_on'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:136:in `require_dependency'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:851:in `try_to_load_dependency'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:866:in `require_fixture_classes'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:863:in `each'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:863:in `require_fixture_classes'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:846:in `fixtures'
+./test_helper.rb:43
+unit/helpers/search_helper_test.rb:1:in `require'
+unit/helpers/search_helper_test.rb:1
+Unable to load cuisine, underlying cause no such file to load -- cuisine 
+
+ /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:158:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:265:in `require_or_load'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:224:in `depend_on'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:136:in `require_dependency'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:851:in `try_to_load_dependency'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:866:in `require_fixture_classes'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:863:in `each'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:863:in `require_fixture_classes'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:846:in `fixtures'
+./test_helper.rb:43
+unit/helpers/search_helper_test.rb:1:in `require'
+unit/helpers/search_helper_test.rb:1
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (0.0ms)[0m   [0mMysql::Error: Table 'pulse_test.activities' doesn't exist: SHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'pulse_test.places' doesn't exist: SHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (0.0ms)[0m   [0mMysql::Error: Table 'pulse_test.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (189.8ms)[0m   [0mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [4;36;1mSQL (197.9ms)[0m   [0;1mCREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+Migrating to InitialLoad (20090622045848)
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (92.7ms)[0m   [0;1mCREATE TABLE `activities` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `description` varchar(255), `created_at` datetime, `updated_at` datetime, `icon_file_name` varchar(255), `icon_content_type` varchar(255), `icon_file_size` varchar(255), `icon_updated_at` varchar(255)) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (99.3ms)[0m   [0;1mCREATE TABLE `categories` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (89.4ms)[0m   [0;1mCREATE TABLE `categories_places` (`category_id` int(11), `place_id` int(11)) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (88.3ms)[0m   [0;1mCREATE TABLE `events` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` int(11), `place_id` int(11), `when_time` datetime, `created_at` datetime, `updated_at` datetime, `duration` varchar(255)) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (78.3ms)[0m   [0;1mCREATE TABLE `favorites` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` int(11), `place_id` int(11), `description` varchar(255), `created_at` datetime, `updated_at` datetime, `good_for` varchar(255)) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (76.3ms)[0m   [0;1mCREATE TABLE `invitations` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `email` varchar(255), `sent_at` datetime, `user_id` int(11), `token` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (77.3ms)[0m   [0;1mCREATE TABLE `locations` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255)) ENGINE=InnoDB[0m
+  [4;35;1mLocation Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `locations`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mLocation Create (0.2ms)[0m   [0mINSERT INTO `locations` (`name`) VALUES('London')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mLocation Create (0.1ms)[0m   [0;1mINSERT INTO `locations` (`name`) VALUES('New York')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (69.5ms)[0m   [0mCREATE TABLE `messages` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `sender_id` int(11), `recipient_id` int(11), `subject` varchar(255), `body` text, `read_at` datetime, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (111.5ms)[0m   [0mCREATE TABLE `places` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `building` varchar(255), `building_unit` varchar(255), `address` varchar(255), `city` varchar(255), `state` varchar(255), `zip` varchar(255), `neighborhood` varchar(255), `county` varchar(255), `description` text, `created_at` datetime, `updated_at` datetime, `latitude` float, `longitude` float, `location_id` int(11), `phone` varchar(255), `website` varchar(255), `import_id` varchar(255), `import_source` varchar(255), `icon_file_name` varchar(255), `icon_content_type` varchar(255), `icon_file_size` varchar(255), `icon_updated_at` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (96.6ms)[0m   [0mCREATE TABLE `user_activities` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` int(11), `activity_id` int(11), `description` varchar(255), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (99.1ms)[0m   [0mCREATE TABLE `user_pictures` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `picture_file_name` varchar(255), `picture_content_type` varchar(255), `picture_file_size` varchar(255), `picture_updated_at` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (87.8ms)[0m   [0mCREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `email` varchar(255), `first_name` varchar(255), `username` varchar(255), `sex` int(11), `age` int(11), `age_preference` int(11), `sex_preference` int(11), `description` varchar(255), `timezone` varchar(255), `crypted_password` varchar(40), `salt` varchar(40), `created_at` datetime, `updated_at` datetime, `remember_token` varchar(40), `remember_token_expires_at` datetime, `activation_code` varchar(40), `activated_at` datetime, `state` varchar(255) DEFAULT 'passive', `deleted_at` datetime, `admin` tinyint(1), `profile_views` int(11) DEFAULT 0, `location_id` int(11), `icon_file_name` varchar(255), `icon_content_type` varchar(255), `icon_file_size` varchar(255), `icon_updated_at` varchar(255)) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090622045848')[0m
+Migrating to AddS3FlagToPlaces (20090806032005)
+  [4;35;1mSQL (120.3ms)[0m   [0mALTER TABLE `places` ADD `uploaded_picture_to_s3` tinyint(1) DEFAULT 0[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090806032005')[0m
+Migrating to AddAttemptedGeocodeToPlaces (20090806182822)
+  [4;35;1mSQL (98.0ms)[0m   [0mALTER TABLE `places` ADD `attempted_geocode` tinyint(1) DEFAULT 0[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090806182822')[0m
+Migrating to AddAttemptedS3UploadToPlaces (20090810155908)
+  [4;35;1mSQL (100.4ms)[0m   [0mALTER TABLE `places` ADD `attempted_s3_upload` tinyint(1) DEFAULT 0[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090810155908')[0m
+Migrating to AddCatToPlace (20090915130557)
+  [4;35;1mSQL (93.3ms)[0m   [0mALTER TABLE `places` ADD `category` varchar(255)[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090915130557')[0m
+Migrating to AddExcludeToPlaces (20090916132702)
+  [4;35;1mSQL (98.7ms)[0m   [0mALTER TABLE `places` ADD `exclude` tinyint(1) DEFAULT 0[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090916132702')[0m
+Migrating to AddGroupToActivity (20090919225918)
+  [4;35;1mSQL (97.1ms)[0m   [0mALTER TABLE `activities` ADD `activity_group_name` varchar(255)[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090919225918')[0m
+Migrating to AddPlaceToUserActivities (20090919231747)
+  [4;35;1mSQL (113.2ms)[0m   [0mALTER TABLE `user_activities` ADD `place_id` int(11)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090919231747')[0m
+Migrating to AddCategoryToActivities (20090922131125)
+  [4;35;1mSQL (98.2ms)[0m   [0mALTER TABLE `activities` ADD `category` varchar(255)[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090922131125')[0m
+Migrating to AddPostcodeToUsers (20090929104209)
+  [4;35;1mSQL (107.1ms)[0m   [0mALTER TABLE `users` ADD `postcode` varchar(255)[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20090929104209')[0m
+Migrating to AddLatLongToUsers (20090930200310)
+  [4;35;1mSQL (100.6ms)[0m   [0mALTER TABLE `users` ADD `lat` float[0m
+  [4;36;1mSQL (110.6ms)[0m   [0;1mALTER TABLE `users` ADD `long` float[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20090930200310')[0m
+Migrating to CreateUserFavorites (20091002094553)
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (152.1ms)[0m   [0mCREATE TABLE `user_favorites` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (129.8ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20091002094553')[0m
+Migrating to AddUserToUserFavorites (20091002102146)
+  [4;35;1mSQL (71.8ms)[0m   [0mALTER TABLE `user_favorites` DROP `name`[0m
+  [4;36;1mSQL (121.0ms)[0m   [0;1mALTER TABLE `user_favorites` ADD `user_id` int(11)[0m
+  [4;35;1mSQL (89.6ms)[0m   [0mALTER TABLE `user_favorites` ADD `friend_id` int(11)[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20091002102146')[0m
+Migrating to AddDescToUserPlaceActivities (20091009111530)
+  [4;35;1mSQL (0.0ms)[0m   [0mMysql::Error: Table 'pulse_test.user_place_activities' doesn't exist: ALTER TABLE `user_place_activities` ADD `description` varchar(255)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to InitialLoad (20090622045848)
+Migrating to AddS3FlagToPlaces (20090806032005)
+Migrating to AddAttemptedGeocodeToPlaces (20090806182822)
+Migrating to AddAttemptedS3UploadToPlaces (20090810155908)
+Migrating to AddCatToPlace (20090915130557)
+Migrating to AddExcludeToPlaces (20090916132702)
+Migrating to AddGroupToActivity (20090919225918)
+Migrating to AddPlaceToUserActivities (20090919231747)
+Migrating to AddCategoryToActivities (20090922131125)
+Migrating to AddPostcodeToUsers (20090929104209)
+Migrating to AddLatLongToUsers (20090930200310)
+Migrating to CreateUserFavorites (20091002094553)
+Migrating to AddUserToUserFavorites (20091002102146)
+Migrating to AddDescToUserPlaceActivities (20091009111530)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mMysql::Error: Table 'pulse_test.user_place_activities' doesn't exist: ALTER TABLE `user_place_activities` ADD `description` varchar(255)[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to InitialLoad (20090622045848)
+Migrating to AddS3FlagToPlaces (20090806032005)
+Migrating to AddAttemptedGeocodeToPlaces (20090806182822)
+Migrating to AddAttemptedS3UploadToPlaces (20090810155908)
+Migrating to AddCatToPlace (20090915130557)
+Migrating to AddExcludeToPlaces (20090916132702)
+Migrating to AddGroupToActivity (20090919225918)
+Migrating to AddPlaceToUserActivities (20090919231747)
+Migrating to AddCategoryToActivities (20090922131125)
+Migrating to AddPostcodeToUsers (20090929104209)
+Migrating to AddLatLongToUsers (20090930200310)
+Migrating to CreateUserFavorites (20091002094553)
+Migrating to AddUserToUserFavorites (20091002102146)
+Migrating to AddDescToUserPlaceActivities (20091009111530)
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (64.8ms)[0m   [0mCREATE TABLE `user_place_activities` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` int(11), `place_id` int(11), `activity_id` int(11), `description` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20091009111530')[0m
+Migrating to AddUserPlacesUserActivitiesTables (20091009121209)
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mDROP TABLE `user_activities`[0m
+  [4;35;1mSQL (135.2ms)[0m   [0mCREATE TABLE `user_activities` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` int(11), `activity_id` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (99.8ms)[0m   [0mCREATE TABLE `user_places` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` int(11), `place_id` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20091009121209')[0m
+Migrating to CreateTimelineEvents (20091028113829)
+  [4;35;1mSQL (97.0ms)[0m   [0mCREATE TABLE `timeline_events` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `event_type` varchar(255), `subject_type` varchar(255), `actor_type` varchar(255), `secondary_subject_type` varchar(255), `subject_id` int(11), `actor_id` int(11), `secondary_subject_id` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20091028113829')[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (10.9ms)[0m   [0;1mSHOW FIELDS FROM `activities`[0m
+  [4;35;1mSQL (49.6ms)[0m   [0mdescribe `activities`[0m
+  [4;36;1mSQL (55.8ms)[0m   [0;1mSHOW KEYS FROM `activities`[0m
+  [4;35;1mSQL (39.4ms)[0m   [0mSHOW FIELDS FROM `categories`[0m
+  [4;36;1mSQL (43.1ms)[0m   [0;1mdescribe `categories`[0m
+  [4;35;1mSQL (11.5ms)[0m   [0mSHOW KEYS FROM `categories`[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSHOW FIELDS FROM `categories_places`[0m
+  [4;35;1mSQL (22.2ms)[0m   [0mdescribe `categories_places`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW KEYS FROM `categories_places`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW FIELDS FROM `events`[0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mdescribe `events`[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW KEYS FROM `events`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW FIELDS FROM `favorites`[0m
+  [4;35;1mSQL (1.4ms)[0m   [0mdescribe `favorites`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW KEYS FROM `favorites`[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mSHOW FIELDS FROM `invitations`[0m
+  [4;36;1mSQL (1.6ms)[0m   [0;1mdescribe `invitations`[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW KEYS FROM `invitations`[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSHOW FIELDS FROM `locations`[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mdescribe `locations`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW KEYS FROM `locations`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mSQL (1.4ms)[0m   [0;1mdescribe `messages`[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW KEYS FROM `messages`[0m
+  [4;36;1mSQL (1.5ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mSQL (3.7ms)[0m   [0mdescribe `places`[0m
+  [4;36;1mSQL (1.7ms)[0m   [0;1mSHOW KEYS FROM `places`[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mSHOW FIELDS FROM `timeline_events`[0m
+  [4;36;1mSQL (2.0ms)[0m   [0;1mdescribe `timeline_events`[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mSHOW KEYS FROM `timeline_events`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW FIELDS FROM `user_activities`[0m
+  [4;35;1mSQL (1.7ms)[0m   [0mdescribe `user_activities`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW KEYS FROM `user_activities`[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mSHOW FIELDS FROM `user_favorites`[0m
+  [4;36;1mSQL (1.4ms)[0m   [0;1mdescribe `user_favorites`[0m
+  [4;35;1mSQL (1.5ms)[0m   [0mSHOW KEYS FROM `user_favorites`[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mSHOW FIELDS FROM `user_pictures`[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mdescribe `user_pictures`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW KEYS FROM `user_pictures`[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSHOW FIELDS FROM `user_place_activities`[0m
+  [4;36;1mSQL (2.3ms)[0m   [0;1mdescribe `user_place_activities`[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW KEYS FROM `user_place_activities`[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSHOW FIELDS FROM `user_places`[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mdescribe `user_places`[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW KEYS FROM `user_places`[0m
+  [4;35;1mSQL (1.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (4.2ms)[0m   [0;1mdescribe `users`[0m
+  [4;35;1mSQL (1.9ms)[0m   [0mSHOW KEYS FROM `users`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+Unable to load activity_picture, underlying cause no such file to load -- activity_picture 
+
+ /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:158:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:265:in `require_or_load'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:224:in `depend_on'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:136:in `require_dependency'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:851:in `try_to_load_dependency'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:866:in `require_fixture_classes'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:863:in `each'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:863:in `require_fixture_classes'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:846:in `fixtures'
+./test_helper.rb:43
+unit/helpers/search_helper_test.rb:1:in `require'
+unit/helpers/search_helper_test.rb:1
+Unable to load attributable, underlying cause no such file to load -- attributable 
+
+ /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:158:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:265:in `require_or_load'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:224:in `depend_on'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:136:in `require_dependency'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:851:in `try_to_load_dependency'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:866:in `require_fixture_classes'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:863:in `each'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:863:in `require_fixture_classes'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:846:in `fixtures'
+./test_helper.rb:43
+unit/helpers/search_helper_test.rb:1:in `require'
+unit/helpers/search_helper_test.rb:1
+Unable to load attribute, underlying cause no such file to load -- attribute 
+
+ /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:158:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:265:in `require_or_load'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:224:in `depend_on'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:136:in `require_dependency'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:851:in `try_to_load_dependency'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:866:in `require_fixture_classes'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:863:in `each'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:863:in `require_fixture_classes'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:846:in `fixtures'
+./test_helper.rb:43
+unit/helpers/search_helper_test.rb:1:in `require'
+unit/helpers/search_helper_test.rb:1
+Unable to load bar_type, underlying cause no such file to load -- bar_type 
+
+ /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:158:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:265:in `require_or_load'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:224:in `depend_on'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:136:in `require_dependency'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:851:in `try_to_load_dependency'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:866:in `require_fixture_classes'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:863:in `each'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:863:in `require_fixture_classes'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:846:in `fixtures'
+./test_helper.rb:43
+unit/helpers/search_helper_test.rb:1:in `require'
+unit/helpers/search_helper_test.rb:1
+Unable to load connection, underlying cause no such file to load -- connection 
+
+ /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:158:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:265:in `require_or_load'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:224:in `depend_on'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:136:in `require_dependency'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:851:in `try_to_load_dependency'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:866:in `require_fixture_classes'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:863:in `each'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:863:in `require_fixture_classes'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:846:in `fixtures'
+./test_helper.rb:43
+unit/helpers/search_helper_test.rb:1:in `require'
+unit/helpers/search_helper_test.rb:1
+Unable to load cuisine, underlying cause no such file to load -- cuisine 
+
+ /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:158:in `require'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:265:in `require_or_load'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:224:in `depend_on'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.3/lib/active_support/dependencies.rb:136:in `require_dependency'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:851:in `try_to_load_dependency'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:866:in `require_fixture_classes'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:863:in `each'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:863:in `require_fixture_classes'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.3/lib/active_record/fixtures.rb:846:in `fixtures'
+./test_helper.rb:43
+unit/helpers/search_helper_test.rb:1:in `require'
+unit/helpers/search_helper_test.rb:1
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (47.7ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (22.3ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (23.1ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (32.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (89.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (9.0ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (23.1ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (44.9ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM `users` [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `users` [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM `users` [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (1.4ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (1.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (4.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (1.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (6.3ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (1.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (username = 'aaron' OR email = 'aaron') AND (users.state = 'active') LIMIT 1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM `users` [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-11-03 18:31:21) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"quire69", "password"=>"quire69", "login"=>"quire", "email"=>"quire@example.com"}}
+WARNING: Can't mass-assign these protected attributes: login
+
+
+Processing UsersController#activate (for 0.0.0.0 at 2009-11-03 18:31:21) [GET]
+  Parameters: {"activation_code"=>""}
+Rendering sessions/new
+Filter chain halted as [:login_required] rendered_or_redirected.
+Completed in 34ms (View: 33, DB: 14) | 200 OK [http://test.host/activate/]
+
+
+Processing UsersController#activate (for 0.0.0.0 at 2009-11-03 18:31:21) [GET]
+Rendering sessions/new
+Filter chain halted as [:login_required] rendered_or_redirected.
+Completed in 2ms (View: 2, DB: 1) | 200 OK [http://test.host/users/activate]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM `users` [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-11-03 18:31:21) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"quire69", "password"=>"quire69", "login"=>"quire", "email"=>nil}}
+WARNING: Can't mass-assign these protected attributes: login
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `users` [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-11-03 18:31:21) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"quire69", "password"=>"quire69", "login"=>nil, "email"=>"quire@example.com"}}
+WARNING: Can't mass-assign these protected attributes: login
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM `users` [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-11-03 18:31:21) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>nil, "password"=>"quire69", "login"=>"quire", "email"=>"quire@example.com"}}
+WARNING: Can't mass-assign these protected attributes: login
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `users` [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-11-03 18:31:21) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"quire69", "password"=>nil, "login"=>"quire", "email"=>"quire@example.com"}}
+WARNING: Can't mass-assign these protected attributes: login
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-11-03 18:31:21) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"quire69", "password"=>"quire69", "login"=>"quire", "email"=>"quire@example.com"}}
+WARNING: Can't mass-assign these protected attributes: login
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-11-03 18:31:21) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"quire69", "password"=>"quire69", "login"=>"quire", "email"=>"quire@example.com"}}
+WARNING: Can't mass-assign these protected attributes: login
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM `users` [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM `users` [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM `users` [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (2.8ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (2.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (username = 'aaron' OR email = 'aaron') AND (users.state = 'active') LIMIT 1[0m
+  [4;35;1mSQL (3.0ms)[0m   [0mSELECT count(*) AS count_all FROM `users` [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-11-03 18:33:05) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"quire69", "password"=>"quire69", "login"=>"quire", "email"=>"quire@example.com"}}
+WARNING: Can't mass-assign these protected attributes: login
+
+
+Processing UsersController#activate (for 0.0.0.0 at 2009-11-03 18:33:05) [GET]
+  Parameters: {"activation_code"=>""}
+Rendering sessions/new
+Filter chain halted as [:login_required] rendered_or_redirected.
+Completed in 18ms (View: 17, DB: 14) | 200 OK [http://test.host/activate/]
+
+
+Processing UsersController#activate (for 0.0.0.0 at 2009-11-03 18:33:05) [GET]
+Rendering sessions/new
+Filter chain halted as [:login_required] rendered_or_redirected.
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/users/activate]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM `users` [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-11-03 18:33:05) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"quire69", "password"=>"quire69", "login"=>"quire", "email"=>nil}}
+WARNING: Can't mass-assign these protected attributes: login
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `users` [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-11-03 18:33:05) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"quire69", "password"=>"quire69", "login"=>nil, "email"=>"quire@example.com"}}
+WARNING: Can't mass-assign these protected attributes: login
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM `users` [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-11-03 18:33:05) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>nil, "password"=>"quire69", "login"=>"quire", "email"=>"quire@example.com"}}
+WARNING: Can't mass-assign these protected attributes: login
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `users` [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-11-03 18:33:05) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"quire69", "password"=>nil, "login"=>"quire", "email"=>"quire@example.com"}}
+WARNING: Can't mass-assign these protected attributes: login
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-11-03 18:33:05) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"quire69", "password"=>"quire69", "login"=>"quire", "email"=>"quire@example.com"}}
+WARNING: Can't mass-assign these protected attributes: login
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-11-03 18:33:05) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"quire69", "password"=>"quire69", "login"=>"quire", "email"=>"quire@example.com"}}
+WARNING: Can't mass-assign these protected attributes: login
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (9.8ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM `users` [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `users` [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM `users` [0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (2.2ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (2.1ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (1.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (3.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (1.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (username = 'aaron' OR email = 'aaron') AND (users.state = 'active') LIMIT 1[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `users` [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-11-03 18:37:03) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"quire69", "password"=>"quire69", "login"=>"quire", "email"=>"quire@example.com"}}
+WARNING: Can't mass-assign these protected attributes: login
+
+
+Processing UsersController#activate (for 0.0.0.0 at 2009-11-03 18:37:03) [GET]
+  Parameters: {"activation_code"=>""}
+Rendering sessions/new
+Filter chain halted as [:login_required] rendered_or_redirected.
+Completed in 33ms (View: 33, DB: 12) | 200 OK [http://test.host/activate/]
+
+
+Processing UsersController#activate (for 0.0.0.0 at 2009-11-03 18:37:03) [GET]
+Rendering sessions/new
+Filter chain halted as [:login_required] rendered_or_redirected.
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/users/activate]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM `users` [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-11-03 18:37:03) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"quire69", "password"=>"quire69", "login"=>"quire", "email"=>nil}}
+WARNING: Can't mass-assign these protected attributes: login
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `users` [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-11-03 18:37:03) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"quire69", "password"=>"quire69", "login"=>nil, "email"=>"quire@example.com"}}
+WARNING: Can't mass-assign these protected attributes: login
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT count(*) AS count_all FROM `users` [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-11-03 18:37:03) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>nil, "password"=>"quire69", "login"=>"quire", "email"=>"quire@example.com"}}
+WARNING: Can't mass-assign these protected attributes: login
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `users` [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-11-03 18:37:03) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"quire69", "password"=>nil, "login"=>"quire", "email"=>"quire@example.com"}}
+WARNING: Can't mass-assign these protected attributes: login
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-11-03 18:37:03) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"quire69", "password"=>"quire69", "login"=>"quire", "email"=>"quire@example.com"}}
+WARNING: Can't mass-assign these protected attributes: login
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-11-03 18:37:03) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"quire69", "password"=>"quire69", "login"=>"quire", "email"=>"quire@example.com"}}
+WARNING: Can't mass-assign these protected attributes: login
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (1.8ms)[0m   [0;1mSELECT * FROM `users` WHERE (username = 'aaron' OR email = 'aaron') AND (users.state = 'active') LIMIT 1[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM `users` [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-11-03 18:37:56) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"quire69", "password"=>"quire69", "login"=>"quire", "email"=>"quire@example.com"}}
+WARNING: Can't mass-assign these protected attributes: login
+
+
+Processing UsersController#activate (for 0.0.0.0 at 2009-11-03 18:37:56) [GET]
+  Parameters: {"activation_code"=>""}
+Rendering sessions/new
+Filter chain halted as [:login_required] rendered_or_redirected.
+Completed in 17ms (View: 17, DB: 10) | 200 OK [http://test.host/activate/]
+
+
+Processing UsersController#activate (for 0.0.0.0 at 2009-11-03 18:37:56) [GET]
+Rendering sessions/new
+Filter chain halted as [:login_required] rendered_or_redirected.
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/users/activate]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM `users` [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-11-03 18:37:56) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"quire69", "password"=>"quire69", "login"=>"quire", "email"=>nil}}
+WARNING: Can't mass-assign these protected attributes: login
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `users` [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-11-03 18:37:56) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"quire69", "password"=>"quire69", "login"=>nil, "email"=>"quire@example.com"}}
+WARNING: Can't mass-assign these protected attributes: login
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM `users` [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-11-03 18:37:56) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>nil, "password"=>"quire69", "login"=>"quire", "email"=>"quire@example.com"}}
+WARNING: Can't mass-assign these protected attributes: login
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `users` [0m
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-11-03 18:37:56) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"quire69", "password"=>nil, "login"=>"quire", "email"=>"quire@example.com"}}
+WARNING: Can't mass-assign these protected attributes: login
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-11-03 18:37:56) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"quire69", "password"=>"quire69", "login"=>"quire", "email"=>"quire@example.com"}}
+WARNING: Can't mass-assign these protected attributes: login
+
+
+Processing UsersController#create (for 0.0.0.0 at 2009-11-03 18:37:56) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"quire69", "password"=>"quire69", "login"=>"quire", "email"=>"quire@example.com"}}
+WARNING: Can't mass-assign these protected attributes: login
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (106.8ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (172.7ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (195.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (14.1ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (3.5ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (6.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (28.4ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (17.1ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (22.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (2.7ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (8.6ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (3.4ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (12.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (27.1ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (18.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (9.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (40.1ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (7.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (36.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (35.2ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (9.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (3.0ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (5.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (28.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (17.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (25.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (441.6ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (43.6ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (3.3ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (29.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (4.5ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (72.5ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (4.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 42) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mTimelineEvent Columns (12.5ms)[0m   [0mSHOW FIELDS FROM `timeline_events`[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM `timeline_events` [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM `timeline_events` [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mTimelineEvent Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `timeline_events`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM `timeline_events` [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mTimelineEvent Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `timeline_events`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM `timeline_events` [0m
+  [4;35;1mUserPlaceActivity Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `user_place_activities`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUserPlaceActivity Load (0.3ms)[0m   [0mSELECT `user_place_activities`.id FROM `user_place_activities` WHERE (`user_place_activities`.`user_id` = 42 AND `user_place_activities`.place_id = 4 AND `user_place_activities`.activity_id = 7) LIMIT 1[0m
+  [4;36;1mUserPlaceActivity Create (0.4ms)[0m   [0;1mINSERT INTO `user_place_activities` (`place_id`, `created_at`, `updated_at`, `activity_id`, `user_id`, `description`) VALUES(4, '2009-11-13 20:26:41', '2009-11-13 20:26:41', 7, 42, NULL)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM `timeline_events` [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mTimelineEvent Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `timeline_events`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM `timeline_events` [0m
+  [4;35;1mUserPlaceActivity Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `user_place_activities`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUserPlaceActivity Load (0.3ms)[0m   [0mSELECT `user_place_activities`.id FROM `user_place_activities` WHERE (`user_place_activities`.`user_id` = 42 AND `user_place_activities`.place_id = 4 AND `user_place_activities`.activity_id = 7) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT count(*) AS count_all FROM `timeline_events` [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mTimelineEvent Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `timeline_events`[0m
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM `timeline_events` [0m
+  [4;35;1mUserPlaceActivity Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `user_place_activities`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUserPlaceActivity Load (0.3ms)[0m   [0mSELECT `user_place_activities`.id FROM `user_place_activities` WHERE (`user_place_activities`.`user_id` = 42 AND `user_place_activities`.place_id = 4 AND `user_place_activities`.activity_id = 7) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mROLLBACK[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `timeline_events` [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mTimelineEvent Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `timeline_events`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM `timeline_events` [0m
+  [4;35;1mUserPlaceActivity Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `user_place_activities`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mUserPlaceActivity Load (0.3ms)[0m   [0mSELECT `user_place_activities`.id FROM `user_place_activities` WHERE (`user_place_activities`.`user_id` = 42 AND `user_place_activities`.place_id = 4 AND `user_place_activities`.activity_id = 7) LIMIT 1[0m
+  [4;36;1mUserPlaceActivity Create (0.2ms)[0m   [0;1mINSERT INTO `user_place_activities` (`place_id`, `created_at`, `updated_at`, `activity_id`, `user_id`, `description`) VALUES(4, '2009-11-13 20:29:58', '2009-11-13 20:29:58', 7, 42, NULL)[0m
+  [4;35;1mTimelineEvent Create (0.3ms)[0m   [0mINSERT INTO `timeline_events` (`created_at`, `secondary_subject_type`, `updated_at`, `subject_id`, `actor_id`, `secondary_subject_id`, `subject_type`, `actor_type`, `event_type`) VALUES('2009-11-13 20:29:58', NULL, '2009-11-13 20:29:58', 726, NULL, NULL, 'UserPlaceActivity', NULL, 'friended')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM `timeline_events` [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mPlaceComment Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `comments`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM `comments` WHERE ( (`comments`.`type` = 'PlaceComment' ) ) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPlaceComment Create (0.2ms)[0m   [0;1mINSERT INTO `comments` (`created_at`, `updated_at`, `user_id`, `type`, `comment_text`) VALUES('2009-11-16 11:52:15', '2009-11-16 11:52:15', 1, 'PlaceComment', 'First place comment')[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM `comments` WHERE ( (`comments`.`type` = 'PlaceComment' ) ) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mTimelineEvent Load (0.3ms)[0m   [0;1mSELECT * FROM `timeline_events` [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mTimelineEvent Load (0.3ms)[0m   [0;1mSELECT * FROM `timeline_events` [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mTimelineEvent Load (0.4ms)[0m   [0;1mSELECT * FROM `timeline_events` [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.6ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 32) [0m
+  [4;36;1mMessage Load (0.2ms)[0m   [0;1mSELECT * FROM `messages` WHERE (`messages`.recipient_id = 32) [0m
+  [4;35;1mMessage Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 32) [0m
+  [4;36;1mMessage Load (0.3ms)[0m   [0;1mSELECT * FROM `messages` WHERE (`messages`.recipient_id = 32) [0m
+  [4;35;1mMessage Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMessage Create (0.4ms)[0m   [0mINSERT INTO `messages` (`created_at`, `body`, `updated_at`, `recipient_id`, `subject`, `read_at`, `sender_id`) VALUES('2009-11-25 14:45:15', 'body', '2009-11-25 14:45:15', 32, 'subj', NULL, 1)[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 32) [0m
+  [4;36;1mMessage Load (0.2ms)[0m   [0;1mSELECT * FROM `messages` WHERE (`messages`.recipient_id = 32) [0m
+  [4;35;1mMessage Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMessage Create (0.2ms)[0m   [0mINSERT INTO `messages` (`created_at`, `body`, `updated_at`, `recipient_id`, `subject`, `read_at`, `sender_id`) VALUES('2009-11-25 14:45:45', 'body', '2009-11-25 14:45:45', 32, 'subj', NULL, 1)[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 32) [0m
+  [4;36;1mMessage Load (0.2ms)[0m   [0;1mSELECT * FROM `messages` WHERE (`messages`.recipient_id = 32) [0m
+  [4;35;1mMessage Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMessage Create (0.2ms)[0m   [0mINSERT INTO `messages` (`created_at`, `body`, `updated_at`, `recipient_id`, `subject`, `read_at`, `sender_id`) VALUES('2009-11-25 14:46:12', 'body', '2009-11-25 14:46:12', 32, 'subj', NULL, 1)[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 32) [0m
+  [4;36;1mMessage Load (0.2ms)[0m   [0;1mSELECT * FROM `messages` WHERE (`messages`.recipient_id = 32) [0m
+  [4;35;1mMessage Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMessage Create (0.2ms)[0m   [0mINSERT INTO `messages` (`created_at`, `body`, `updated_at`, `recipient_id`, `subject`, `read_at`, `sender_id`) VALUES('2009-11-25 14:46:46', 'body', '2009-11-25 14:46:46', 32, 'subj', NULL, 1)[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 32) [0m
+  [4;36;1mMessage Load (0.2ms)[0m   [0;1mSELECT * FROM `messages` WHERE (`messages`.recipient_id = 32) [0m
+  [4;35;1mMessage Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMessage Create (0.3ms)[0m   [0mINSERT INTO `messages` (`created_at`, `body`, `updated_at`, `recipient_id`, `subject`, `read_at`, `sender_id`) VALUES('2009-11-25 14:47:20', 'body', '2009-11-25 14:47:20', 32, 'subj', NULL, 1)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 32) [0m
+  [4;36;1mMessage Load (0.2ms)[0m   [0;1mSELECT * FROM `messages` WHERE (`messages`.recipient_id = 32) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 32) [0m
+  [4;36;1mMessage Load (0.2ms)[0m   [0;1mSELECT * FROM `messages` WHERE (`messages`.recipient_id = 32) [0m
+  [4;35;1mMessage Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMessage Create (0.3ms)[0m   [0mINSERT INTO `messages` (`created_at`, `body`, `updated_at`, `recipient_id`, `subject`, `read_at`, `sender_id`) VALUES('2009-11-25 15:14:42', 'body', '2009-11-25 15:14:42', 32, 'subj', NULL, 1)[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 32) [0m
+  [4;36;1mMessage Load (0.2ms)[0m   [0;1mSELECT * FROM `messages` WHERE (`messages`.recipient_id = 32) [0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 32) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 32) [0m
+  [4;36;1mMessage Load (0.2ms)[0m   [0;1mSELECT * FROM `messages` WHERE (`messages`.recipient_id = 32) [0m
+  [4;35;1mMessage Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMessage Create (0.2ms)[0m   [0mINSERT INTO `messages` (`created_at`, `body`, `updated_at`, `recipient_id`, `subject`, `read_at`, `sender_id`) VALUES('2009-11-25 15:15:23', 'body', '2009-11-25 15:15:23', 32, 'subj', NULL, 1)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 32) [0m
+  [4;36;1mMessage Load (0.2ms)[0m   [0;1mSELECT * FROM `messages` WHERE (`messages`.recipient_id = 32) [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 32) [0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMessage Create (0.2ms)[0m   [0;1mINSERT INTO `messages` (`created_at`, `body`, `updated_at`, `recipient_id`, `subject`, `read_at`, `sender_id`) VALUES('2009-11-25 15:15:23', '\n Hello \r \n\n We would like to extend an invitation to you to try our new website for singles!\n\n You’ve been chosen because we really value your feedback and/or because you’re a friend and you’ll go easy on us (not mutually exclusive). Either way, would love it if you could take a look at the site and let us know what you think!\n\n The site is built on the premise that we are more likely to meet people we’re interested in when we are out and about living our lives (rather than sitting at home behind a computer). HelloPulse allows singles to share information about themselves based on where they hang out and what they do: whether it’s tennis at a local club, wine-tasting at a favourite bar or listening to grunge music in Camden (as if).\n\n We’d love any feedback but particularly:\n\n 1. Usability – is it easy to use, does it have the information you need, as more people begin to use it, could you imagine yourself using this site?\n 2. Bugs and annoyances – stuff that doesn’t work\n 3. Any great ideas about how we can increase the energy and buzz of the product\n\n\n Jane and Pierre\n ', '2009-11-25 15:15:23', 32, 'Welcome to Pulse!', NULL, 1)[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.5ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 32) [0m
+  [4;36;1mMessage Load (0.4ms)[0m   [0;1mSELECT * FROM `messages` WHERE (`messages`.recipient_id = 32) [0m
+  [4;35;1mMessage Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMessage Create (0.3ms)[0m   [0mINSERT INTO `messages` (`created_at`, `body`, `updated_at`, `recipient_id`, `subject`, `read_at`, `sender_id`) VALUES('2009-11-25 15:16:37', 'body', '2009-11-25 15:16:37', 32, 'subj', NULL, 1)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 32) [0m
+  [4;36;1mMessage Load (0.2ms)[0m   [0;1mSELECT * FROM `messages` WHERE (`messages`.recipient_id = 32) [0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 32) [0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMessage Create (0.7ms)[0m   [0;1mINSERT INTO `messages` (`created_at`, `body`, `updated_at`, `recipient_id`, `subject`, `read_at`, `sender_id`) VALUES('2009-11-25 15:16:37', '\n Hello \r \n\n We would like to extend an invitation to you to try our new website for singles!\n\n You’ve been chosen because we really value your feedback and/or because you’re a friend and you’ll go easy on us (not mutually exclusive). Either way, would love it if you could take a look at the site and let us know what you think!\n\n The site is built on the premise that we are more likely to meet people we’re interested in when we are out and about living our lives (rather than sitting at home behind a computer). HelloPulse allows singles to share information about themselves based on where they hang out and what they do: whether it’s tennis at a local club, wine-tasting at a favourite bar or listening to grunge music in Camden (as if).\n\n We’d love any feedback but particularly:\n\n 1. Usability – is it easy to use, does it have the information you need, as more people begin to use it, could you imagine yourself using this site?\n 2. Bugs and annoyances – stuff that doesn’t work\n 3. Any great ideas about how we can increase the energy and buzz of the product\n\n\n Jane and Pierre\n ', '2009-11-25 15:16:37', 32, 'Welcome to Pulse!', NULL, 1)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 32) [0m
+  [4;36;1mMessage Load (0.2ms)[0m   [0;1mSELECT * FROM `messages` WHERE (`messages`.recipient_id = 32) [0m
+  [4;35;1mMessage Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMessage Create (0.2ms)[0m   [0mINSERT INTO `messages` (`created_at`, `body`, `updated_at`, `recipient_id`, `subject`, `read_at`, `sender_id`) VALUES('2009-11-25 16:29:05', 'body', '2009-11-25 16:29:05', 32, 'subj', NULL, 1)[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 32) [0m
+  [4;36;1mMessage Load (0.2ms)[0m   [0;1mSELECT * FROM `messages` WHERE (`messages`.recipient_id = 32) [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 32) [0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMessage Create (0.2ms)[0m   [0;1mINSERT INTO `messages` (`created_at`, `body`, `updated_at`, `recipient_id`, `subject`, `read_at`, `sender_id`) VALUES('2009-11-25 16:29:05', '\n Hello \n \n\n We would like to extend an invitation to you to try our new website for singles!\n\n You’ve been chosen because we really value your feedback and/or because you’re a friend and you’ll go easy on us (not mutually exclusive). Either way, would love it if you could take a look at the site and let us know what you think!\n\n The site is built on the premise that we are more likely to meet people we’re interested in when we are out and about living our lives (rather than sitting at home behind a computer). HelloPulse allows singles to share information about themselves based on where they hang out and what they do: whether it’s tennis at a local club, wine-tasting at a favourite bar or listening to grunge music in Camden (as if).\n\n We’d love any feedback but particularly:\n\n 1. Usability – is it easy to use, does it have the information you need, as more people begin to use it, could you imagine yourself using this site?\n 2. Bugs and annoyances – stuff that doesn’t work\n 3. Any great ideas about how we can increase the energy and buzz of the product\n\n\n Jane and Pierre\n ', '2009-11-25 16:29:05', 32, 'Welcome to Pulse!', NULL, 1)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 32) [0m
+  [4;36;1mMessage Load (0.2ms)[0m   [0;1mSELECT * FROM `messages` WHERE (`messages`.recipient_id = 32) [0m
+  [4;35;1mMessage Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMessage Create (0.2ms)[0m   [0mINSERT INTO `messages` (`created_at`, `body`, `updated_at`, `recipient_id`, `subject`, `read_at`, `sender_id`) VALUES('2009-11-25 16:29:39', 'body', '2009-11-25 16:29:39', 32, 'subj', NULL, 1)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 32) [0m
+  [4;36;1mMessage Load (0.2ms)[0m   [0;1mSELECT * FROM `messages` WHERE (`messages`.recipient_id = 32) [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 32) [0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMessage Create (0.3ms)[0m   [0;1mINSERT INTO `messages` (`created_at`, `body`, `updated_at`, `recipient_id`, `subject`, `read_at`, `sender_id`) VALUES('2009-11-25 16:29:39', '\n Hello <br /> \n\n We would like to extend an invitation to you to try our new website for singles!\n\n You’ve been chosen because we really value your feedback and/or because you’re a friend and you’ll go easy on us (not mutually exclusive). Either way, would love it if you could take a look at the site and let us know what you think!\n\n The site is built on the premise that we are more likely to meet people we’re interested in when we are out and about living our lives (rather than sitting at home behind a computer). HelloPulse allows singles to share information about themselves based on where they hang out and what they do: whether it’s tennis at a local club, wine-tasting at a favourite bar or listening to grunge music in Camden (as if).\n\n We’d love any feedback but particularly:\n\n 1. Usability – is it easy to use, does it have the information you need, as more people begin to use it, could you imagine yourself using this site?\n 2. Bugs and annoyances – stuff that doesn’t work\n 3. Any great ideas about how we can increase the energy and buzz of the product\n\n\n Jane and Pierre\n ', '2009-11-25 16:29:39', 32, 'Welcome to Pulse!', NULL, 1)[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 32) [0m
+  [4;36;1mMessage Load (0.2ms)[0m   [0;1mSELECT * FROM `messages` WHERE (`messages`.recipient_id = 32) [0m
+  [4;35;1mMessage Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMessage Create (0.2ms)[0m   [0mINSERT INTO `messages` (`created_at`, `body`, `updated_at`, `recipient_id`, `subject`, `read_at`, `sender_id`) VALUES('2009-11-25 16:34:11', 'body', '2009-11-25 16:34:11', 32, 'subj', NULL, 1)[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 32) [0m
+  [4;36;1mMessage Load (0.2ms)[0m   [0;1mSELECT * FROM `messages` WHERE (`messages`.recipient_id = 32) [0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 32) [0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMessage Create (0.9ms)[0m   [0;1mINSERT INTO `messages` (`created_at`, `body`, `updated_at`, `recipient_id`, `subject`, `read_at`, `sender_id`) VALUES('2009-11-25 16:34:11', '\n Hello <br /> \n<br /> \n We would like to extend an invitation to you to try our new website for singles!<br /> \n<br /> \n You’ve been chosen because we really value your feedback and/or because you’re a friend and you’ll go easy on us (not mutually exclusive). Either way, would love it if you could take a look at the site and let us know what you think!\n<br /> \n The site is built on the premise that we are more likely to meet people we’re interested in when we are out and about living our lives (rather than sitting at home behind a computer). HelloPulse allows singles to share information about themselves based on where they hang out and what they do: whether it’s tennis at a local club, wine-tasting at a favourite bar or listening to grunge music in Camden (as if).\n<br /> \n We’d love any feedback but particularly:\n<br /> \n 1. Usability – is it easy to use, does it have the information you need, as more people begin to use it, could you imagine yourself using this site?<br /> \n 2. Bugs and annoyances – stuff that doesn’t work<br /> \n 3. Any great ideas about how we can increase the energy and buzz of the product<br /> \n<br /> \n<br /> \n Jane and Pierre', '2009-11-25 16:34:11', 32, 'Welcome to Pulse!', NULL, 1)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 32) [0m
+  [4;36;1mMessage Load (0.2ms)[0m   [0;1mSELECT * FROM `messages` WHERE (`messages`.recipient_id = 32) [0m
+  [4;35;1mMessage Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMessage Create (0.2ms)[0m   [0mINSERT INTO `messages` (`created_at`, `body`, `updated_at`, `recipient_id`, `subject`, `read_at`, `sender_id`) VALUES('2009-11-25 16:36:08', 'body', '2009-11-25 16:36:08', 32, 'subj', NULL, 1)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 32) [0m
+  [4;36;1mMessage Load (0.2ms)[0m   [0;1mSELECT * FROM `messages` WHERE (`messages`.recipient_id = 32) [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 32) [0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMessage Create (0.3ms)[0m   [0;1mINSERT INTO `messages` (`created_at`, `body`, `updated_at`, `recipient_id`, `subject`, `read_at`, `sender_id`) VALUES('2009-11-25 16:36:08', '\n Hello <br /> \n<br /> \n We would like to extend an invitation to you to try our new website for singles!<br /> \n<br /> \n You’ve been chosen because we really value your feedback and/or because you’re a friend and you’ll go easy on us (not mutually exclusive). Either way, would love it if you could take a look at the site and let us know what you think!<br /> \n<br /> \n The site is built on the premise that we are more likely to meet people we’re interested in when we are out and about living our lives (rather than sitting at home behind a computer). HelloPulse allows singles to share information about themselves based on where they hang out and what they do: whether it’s tennis at a local club, wine-tasting at a favourite bar or listening to grunge music in Camden (as if).<br /> \n<br /> \n\n We’d love any feedback but particularly:\n<br /> \n 1. Usability – is it easy to use, does it have the information you need, as more people begin to use it, could you imagine yourself using this site?<br /> \n <br /> \n 2. Bugs and annoyances – stuff that doesn’t work<br /> \n <br /> \n 3. Any great ideas about how we can increase the energy and buzz of the product<br /> \n <br /> \n<br /> \n<br /> \n Jane and Pierre', '2009-11-25 16:36:08', 32, 'Welcome to Pulse!', NULL, 1)[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mUser Load (0.2ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 32) [0m
+  [4;36;1mMessage Load (0.2ms)[0m   [0;1mSELECT * FROM `messages` WHERE (`messages`.recipient_id = 32) [0m
+  [4;35;1mMessage Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `messages`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mMessage Create (0.2ms)[0m   [0mINSERT INTO `messages` (`created_at`, `body`, `updated_at`, `recipient_id`, `subject`, `read_at`, `sender_id`) VALUES('2009-11-25 16:37:06', 'body', '2009-11-25 16:37:06', 32, 'subj', NULL, 1)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 32) [0m
+  [4;36;1mMessage Load (0.2ms)[0m   [0;1mSELECT * FROM `messages` WHERE (`messages`.recipient_id = 32) [0m
+  [4;35;1mUser Load (0.3ms)[0m   [0mSELECT * FROM `users` WHERE (`users`.`id` = 32) [0m
+  [4;36;1mUser Load (0.2ms)[0m   [0;1mSELECT * FROM `users` WHERE (`users`.`id` = 1) [0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mMessage Create (0.4ms)[0m   [0;1mINSERT INTO `messages` (`created_at`, `body`, `updated_at`, `recipient_id`, `subject`, `read_at`, `sender_id`) VALUES('2009-11-25 16:37:06', '\n Hello <br /> \n<br /> \n We would like to extend an invitation to you to try our new website for singles!<br /> \n<br /> \n You’ve been chosen because we really value your feedback and/or because you’re a friend and you’ll go easy on us (not mutually exclusive). Either way, would love it if you could take a look at the site and let us know what you think!<br /> \n<br /> \n The site is built on the premise that we are more likely to meet people we’re interested in when we are out and about living our lives (rather than sitting at home behind a computer). HelloPulse allows singles to share information about themselves based on where they hang out and what they do: whether it’s tennis at a local club, wine-tasting at a favourite bar or listening to grunge music in Camden (as if).<br /> \n<br /> \n\n We’d love any feedback but particularly:<br /> \n<br /> \n 1. Usability – is it easy to use, does it have the information you need, as more people begin to use it, could you imagine yourself using this site?<br /> \n <br /> \n 2. Bugs and annoyances – stuff that doesn’t work<br /> \n <br /> \n 3. Any great ideas about how we can increase the energy and buzz of the product<br /> \n <br /> \n<br /> \n<br /> \n Jane and Pierre', '2009-11-25 16:37:06', 32, 'Welcome to Pulse!', NULL, 1)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (44.3ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUserPlaceActivity Load (1.7ms)[0m   [0;1mSELECT user_place_activities.activity_id,user_place_activities.place_id, count(user_id) as users_count FROM `user_place_activities` inner join users on users.id = user_place_activities.user_id GROUP BY user_place_activities.activity_id,user_place_activities.place_id ORDER BY count(user_id) DESC LIMIT 0, 1000[0m
+  [4;35;1mUserPlaceActivity Load (1.0ms)[0m   [0mSELECT user_place_activities.activity_id,user_place_activities.place_id, count(user_id) as users_count FROM `user_place_activities` inner join place_activities on place_activities.id = user_place_activities.place_activity_id inner join users on users.id = user_place_activities.user_id GROUP BY user_place_activities.activity_id,user_place_activities.place_id ORDER BY count(user_id) DESC LIMIT 0, 1000[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUserPlaceActivity Load (0.9ms)[0m   [0;1mSELECT user_place_activities.activity_id,user_place_activities.place_id, count(user_id) as users_count FROM `user_place_activities` inner join users on users.id = user_place_activities.user_id GROUP BY user_place_activities.activity_id,user_place_activities.place_id ORDER BY count(user_id) DESC LIMIT 0, 1000[0m
+  [4;35;1mUserPlaceActivity Load (0.0ms)[0m   [0mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '�inner join users on users.id = user_place_activities.user_id GROUP BY user_pla' at line 1: SELECT user_place_activities.activity_id,user_place_activities.place_id, count(user_id) as users_count FROM `user_place_activities` çinner join users on users.id = user_place_activities.user_id GROUP BY user_place_activities.activity_id,user_place_activities.place_id ORDER BY count(user_id) DESC LIMIT 0, 1000[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUserPlaceActivity Load (0.8ms)[0m   [0;1mSELECT user_place_activities.activity_id,user_place_activities.place_id, count(user_id) as users_count FROM `user_place_activities` inner join users on users.id = user_place_activities.user_id GROUP BY user_place_activities.activity_id,user_place_activities.place_id ORDER BY count(user_id) DESC LIMIT 0, 1000[0m
+  [4;35;1mUserPlaceActivity Load (0.0ms)[0m   [0mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '�inner join users on users.id = user_place_activities.user_id GROUP BY user_pla' at line 1: SELECT user_place_activities.activity_id,user_place_activities.place_id, count(user_id) as users_count FROM `user_place_activities` çinner join users on users.id = user_place_activities.user_id GROUP BY user_place_activities.activity_id,user_place_activities.place_id ORDER BY count(user_id) DESC LIMIT 0, 1000[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUserPlaceActivity Load (0.9ms)[0m   [0;1mSELECT user_place_activities.activity_id,user_place_activities.place_id, count(user_id) as users_count FROM `user_place_activities` inner join users on users.id = user_place_activities.user_id GROUP BY user_place_activities.activity_id,user_place_activities.place_id ORDER BY count(user_id) DESC LIMIT 0, 1000[0m
+  [4;35;1mUserPlaceActivity Load (0.0ms)[0m   [0mMysql::Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '�inner join users on users.id = user_place_activities.user_id GROUP BY user_pla' at line 1: SELECT user_place_activities.activity_id,user_place_activities.place_id, count(user_id) as users_count FROM `user_place_activities` çinner join users on users.id = user_place_activities.user_id GROUP BY user_place_activities.activity_id,user_place_activities.place_id ORDER BY count(user_id) DESC LIMIT 0, 1000[0m
+  [4;36;1mUserPlaceActivity Load (2.0ms)[0m   [0;1mSELECT user_place_activities.activity_id,user_place_activities.place_id, count(user_id) as users_count FROM `user_place_activities` inner join users on users.id = user_place_activities.user_id inner join places on user_place_activities.place_id = places.id inner join activities on user_place_activities.activity_id = activities.id GROUP BY user_place_activities.activity_id,user_place_activities.place_id ORDER BY count(user_id) DESC LIMIT 0, 1000[0m
+  [4;35;1mUserPlaceActivity Load (1.5ms)[0m   [0mSELECT user_place_activities.activity_id,user_place_activities.place_id, count(user_id) as users_count FROM `user_place_activities` inner join place_activities on place_activities.id = user_place_activities.place_activity_id inner join users on users.id = user_place_activities.user_id inner join places on place_activities.place_id = places.id inner join activities on place_activities.activity_id = activities.id GROUP BY user_place_activities.activity_id,user_place_activities.place_id ORDER BY count(user_id) DESC LIMIT 0, 1000[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mUserPlaceActivity Load (0.7ms)[0m   [0;1mSELECT user_place_activities.activity_id,user_place_activities.place_id, count(user_id) as users_count FROM `user_place_activities` inner join users on users.id = user_place_activities.user_id GROUP BY user_place_activities.activity_id,user_place_activities.place_id ORDER BY count(user_id) DESC LIMIT 0, 1000[0m
+  [4;35;1mUserPlaceActivity Load (0.9ms)[0m   [0mSELECT user_place_activities.activity_id,user_place_activities.place_id, count(user_id) as users_count FROM `user_place_activities` inner join users on users.id = user_place_activities.user_id GROUP BY user_place_activities.activity_id,user_place_activities.place_id ORDER BY count(user_id) DESC LIMIT 0, 1000[0m
+  [4;36;1mUserPlaceActivity Load (2.2ms)[0m   [0;1mSELECT user_place_activities.activity_id,user_place_activities.place_id, count(user_id) as users_count FROM `user_place_activities` inner join users on users.id = user_place_activities.user_id inner join places on user_place_activities.place_id = places.id inner join activities on user_place_activities.activity_id = activities.id GROUP BY user_place_activities.activity_id,user_place_activities.place_id ORDER BY count(user_id) DESC LIMIT 0, 1000[0m
+  [4;35;1mUserPlaceActivity Load (1.4ms)[0m   [0mSELECT user_place_activities.activity_id,user_place_activities.place_id, count(user_id) as users_count FROM `user_place_activities` inner join place_activities on place_activities.id = user_place_activities.place_activity_id inner join users on users.id = user_place_activities.user_id inner join places on place_activities.place_id = places.id inner join activities on place_activities.activity_id = activities.id GROUP BY user_place_activities.activity_id,user_place_activities.place_id ORDER BY count(user_id) DESC LIMIT 0, 1000[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (10.7ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mPlaceActivity Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `place_activities`[0m
+  [4;35;1mUserPlaceActivity Load (0.6ms)[0m   [0mSELECT user_place_activities.activity_id,user_place_activities.place_id, count(user_id) as users_count FROM `user_place_activities` inner join users on users.id = user_place_activities.user_id GROUP BY user_place_activities.activity_id,user_place_activities.place_id ORDER BY count(user_id) DESC LIMIT 0, 1000[0m
+  [4;36;1mUserPlaceActivity Load (0.9ms)[0m   [0;1mSELECT user_place_activities.activity_id,user_place_activities.place_id, count(user_id) as users_count FROM `user_place_activities` inner join users on users.id = user_place_activities.user_id GROUP BY user_place_activities.activity_id,user_place_activities.place_id ORDER BY count(user_id) DESC LIMIT 0, 1000[0m
+  [4;35;1mUserPlaceActivity Load (2.9ms)[0m   [0mSELECT user_place_activities.activity_id,user_place_activities.place_id, count(user_id) as users_count FROM `user_place_activities` inner join users on users.id = user_place_activities.user_id inner join places on user_place_activities.place_id = places.id inner join activities on user_place_activities.activity_id = activities.id GROUP BY user_place_activities.activity_id,user_place_activities.place_id ORDER BY count(user_id) DESC LIMIT 0, 1000[0m
+  [4;36;1mUserPlaceActivity Load (1.2ms)[0m   [0;1mSELECT user_place_activities.activity_id,user_place_activities.place_id, count(user_id) as users_count FROM `user_place_activities` inner join place_activities on place_activities.id = user_place_activities.place_activity_id inner join users on users.id = user_place_activities.user_id inner join places on place_activities.place_id = places.id inner join activities on place_activities.activity_id = activities.id GROUP BY user_place_activities.activity_id,user_place_activities.place_id ORDER BY count(user_id) DESC LIMIT 0, 1000[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mPlaceActivity Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `place_activities`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPlaceActivity Create (0.3ms)[0m   [0;1mINSERT INTO `place_activities` (`place_id`, `activity_id`) VALUES(45, 23)[0m
+  [4;35;1mSQL (38.9ms)[0m   [0mCOMMIT[0m
+  [4;36;1mUserPlaceActivity Load (0.6ms)[0m   [0;1mSELECT user_place_activities.activity_id,user_place_activities.place_id, count(user_id) as users_count FROM `user_place_activities` inner join users on users.id = user_place_activities.user_id GROUP BY user_place_activities.activity_id,user_place_activities.place_id ORDER BY count(user_id) DESC LIMIT 0, 1000[0m
+  [4;35;1mUserPlaceActivity Load (0.5ms)[0m   [0mSELECT user_place_activities.activity_id,user_place_activities.place_id, count(user_id) as users_count FROM `user_place_activities` inner join users on users.id = user_place_activities.user_id GROUP BY user_place_activities.activity_id,user_place_activities.place_id ORDER BY count(user_id) DESC LIMIT 0, 1000[0m
+  [4;36;1mUserPlaceActivity Load (0.9ms)[0m   [0;1mSELECT user_place_activities.activity_id,user_place_activities.place_id, count(user_id) as users_count FROM `user_place_activities` inner join users on users.id = user_place_activities.user_id inner join places on user_place_activities.place_id = places.id inner join activities on user_place_activities.activity_id = activities.id GROUP BY user_place_activities.activity_id,user_place_activities.place_id ORDER BY count(user_id) DESC LIMIT 0, 1000[0m
+  [4;35;1mUserPlaceActivity Load (1.1ms)[0m   [0mSELECT user_place_activities.activity_id,user_place_activities.place_id, count(user_id) as users_count FROM `user_place_activities` inner join place_activities on place_activities.id = user_place_activities.place_activity_id inner join users on users.id = user_place_activities.user_id inner join places on place_activities.place_id = places.id inner join activities on place_activities.activity_id = activities.id GROUP BY user_place_activities.activity_id,user_place_activities.place_id ORDER BY count(user_id) DESC LIMIT 0, 1000[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mPlaceActivity Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `place_activities`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mPlaceActivity Create (0.3ms)[0m   [0;1mINSERT INTO `place_activities` (`place_id`, `activity_id`) VALUES(45, 23)[0m
+  [4;35;1mSQL (61.9ms)[0m   [0mCOMMIT[0m
+  [4;36;1mUserPlaceActivity Load (0.6ms)[0m   [0;1mSELECT user_place_activities.activity_id,user_place_activities.place_id, count(user_id) as users_count FROM `user_place_activities` inner join users on users.id = user_place_activities.user_id GROUP BY user_place_activities.activity_id,user_place_activities.place_id ORDER BY count(user_id) DESC LIMIT 0, 1000[0m
+  [4;35;1mUserPlaceActivity Load (0.5ms)[0m   [0mSELECT user_place_activities.activity_id,user_place_activities.place_id, count(user_id) as users_count FROM `user_place_activities` inner join users on users.id = user_place_activities.user_id GROUP BY user_place_activities.activity_id,user_place_activities.place_id ORDER BY count(user_id) DESC LIMIT 0, 1000[0m
+  [4;36;1mUserPlaceActivity Load (2.2ms)[0m   [0;1mSELECT user_place_activities.activity_id,user_place_activities.place_id, count(user_id) as users_count FROM `user_place_activities` inner join users on users.id = user_place_activities.user_id inner join places on user_place_activities.place_id = places.id inner join activities on user_place_activities.activity_id = activities.id GROUP BY user_place_activities.activity_id,user_place_activities.place_id ORDER BY count(user_id) DESC LIMIT 0, 1000[0m
+  [4;35;1mUserPlaceActivity Load (1.4ms)[0m   [0mSELECT user_place_activities.activity_id,user_place_activities.place_id, count(user_id) as users_count FROM `user_place_activities` inner join place_activities on place_activities.id = user_place_activities.place_activity_id inner join users on users.id = user_place_activities.user_id inner join places on place_activities.place_id = places.id inner join activities on place_activities.activity_id = activities.id GROUP BY user_place_activities.activity_id,user_place_activities.place_id ORDER BY count(user_id) DESC LIMIT 0, 1000[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mPlaceActivity Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `place_activities`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPlaceActivity Create (0.3ms)[0m   [0;1mINSERT INTO `place_activities` (`place_id`, `activity_id`) VALUES(45, 23)[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mUserPlaceActivity Load (0.6ms)[0m   [0;1mSELECT user_place_activities.activity_id,user_place_activities.place_id, count(user_id) as users_count FROM `user_place_activities` inner join users on users.id = user_place_activities.user_id GROUP BY user_place_activities.activity_id,user_place_activities.place_id ORDER BY count(user_id) DESC LIMIT 0, 1000[0m
+  [4;35;1mUserPlaceActivity Load (0.5ms)[0m   [0mSELECT user_place_activities.activity_id,user_place_activities.place_id, count(user_id) as users_count FROM `user_place_activities` inner join users on users.id = user_place_activities.user_id GROUP BY user_place_activities.activity_id,user_place_activities.place_id ORDER BY count(user_id) DESC LIMIT 0, 1000[0m
+  [4;36;1mUserPlaceActivity Load (1.0ms)[0m   [0;1mSELECT user_place_activities.activity_id,user_place_activities.place_id, count(user_id) as users_count FROM `user_place_activities` inner join users on users.id = user_place_activities.user_id inner join places on user_place_activities.place_id = places.id inner join activities on user_place_activities.activity_id = activities.id GROUP BY user_place_activities.activity_id,user_place_activities.place_id ORDER BY count(user_id) DESC LIMIT 0, 1000[0m
+  [4;35;1mUserPlaceActivity Load (1.4ms)[0m   [0mSELECT user_place_activities.activity_id,user_place_activities.place_id, count(user_id) as users_count FROM `user_place_activities` inner join place_activities on place_activities.id = user_place_activities.place_activity_id inner join users on users.id = user_place_activities.user_id inner join places on place_activities.place_id = places.id inner join activities on place_activities.activity_id = activities.id GROUP BY user_place_activities.activity_id,user_place_activities.place_id ORDER BY count(user_id) DESC LIMIT 0, 1000[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mPlaceActivity Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `place_activities`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPlaceActivity Create (0.3ms)[0m   [0;1mINSERT INTO `place_activities` (`place_id`, `activity_id`) VALUES(45, 23)[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mUserPlaceActivity Load (0.6ms)[0m   [0;1mSELECT user_place_activities.activity_id,user_place_activities.place_id, count(user_id) as users_count FROM `user_place_activities` inner join users on users.id = user_place_activities.user_id GROUP BY user_place_activities.activity_id,user_place_activities.place_id ORDER BY count(user_id) DESC LIMIT 0, 1000[0m
+  [4;35;1mUserPlaceActivity Load (0.4ms)[0m   [0mSELECT user_place_activities.activity_id,user_place_activities.place_id, count(user_id) as users_count FROM `user_place_activities` inner join users on users.id = user_place_activities.user_id GROUP BY user_place_activities.activity_id,user_place_activities.place_id ORDER BY count(user_id) DESC LIMIT 0, 1000[0m
+  [4;36;1mUserPlaceActivity Load (1.0ms)[0m   [0;1mSELECT user_place_activities.activity_id,user_place_activities.place_id, count(user_id) as users_count FROM `user_place_activities` inner join users on users.id = user_place_activities.user_id inner join places on user_place_activities.place_id = places.id inner join activities on user_place_activities.activity_id = activities.id GROUP BY user_place_activities.activity_id,user_place_activities.place_id ORDER BY count(user_id) DESC LIMIT 0, 1000[0m
+  [4;35;1mUserPlaceActivity Load (1.3ms)[0m   [0mSELECT user_place_activities.activity_id,user_place_activities.place_id, count(user_id) as users_count FROM `user_place_activities` inner join place_activities on place_activities.id = user_place_activities.place_activity_id inner join users on users.id = user_place_activities.user_id inner join places on place_activities.place_id = places.id inner join activities on place_activities.activity_id = activities.id GROUP BY user_place_activities.activity_id,user_place_activities.place_id ORDER BY count(user_id) DESC LIMIT 0, 1000[0m
+  [4;36;1mPlaceActivity Load (0.2ms)[0m   [0;1mSELECT * FROM `place_activities` LIMIT 1[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mPlaceActivity Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `place_activities`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPlaceActivity Create (0.3ms)[0m   [0;1mINSERT INTO `place_activities` (`place_id`, `activity_id`) VALUES(45, 23)[0m
+  [4;35;1mSQL (47.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mUserPlaceActivity Load (0.7ms)[0m   [0;1mSELECT user_place_activities.activity_id,user_place_activities.place_id, count(user_id) as users_count FROM `user_place_activities` inner join users on users.id = user_place_activities.user_id GROUP BY user_place_activities.activity_id,user_place_activities.place_id ORDER BY count(user_id) DESC LIMIT 0, 1000[0m
+  [4;35;1mUserPlaceActivity Load (0.5ms)[0m   [0mSELECT user_place_activities.activity_id,user_place_activities.place_id, count(user_id) as users_count FROM `user_place_activities` inner join users on users.id = user_place_activities.user_id GROUP BY user_place_activities.activity_id,user_place_activities.place_id ORDER BY count(user_id) DESC LIMIT 0, 1000[0m
+  [4;36;1mUserPlaceActivity Load (1.0ms)[0m   [0;1mSELECT user_place_activities.activity_id,user_place_activities.place_id, count(user_id) as users_count FROM `user_place_activities` inner join users on users.id = user_place_activities.user_id inner join places on user_place_activities.place_id = places.id inner join activities on user_place_activities.activity_id = activities.id GROUP BY user_place_activities.activity_id,user_place_activities.place_id ORDER BY count(user_id) DESC LIMIT 0, 1000[0m
+  [4;35;1mUserPlaceActivity Load (1.3ms)[0m   [0mSELECT user_place_activities.activity_id,user_place_activities.place_id, count(user_id) as users_count FROM `user_place_activities` inner join place_activities on place_activities.id = user_place_activities.place_activity_id inner join users on users.id = user_place_activities.user_id inner join places on place_activities.place_id = places.id inner join activities on place_activities.activity_id = activities.id GROUP BY user_place_activities.activity_id,user_place_activities.place_id ORDER BY count(user_id) DESC LIMIT 0, 1000[0m
+  [4;36;1mPlaceActivity Load (0.2ms)[0m   [0;1mSELECT * FROM `place_activities` LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mPlaceActivity Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `place_activities`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mBEGIN[0m
+  [4;36;1mPlaceActivity Create (0.3ms)[0m   [0;1mINSERT INTO `place_activities` (`place_id`, `activity_id`) VALUES(45, 23)[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mCOMMIT[0m
+  [4;36;1mUserPlaceActivity Load (0.6ms)[0m   [0;1mSELECT user_place_activities.activity_id,user_place_activities.place_id, count(user_id) as users_count FROM `user_place_activities` inner join users on users.id = user_place_activities.user_id GROUP BY user_place_activities.activity_id,user_place_activities.place_id ORDER BY count(user_id) DESC LIMIT 0, 1000[0m
+  [4;35;1mUserPlaceActivity Load (0.8ms)[0m   [0mSELECT user_place_activities.activity_id,user_place_activities.place_id, count(user_id) as users_count FROM `user_place_activities` inner join users on users.id = user_place_activities.user_id GROUP BY user_place_activities.activity_id,user_place_activities.place_id ORDER BY count(user_id) DESC LIMIT 0, 1000[0m
+  [4;36;1mUserPlaceActivity Load (1.1ms)[0m   [0;1mSELECT user_place_activities.activity_id,user_place_activities.place_id, count(user_id) as users_count FROM `user_place_activities` inner join users on users.id = user_place_activities.user_id inner join places on user_place_activities.place_id = places.id inner join activities on user_place_activities.activity_id = activities.id GROUP BY user_place_activities.activity_id,user_place_activities.place_id ORDER BY count(user_id) DESC LIMIT 0, 1000[0m
+  [4;35;1mUserPlaceActivity Load (1.4ms)[0m   [0mSELECT user_place_activities.activity_id,user_place_activities.place_id, count(user_id) as users_count FROM `user_place_activities` inner join place_activities on place_activities.id = user_place_activities.place_activity_id inner join users on users.id = user_place_activities.user_id inner join places on place_activities.place_id = places.id inner join activities on place_activities.activity_id = activities.id GROUP BY user_place_activities.activity_id,user_place_activities.place_id ORDER BY count(user_id) DESC LIMIT 0, 1000[0m
+  [4;36;1mPlaceActivity Load (0.2ms)[0m   [0;1mSELECT * FROM `place_activities` LIMIT 1[0m
+  [4;35;1mUser Load (0.6ms)[0m   [0mSELECT `users`.* FROM `users` INNER JOIN `user_place_activities` ON `users`.id = `user_place_activities`.user_id WHERE ((`user_place_activities`.place_activity_id = 1)) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (21.8ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mPlace Load (0.5ms)[0m   [0;1mSELECT * FROM `places` WHERE (`places`.`id` = 24) [0m
+  [4;35;1mPlaceActivity Load (0.2ms)[0m   [0mSELECT * FROM `place_activities` WHERE (`place_activities`.place_id = 24) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `users`[0m
+  [4;36;1mPlace Load (0.4ms)[0m   [0;1mSELECT * FROM `places` WHERE (`places`.`id` = 5215) [0m
+  [4;35;1mPlaceActivity Load (0.3ms)[0m   [0mSELECT * FROM `place_activities` WHERE (`place_activities`.place_id = 5215) [0m

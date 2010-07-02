@@ -1,0 +1,46 @@
+<%current_user!=nil ? join_class = '' :  join_class = 'join'%>
+<div class="column_header">
+  <h2>Details</h2>
+</div>
+
+<div id="profile_image">
+  <%= image_tag(@activity.icon.url(:large), :class=>"profile_image") %>
+</div>
+
+<div id="activity_description">
+  <%= @activity.description %>
+</div>
+<br />
+
+<h3><%= link_to "Website", @activity.website  if @activity.website.present?%> </h3>
+<h3> <%= link_to "Facebook Page", @activity.fb_page_url  if @activity.fb_page_url.present?%></h3>
+
+<ul id="do_things">
+  <li><%= link_to "SEARCH", {:controller=>'search' }, :class=>join_class%></li>
+  <% if current_user!=nil %>
+    <li><%= link_to "EDIT MY INFO", current_user.status ==3 ? '/edit_partner' : edit_account_path %></li>
+    <li><%= link_to "INVITE A FRIEND", '/invite', :class => "invitea" %></li>
+  <%  end %>
+</ul>
+<br />
+<% if current_user!=nil && current_user && current_user.partner_type == nil %>
+  <%= link_to "ADD TO MY FAVOURITES", '#', 'data-href' => "/user_place_activities/free?add_type=place&activity_id="+@activity.id.to_s+"&view=add_activity", :id => "add_place_activity", :class => "add_to_favorites submit" %>
+<%end%>
+<div id="manage_activity"></div>
+<script type="text/javascript" charset="utf-8">
+
+  $(document).ready(function() {
+
+    $("#remove_activity").click(function(event) {
+      var target = $(this).attr('href');
+      $.ajax({
+        type: "POST",
+        url: target,
+        success: function() { $("#remove_activity").hide() && $("#add_activity").show() },
+        data: { "_method": "delete"}
+      });
+      return false;
+    });
+  });
+</script>
+

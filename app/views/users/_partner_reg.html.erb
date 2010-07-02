@@ -1,0 +1,243 @@
+<% @user = User.new %>
+
+<% form_for @user, :url => '/users/partner_new' do |f| %>
+  <%=hidden_field_tag 'auth_code' , auth_code%>
+  <%=hidden_field_tag 'object_id' , object_id%>
+  <%=hidden_field_tag 'object_type', object_type%>
+
+
+  <div style="overflow:auto; max-height:450px">
+    <div style="margin-bottom:15px">
+      <h2>Hello  <%=facebook_session.user.name %>!!! </h2>
+      <h3>Please confirm the following details and click Register to become a member!</h3>
+    </div>
+    <div style="float:left; width:100px; height:100px; overflow:hidden">
+      <img height=100 width=100 src="<%= facebook_session.user.pic_big%> "></img>
+    </div>
+    <div style="float:left; width:400px; margin-left:10px">
+      <label  class='quick_sign_up_label'>First name</label>
+      <%= text_field_tag 'user[first_name]', facebook_session.user.first_name || 'First name', :class => 'input_text' %>
+      <span class="error"></span>
+      <div class="clear"></div>
+
+      <label class='quick_sign_up_label'>Username</label>
+      <%= text_field_tag 'user[username]', @user.username || "Username", :class => 'input_text' %>
+      <span class="error"></span>
+      <div class="clear"></div>
+
+      <label  class='quick_sign_up_label'>Password</label>
+      <%= text_field_tag 'password_holder', 'Password', :class => 'input_text' %>
+      <%= f.password_field :password, :class => 'input_text', :style => 'display: none;' %>
+      <span class="error"></span>
+      <div class="clear"></div>
+
+      <label  class='quick_sign_up_label'>Password confirmation</label>
+      <%= text_field_tag 'password_confirmation_holder', 'Password confirmation', :class => 'input_text' %>
+      <%= f.password_field :password_confirmation, :class => 'input_text', :style => 'display: none;' %>
+      <span class="error"></span>
+      <div class="clear"></div>
+
+      <label  class='quick_sign_up_label'>Email address</label>
+
+      <%= text_field_tag 'user[email]', @user.email || 'Email address', :class => 'input_text' %>
+      <span class="error"></span>
+      <div class="clear"></div>
+
+      <label  class='quick_sign_up_label'>Are you human?</label>
+      <%= show_simple_captcha(:object=>'user',:label => " ") %>
+      <span class="error"></span>
+      <div class="clear"></div>
+
+    </div>
+    <div class="clear"></div>
+
+    <div style="float:left" id="post_error">
+
+    </div>
+
+    <div class="clear"></div>
+  </div>
+  <div class="clear"></div>
+  <%= submit_button 'Cancel', :id => "cancel_partner"%>
+  <%= submit_button 'Register', :id => "register_partner"%>
+
+
+<% end%>
+
+
+<script type="text/javascript" charset="utf-8">
+  $(document).ready(function() {
+
+    $('.std_dd').change(function() {
+      var cntrl = $(this);
+      cntrl.prev().val(cntrl.selected().val());
+    });
+    
+
+
+
+    $('#password_holder, #password_confirmation_holder').focus(function() {
+      $(this).hide();
+      $(this).next('input').show();
+      $(this).next('input').focus();
+      return false;
+    });
+
+    $('#user_email,#user_first_name, #user_username').focus(function() {
+      $(this).val('');
+      return false;
+    });
+
+    $('#user_email').blur(function() {
+      if ($(this).val() == '')
+        $(this).val('Email address');
+    })
+
+    $('#user_first_name').blur(function() {
+      if ($(this).val() == '')
+        $(this).val('First name');
+    });
+
+    $('#user_username').blur(function() {
+      if ($(this).val() == '')
+        $(this).val('Username');
+    })
+
+    $('#user_password').blur(function() {
+      if ($(this).val() == '') {
+        $(this).hide();
+        $('#password_holder').show();
+      }
+    })
+
+  $('#user_password_confirmation').blur(function() {
+    if ($(this).val() == '') {
+      $(this).hide();
+      $('#password_confirmation_holder').show();
+    }
+  })
+
+$("#new_user").submit(function() {
+  var first_name = $('#user_first_name');
+  var username = $('#user_username');
+  var password = $('#user_password');
+  var password_confirm = $('#user_password_confirmation');
+  var email = $('#user_email');
+  $('.invalid').removeClass('invalid');
+  $('span.error').text('');
+
+  if (email.val() == '' || email.val() == 'Email address') {
+    email.addClass('invalid');
+
+    email.next().text('Please enter a valid email address.');
+    error = true;
+  };
+
+  if (username.val() == '' || username.val() == 'Username') {
+    username.addClass('invalid');
+    username.next().text('Please enter a valid user name')
+    error = true;
+  }
+
+  if (first_name.val() == '' || first_name.val() == 'First name') {
+    first_name.addClass('invalid');
+    first_name.next().text('Please enter your first name');
+    error = true;
+  }
+
+  if ((password.val() == '' || password.val() == 'Password' )) {
+    $('#password_holder').addClass('invalid');
+    password.addClass('invalid');
+    password.next().text('Please enter a valid password');
+    error = true;
+  } else if ((password_confirm.val() == '') || (password_confirm.val() == 'Password confirmation')) {
+    $('#password_confirmation_holder').addClass('invalid');
+    password_confirm.addClass('invalid');
+    password_confirm.next().text('Please enter a password confirmation');
+    error = true;
+  } else if ((password.val() != password_confirm.val())) {
+    $('#password_holder, #password_confirmation_holder').addClass('invalid');
+    password.addClass('invalid');
+    password_confirm.addClass('invalid');
+    password.next().text('Your password and password confirmation do not match.');
+    error = true;
+  } else if (password.val().length < 7) {
+    password.addClass('invalid');
+    password_confirm.addClass('invalid');
+    password.next().text('Your passwordmust be 7 characters or more');
+    error = true;
+  }
+  else if (password_confirm.val().length < 7) {
+    password.addClass('invalid');
+    password_confirm.addClass('invalid');
+    password.next().text('Your passwordmust be 7 characters or more');
+    error = true;
+  }
+
+  $.ajax({
+    type: "POST",
+    url: '/users/partner_new',
+    data: $(this).serialize(),
+    success: function(msg) {
+      $("#dialog").jqmHide();
+      var id = $('#object_id').val();
+      if($('#object_type').val() == 'activity')
+      {
+        window.location = '/activities/'+ id;
+      }
+      else
+      {
+        window.location = '/places/'+ id;
+      }
+              
+    },
+    error: function(xhr) {
+      //$('#post_error').html('Invalid Captcha Code - please try again')
+      var errors = $.httpData(xhr, 'json');
+      $.each(errors, function(i,error) {
+        var field = error[0]
+        var message = error[1];
+        var username_error = false;
+        switch (field) {
+          case 'email':
+            $('#user_email').addClass('invalid');
+            $('#user_email').next().text("Email address " + message);
+            break;
+
+          case 'first_name':
+            $('#user_first_name').addClass('invalid');
+            $('#user_first_name').next().text("First name " + message);
+            break;
+
+          case 'password':
+          case 'password_confirmation':
+            $('#user_password, #user_password_confirmation').addClass('invalid');
+            $('#user_password').next().text("Password " + message);
+            break;
+
+          case 'username':
+            if (!username_error) {
+              $('#user_username').addClass('invalid');
+              $('#user_username').next().text("Username " + message);
+              username_error = true;
+            }
+            break;
+          default:
+            $('#simple_captcha').addClass('invalid');
+            $('#simple_captcha').next().text("You entered the code incorrectly. Please try again");
+        }
+      });
+    }
+  });
+  return false;
+});
+
+$("#cancel_partner").click(function() {
+  $("#dialog").jqmHide();
+  return false;
+});
+
+});
+
+
+</script>

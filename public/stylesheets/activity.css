@@ -1,0 +1,125 @@
+/*
+  Name: HelloPulse
+*/
+.activity_input_text
+{
+    font-size:14px;
+}
+.activity_label
+{
+    margin-top: 5px;
+    color:#990000;
+    font-size:14px;
+
+}
+ .itemhover {
+    background-color:#B7B7B7 !important;
+    color:#232323 !important;
+  }
+  #activity_results ul, #place_results ul {
+    padding:0px;
+    margin:0px;
+    list-style-image:none;
+    list-style-position:outside;
+    list-style-type:none;
+  }
+  #activity_results ul li, #place_results ul li {
+    margin:0px;
+  }
+  #activity_results ul li a, #place_results ul li a {
+    display:block;
+    padding:2px;
+    text-decoration:none;
+  }
+
+  .result_item
+  {
+    color:black;
+    font-size:13px;
+  }
+  .place_hood
+  {
+    color:black;
+    font-size:11px;
+  }
+  .activity_results_h {
+        background: #fff;
+  border: 1px solid #999;
+  left: 12px;
+  max-height: 200px;
+  overflow: auto;
+  padding: 3px;
+  position: absolute;
+  top: 91px;
+  width: 260px;
+  z-index: 10;
+  }
+  .activity_results_reg_h
+  {
+  width:260px;
+      background: #fff;
+  border: 1px solid #999;
+  max-height: 200px;
+  overflow: auto;
+  padding: 3px;
+  position: relative;
+  width: 260px;
+  z-index: 10;
+  }
+#activity_results {
+
+}
+#activity_results_reg {
+ 
+}
+
+  #place_results  {
+    background-color:white;
+    border-color:-moz-use-text-color #999999 #999999;
+    border-style:none solid solid;
+    border-width:medium 1px 1px;
+    padding:3px;
+    position:absolute;
+    z-index:10;
+    width:280px;
+     overflow:auto;
+    max-height:200px;
+    /*
+top: 64px;
+    left: 279px;
+*/
+  }
+
+  #activity, #place {
+    float:left;
+  }
+  .activity_input {
+    border-color: #999999 #999999 #999999;
+    border-style:solid solid solid;
+    border-width:1px 1px 1px;
+    width:260px;
+    padding:3px;
+    height:21px;
+    font-size:12px;
+  }
+  .example {
+      color:gray;
+  }
+
+  .place_input {
+    border-color: #999999 #999999 #999999;
+    border-style:solid solid solid;
+    border-width:1px 1px 1px;
+    width:255px;
+    padding:3px;
+    height:21px;
+    font-size:12px;
+  }
+
+  .places_it {
+    border-color: #999999 #999999 #999999;
+    border-style:solid solid solid;
+    border-width:1px 1px 1px;
+    width:200px;
+    padding:3px;
+  }
