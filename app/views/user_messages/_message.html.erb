@@ -1,0 +1,29 @@
+<% if User.exists?(message.sender) %>
+<div class="clear"></div>
+<div class="object">
+  <div class="icon">
+      <%= link_to image_tag(message.sender.icon.url(:thumb), :width => '45px', :height => '45px'), message.sender %> 
+  </div>
+  <div class="info message_body">
+    <h5>
+        <%= link_to message.sender.first_name, message.sender -%>
+    </h5>
+    <span class="message_sent"><%= time_ago_in_words message.created_at %> ago</span>
+    <div class="message_content">
+      <span class="fancy_quotes">&#8220;</span> <%= message.body %> <span class="fancy_quotes">&#8221;</span>
+    </div>
+  </div>
+
+  <div class="actions">
+    <% if action_name == 'index' %>
+    <%= link_to image_tag("HPMail.png", :width=>20,:class => " tooltip ", :title => "Reply"), account_message_path(message.sender, :anchor => "reply") %>
+    <% end %>
+    &nbsp;
+  </div>
+  
+  <div class="clear"></div>
+</div>
+  <div class="clear"></div>
+<% else %>
+ This message has been deleted
+<% end %>

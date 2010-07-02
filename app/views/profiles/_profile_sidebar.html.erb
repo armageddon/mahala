@@ -1,0 +1,30 @@
+<div class="column_header">
+  <h2>Details</h2>
+</div>
+<%= image_tag @user.icon.url(:profile) %>
+<%= render :partial => "users/description", :locals => { :user => @user } %>
+<div id="self_description">
+  <span class="fancy_quotes">&#8220;</span>
+  <%= @user.description %>
+  <span class="fancy_quotes">&#8221;</span>
+</div>
+<ul id="do_things">
+  <li><%= link_to "SEARCH", :controller=>'search', :action=>"search_criteria", :id=>'find_people_link' , :t => "people" %></li>
+  <li><%= link_to "EDIT MY INFO", edit_account_path %></li>
+  <%  if current_user!=nil && current_user && current_user.partner_type == nil %>
+    <li><%= link_to "ADD AN ACTIVITY", '#', 'data-href' => "/user_place_activities/free", :id => "add_place_activity", :class => "add_to_favorites"   %></li>
+  <%end%>
+  <li><%= link_to "INVITE A FRIEND", '/invite' ,:class => "invitea" %>
+</ul>
+<br />
+<% if @user.id != current_user.id && current_user.partner_type == nil  %>
+  <%= (link_to I18n.translate("ADD_TO_FAVORITES"), 'account/favorites/add',:id=> "profile_people_favorite",:class => "profile_people_favorite submit_act_p", :friend_id => object.id, :style=> current_user.has_friend?(object.id) ? 'display:none' : '') %>
+  <%= (link_to 'REMOVE FROM FAVORITES', "account/favorites/delete", :id=> "profile_people_unfavorite",:class => "profile_people_unfavorite submit_act_p", :friend_id => object.id, :style=> current_user.has_friend?(object.id) ? '' : 'display:none')  %>
+  <br /><br />
+  <span class ='submit_act arrange_to_meet'  data-href = "/messages/meet/?recipient_id=<%=object.id%>" >ARRANGE TO MEET</span>
+  <br />
+  <br />
+  <%= link_to "SEND A MESSAGE", account_message_path(@user), :class => "submit_act" %>
+
+<% end %>
+
