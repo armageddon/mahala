@@ -1,0 +1,96 @@
+    <%= stylesheet_link_tag %w(fullcalendar) %>
+    <%= javascript_include_tag 	"fullcalendar"%>
+
+<%= fb_connect_javascript_tag %>
+<%= init_fb_connect "XFBML", :js=>:jquery%>
+
+<% content_for :c1 do %>
+  <%= render :partial => "place_activity_sidebar" , :locals => {:place_activity => @place_activity}%>
+<% end %>
+
+<% content_for :c3 do %>
+  <%= render :partial => "shared/map" %>
+  
+<% end %>
+
+
+<% content_for :message do %>
+  <%if (!logged_in?)||(current_user.class!=User)%>
+    <h1> Join HelloPulse now to meet these great singles, and find where others are hanging out.  &nbsp;&nbsp; &nbsp;      <%= submit_button "Join Now", :id =>'join',  :class =>'submit_act'  %>  &nbsp; or &nbsp;     <span class="facebook-connect-button"> <%= fb_login_button('showUserReg()') %></span></h1>
+  
+  <%else%>
+    <h1> Hello <%=current_user.first_name%> - check out this activity </h1>
+  <%end%>
+<%end%>
+    
+<div class="column_header">
+  <h2><%= @activity.name + ' @ ' + @place.name%></h2>
+</div>
+<div class="pa_section_name">People who hang here</div>
+<div id="pa_people_paging" >Page 1 of <%=@users.total_pages %></div>
+<div class='clear'></div>
+<div id='people_results'>
+  <%= render :partial => 'shared_object_collections/horizontal_users_collection' , :locals => {:collection => @users, :reqpath=>'/place_activity/users'}%>
+</div>
+<div class="pa_section_name">Things happening here</div>
+<div class='clear'></div>
+<div class="pa_who">Who</div>
+<div class="pa_why">Why</div>
+
+<div class="pa_blank">&nbsp;</div>
+<div class="clear"></div>
+<%= render :partial => 'user_place_activity_collection' , :locals => {:collection => @user_place_activities}%>
+
+
+<script type="text/javascript">
+
+
+$(document).ready(function() {
+
+
+    $('#calendar').fullCalendar({
+      buttonText: {
+ today: ''
+    }
+
+
+
+
+
+        // put your options and callbacks here
+    })
+
+});
+
+
+  $('#join').live('click',function(){
+    showUserReg();
+    return false;
+  });
+
+  function showUserReg()
+  {
+    var id = FB.Connect.get_loggedInUser();
+    $.ajax({
+      type : "GET",
+      url : "/facebook_user_exists",
+      data : {"fbid" : id},
+      success : function(p){
+        if(p=='true')
+        {
+          window.location.href=window.location.href;
+        }
+        else
+        {
+          $('#dialog').jqm({ajax:'/quick_reg',modal:true});
+          $("#dialog").jqmShow();
+        }
+      },
+      error : function(p){
+        alert('error')
+        return false;
+      }
+    });
+    return false;
+  }
+</script>

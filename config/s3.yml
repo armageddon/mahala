@@ -1,0 +1,14 @@
+development:
+  bucket: pulse-staging
+  access_key_id: AKIAITYZBDBZ4D6DHJ2A
+  secret_access_key: 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
+  
+test:
+  bucket_name: appname_test
+  access_key_id: 
+  secret_access_key: 
+
+production:
+  bucket: pulse-staging
+  access_key_id: AKIAITYZBDBZ4D6DHJ2A
+  secret_access_key: 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

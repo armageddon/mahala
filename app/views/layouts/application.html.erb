@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" xmlns:fb="http://www.facebook.com/2008/fbml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="HelloPulse" content="A new site for bringing together like-minded singles" />
+    <title>HelloPulse</title>
+    <link rel="shortcut icon" href="/images/favicon.ico" />
+    <%= stylesheet_link_tag %w(jqModal application activity) %>
+    <%= javascript_include_tag 	"jquery-1.3.2", 'jquery.form.js', 'jqModal', 'jquery.autocomplete.js', 'jquery.charcounter.js','activity', 'application', 'signup' %>
+    <%= javascript_tag "var AUTH_TOKEN = #{form_authenticity_token.inspect};" %>
+
+    <%= yield(:head) %>
+  </head>
+  <body>
+
+    <%= hidden_field_tag "googlecode", googlecode(request.url) %>
+    <div id="dialog" style="display: none;" class="jqmWindow"></div>
+
+    <div id="nav">
+      <ul id="top-nav" >
+        
+        <%= nav_links %>
+        <% if current_user!=nil%>
+        <li id="search-box-holder">
+          <div id="search-box" >
+            
+              <% form_tag '/search/nav?search_criteria_header[type]=1', :method => "get" do  %>
+                <%= text_field_tag 'search_criteria[keyword]', '', :class => "header_input_text" %>
+                <%= hidden_field_tag 'search_criteria_header[type]', '1', :class => "header_input_text" %>
+
+                <%= hidden_field_tag 'search_criteria[sp_1]',1, :class => "header_input_text" %>
+                <%= hidden_field_tag 'search_criteria[sp_2]',2, :class => "header_input_text" %>
+                <%= hidden_field_tag 'search_criteria[lower_age]', 1, :class => "header_input_text" %>
+                <%= hidden_field_tag 'search_criteria[upper_age]', 10, :class => "header_input_text" %>
+
+                <button id="search" class="header_submit" style="" type="submit"></button>
+              <% end %>
+           
+          </div>
+          <% end %>
+        </li>
+         
+      </ul>
+      <div class="clear"></div>
+    </div>
+    <div id="header">
+      <%= link_to image_tag("header_logo.png", :alt=>"HelloPulse", :id=>"logo" ,:height=>"173", :width=>"314"), account_path %>
+      <div id="header-banner"><%= yield :message %></div>
+    </div>
+
+    <!--Main Content Starts Here -->
+
+    <div id="main_container">
+      <div id="left" class="column_container">
+
+        <%= render :partial => "shared/user_sidebar" %>
+      </div>
+      <div id="middle" class="column_container">
+
+
+        <%= yield %>
+      </div>
+      <div id="right" class="column_container">
+        <%= render :partial => "shared/map" %>
+      </div>
+    </div>
+    <div class="clear">&nbsp;</div>
+    <div id="main_footer">
+      <%= render :partial => "shared/footer" %>
+    </div>
+
+    <script type="text/javascript">
+      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+      try {
+        var pageTracker = _gat._getTracker("<%= googlecode(request.url) %>");
+        pageTracker._trackPageview();
+      } catch(err) {}
+    </script>
+
+    <script type="text/javascript" charset="utf-8">
+      var is_ssl = ("https:" == document.location.protocol);
+      var asset_host = is_ssl ? "https://s3.amazonaws.com/getsatisfaction.com/" : "http://s3.amazonaws.com/getsatisfaction.com/";
+      document.write(unescape("%3Cscript src='" + asset_host + "javascripts/feedback-v2.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+
+    <script type="text/javascript" charset="utf-8">
+      var feedback_widget_options = {};
+
+      feedback_widget_options.display = "overlay";
+      feedback_widget_options.company = "hellopulse";
+      feedback_widget_options.placement = "right";
+      feedback_widget_options.color = "#990000";
+      feedback_widget_options.style = "idea";
+
+
+
+
+
+
+
+      var feedback_widget = new GSFN.feedback_widget(feedback_widget_options);
+    </script>
+  </body>
+</html>
+
+

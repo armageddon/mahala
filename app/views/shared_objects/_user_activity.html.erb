@@ -1,0 +1,40 @@
+<div class="icon">
+	<%= link_to image_tag(object.activity.icon.url(:thumb), :width => '30px', :height => '30px'), object.activity %>
+</div>
+<div class="info_container">
+	<div class="info">
+		<span>
+     		<%= link_to (object.activity.name), object.activity %>
+		</span>
+		
+   	</div>
+	<div class="clear"></div>
+	  <% if object.user_id == nil || object.user_id == 0%>
+		<% place_count = UserPlaceActivity.all(:select=>"DISTINCT place_id",:conditions=>{"activity_id" => object.activity.id }).length  %>
+	  <% else %>
+	    <% place_count = UserPlaceActivity.all(:select=>"DISTINCT place_id",:conditions => {"activity_id" => object.activity.id, "user_id" =>object.user_id }).length  %>
+	  <%end%>
+	  <% if place_count == 1 %>
+	  	&nbsp;&nbsp;&nbsp;1 Place
+      <% else %>
+	 	&nbsp;&nbsp;&nbsp;<%= place_count.to_s + " Places" %>
+	  <% end %>
+	  <% if object.user_id == nil || object.user_id == 0%>
+		<% user_count = UserActivity.all(:select=>"DISTINCT user_id",:conditions=>{"activity_id" => object.activity.id }).length  %>
+	  <% end %>
+	  <% if user_count == 1 %>
+	  	&nbsp;&nbsp;&nbsp;1 Person
+      <% elsif user_count != nil && user_count != 0 %>
+	 	&nbsp;&nbsp;&nbsp;<%= user_count.to_s + " People" %>
+	  <% end %>
+	
+    <div class="clear"></div>
+</div>
+<div class="actions">
+	<% if logged_in? && !current_user.user_activities.include?(object) %>
+	<%=  link_to image_tag("HPThumbUp.png", :width=>20, :class => " tooltip ", :title => I18n.translate("Add_to_favorites")), '#', 'data-href' => "/user_place_activities/free?add_type=neither&activity_id="+object.activity_id.to_s+"place_id="+object.place_id.to_s, :class => "add_activity" %>
+	<% elsif  logged_in?    %>
+	<%=  link_to image_tag("HPThumbDown.png", :width=>20, :class => " tooltip ", :title => I18n.translate("Remove_from_favorites")), '#', 'data-href' => new_account_activity_path(:activity_id => object.activity ),:activity_id => object.activity.id, :class => "remove_activity" %>
+	<% end %>      
+</div>
+<div class="clear"></div>

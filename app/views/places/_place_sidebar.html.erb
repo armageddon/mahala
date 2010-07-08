@@ -1,0 +1,54 @@
+<%current_user!=nil ? join_class = '' :  join_class = 'join'%>
+<div class="column_header">
+    <h2>Details</h2>
+</div>
+
+<div id="profile_image">
+  <%= image_tag(@place.icon.url(:profile), :class=>"profile_image") %>
+</div>
+
+
+
+<div id="place_description">
+  <%= @place.description %>
+</div>
+<br>
+<div id="address">
+  <%= @place.address %><br>
+  <%if @place.city != nil and @place.zip != nil%>
+    <%= @place.city %>, <%= @place.zip %><br>
+  <%end%>
+  <% if @place.website.present? %>
+    <%= link_to "website", @place.website %>
+  <% end %>
+</div>
+
+<ul id="do_things">
+  <li><%= link_to "SEARCH", {:controller=>'search', :action=>"search_criteria", :id=>'find_people_link' , :t => "people"} , :class=>join_class%></li>
+  <% if current_user!=nil %>
+    <li><%= link_to "EDIT MY INFO", edit_account_path %></li>
+
+    <li><%= link_to "INVITE A FRIEND", '/invite', :class => "invitea" %>
+    <%end%>
+</ul>
+<br />
+<% if current_user!=nil && current_user && current_user.partner_type == nil %>
+  <%= link_to "ADD TO FAVORITES", '#', 'data-href' => "/user_place_activities/free?add_type=activity&place_id="+@place.id.to_s+"&view=add_place", :class => "add_to_favorites submit" %>
+<%end%>
+<div id="manage_place"></div>
+
+<script type="text/javascript" charset="utf-8">
+  $(document).ready(function() {
+    $("#remove_place").click(function(event) {
+      var target = $(this).attr('href');
+      $.ajax({
+        type: "POST",
+        url: target,
+        success: function() { $("#remove_place").hide() && $("#add_place").show() },
+        data: { "_method": "delete" }
+      });
+      return false;
+    });
+  });
+</script>
+

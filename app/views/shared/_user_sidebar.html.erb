@@ -1,0 +1,27 @@
+<% @c1 = yield(:c1) %>
+<% if @c1.present? %>
+  <%= @c1 %>
+<% else %>
+  <div class="column_header">
+    <h2>Me</h2>
+  </div>
+  <div id="dashboard_icon">
+    <%= image_tag(current_user.icon.url(:profile), :class=>"profile_image") %>
+  </div>
+  <% if current_user.status==1 %>
+    <%= render :partial => "users/description", :locals => { :user => current_user } %>
+    <div id="self_description">
+      <span class="fancy_quotes">&#8220;</span>
+      <%= current_user.description %>
+      <span class="fancy_quotes">&#8221;</span>
+    </div>
+
+    <ul id="do_things">
+      <li><%= link_to "SEARCH", :controller=>'search', :action=>"search_criteria", :id=>'find_people_link' , :t => "people" %></li>
+      <li><%= link_to "EDIT YOUR INFO", edit_account_path %></li>
+      <li><%= link_to "VIEW YOUR PROFILE", profile_path(current_user)%></li>
+      <li><%= link_to "ADD AN ACTIVITY", '#', 'data-href' => "/user_place_activities/free", :id => "add_place_activity", :class => "add_to_favorites"  %></li>
+      <li><%= link_to "INVITE A FRIEND", '/invite', :class => "invitea" %></li>
+    </ul>
+  <% end %>
+<% end %>
