@@ -3,21 +3,21 @@
 #
 # Be sure to use new-style password hashing:
 #   http://dev.mysql.com/doc/refman/5.0/en/old-client.html
-development:
-  adapter: mysql
-  user: root
-  host: localhost
-  database: pulse_development
-
 test:
   adapter: mysql
-  user: root
-  host: localhost
   database: pulse_test
+  username: root
+  password: pulse36
+
+development:
+  adapter: mysql
+  database: pulse_development
+  username: root
+  password: pulse36
 
 production:
   adapter: mysql
-  user: root
-  host: localhost
   database: pulse_production
+  username: root
+  password: pulse36
 
