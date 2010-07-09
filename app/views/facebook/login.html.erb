@@ -81,7 +81,6 @@
 
  $('#oauth').live('click', function() {
 
-      alert('x');
 
       //var body = 'Reading Connect JS documentation'
       //FB.getLoginStatus(function(response) {
@@ -103,8 +102,9 @@
               alert('an error occured');
             }
           });
+
           if (response.perms) {
-            alert(response.perms);
+  
           } else {
             // user is logged in, but did not grant any permissions
           }
