@@ -163,6 +163,7 @@ render :text => @pages
     v.access_token =@access_token
     v.save
     get_pages
+    renter :text=>"success"
   end
 
   def callback
