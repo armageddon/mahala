@@ -1,4 +1,11 @@
 <% @pages.each do |p| %>
+<div id="page_info">
+  <div id="page_icon" style="float:left">
     <img src="http://graph.facebook.com/<%=p.id %>/picture" />
-  
+  </div>
+  <div id ="page_info">
+    <span style ="font-size:14px; font-weight:bold"><%=p.name %></span><br />
+    <%=p.fan_count if p.fan_count != nil %>
+  </div>
+</div>
 <% end %>
