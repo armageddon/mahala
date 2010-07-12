@@ -106,7 +106,7 @@ class FacebookController < ApplicationController
       # @pages << MiniFB.fql(visitor.access_token, q)
     end
     
-    render :template => 'facebook/stats' , :locals=>{:pages => @pages}
+    render :template => 'facebook/stats' , :locals=>{:pages => @pages}, :layout => false;
   end
 
   def facebook_tab
