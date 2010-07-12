@@ -1,11 +1,11 @@
 <% @pages.each do |p| %>
-<div id="page_info" style="float:left">
+<div id="page_info" style="float:left; font-family:arial">
   <div id="page_icon" style="float:left">
     <img src="http://graph.facebook.com/<%=p.id %>/picture" />
   </div>
   <div id ="page_info" style="float:left">
     <span style ="font-size:14px; font-weight:bold"><%=p.name %></span><br />
-    <%=p.fan_count if p.fan_count != nil %>
+    <%=p.fan_count == nil ? 'No fans' : p.fan_count == 1 ? '1 fan' : p.fan_count.to_s + ' fans' %>
   </div>
   <div style="clear:both"></div>
 </div>
