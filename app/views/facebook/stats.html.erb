@@ -1,10 +1,10 @@
-<span style="font-family:arial; font-size 16px;">Mahala Music partner artists:</span>
+<span style="font-family:arial; font-size:16px;">Mahala Music partner artists:</span><br />
 <% @pages.each do |p| %>
 <div id="page_info" style="float:left; font-family:arial;margin:3px">
   <div id="page_icon" style="float:left">
     <img src="http://graph.facebook.com/<%=p.id %>/picture" />
   </div>
-  <div id ="page_info" style="float:left">
+  <div id ="page_info" style="float:left;margin-left:5px">
     <span style ="font-size:14px; font-weight:bold"><%=p.name %></span><br />
     <%=p.fan_count == nil ? 'No fans' : p.fan_count == 1 ? '1 fan' : p.fan_count.to_s + ' fans' %>
   </div>
