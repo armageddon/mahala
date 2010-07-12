@@ -97,7 +97,8 @@ class FacebookController < ApplicationController
       #@pages << MiniFB.get(p.access_token.to_s, p.page_id)
       @access_token = p.access_token
       @page_id = p.page_id
-      @pages << MiniFB.get(@access_token, @page_id).fan_count
+      @pages << MiniFB.get(@access_token, @page_id)
+      #@pages << MiniFB.get(@access_token, @page_id).fan_count
       #      @pages << MiniFB.get(Page.find(2).access_token, Page.find(2).page_id).fan_count
       #   @pages << MiniFB.get(Page.find(:last).access_token, Page.find(:last).page_id).fan_count
       #q="select name,  from page where page_id  =" + p.page_id.to_s
