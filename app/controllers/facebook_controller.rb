@@ -103,6 +103,7 @@ class FacebookController < ApplicationController
       @page_id = p.page_id
       logger.info('PAGE EVENTS')
       q="select eid, name, creator,host  from event where creator = " + @page_id.to_s
+      logger.debug(q)
       @events1 = MiniFB.fql(@access_token, q)
       logger.debug(@events1)
       logger.debug('AFTER')
