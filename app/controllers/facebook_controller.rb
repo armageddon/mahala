@@ -102,7 +102,7 @@ class FacebookController < ApplicationController
       @access_token = p.access_token
       @page_id = p.page_id
        logger.info('PAGE EVENTS')
-        #logger.info(MiniFB.get(@access_token, @page_id, :type=>'events'))
+        # logger.info(MiniFB.get(@access_token, @page_id, :type=>'events'))
       @pages << MiniFB.get(@access_token, @page_id)
       #@pages << MiniFB.get(@access_token, @page_id).fan_count
       #      @pages << MiniFB.get(Page.find(2).access_token, Page.find(2).page_id).fan_count
