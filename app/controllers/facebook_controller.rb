@@ -105,8 +105,8 @@ class FacebookController < ApplicationController
       q="select eid, name, creator,host  from event where creator = " + @page_id.to_s
       logger.debug(q)
       @events1 = MiniFB.fql(@access_token, q)
-      logger.debug(@events1)
-      logger.debug('AFTER')
+      logger.info(@events1)
+      logger.info('AFTER')
       # logger.info(MiniFB.get(@access_token, @page_id, :type=>'events'))
       @pages << MiniFB.get(@access_token, @page_id)
       #@pages << MiniFB.get(@access_token, @page_id).fan_count
