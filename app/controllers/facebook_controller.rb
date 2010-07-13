@@ -83,6 +83,10 @@ class FacebookController < ApplicationController
     cookies[:path] = "account"
   end
 
+  def facebook_events
+
+  end
+
   def facebook_stats
     MiniFB.enable_logging
     pages = Page.find(:all)
@@ -90,7 +94,8 @@ class FacebookController < ApplicationController
     logger.info(pages.length)
     @pages = []
     pages.each do |p|
-
+      logger.info('PAGE EVENTS')
+      logger.info(MiniFB.get(@access_token, @page_id, :type=>'events'))
       # @response_hash = MiniFB.get(p.access_token, p.page_id, {:session_key=>})
       #logger.debug(MiniFB.rest(p.access_token,'pages.getinfo',{:key=>FB_APP_KEY,:page_id=>p.page_id,:fields=>'name'}))
       # @pages << MiniFB.get(p.access_token, p.fb_user_id, :type=>'friends')
