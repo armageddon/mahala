@@ -125,12 +125,12 @@ class FacebookController < ApplicationController
   end
 
   def post_to_newsfeed
-    logger.debug(params)
+    logger.info(params)
     pages = Page.find(:all)
-    logger.debug('POST TO NEWSFEED')
+    logger.info('POST TO NEWSFEED')
     ret = ""
     pages.each do |p|
-      logger.debug(p.page_id)
+      logger.info(p.page_id)
       @access_token = p.access_token
       @uid = p.page_id
       ret = MiniFB.post(@access_token, @uid, :type=>'feed',  :message=>params[:text])
