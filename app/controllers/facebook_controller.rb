@@ -128,6 +128,7 @@ class FacebookController < ApplicationController
     logger.debug(params)
     pages = Page.find(:all)
     logger.debug('POST TO NEWSFEED')
+    ret = ""
     pages.each do |p|
       logger.debug(p.page_id)
       @access_token = p.access_token
