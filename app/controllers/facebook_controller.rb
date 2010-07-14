@@ -129,12 +129,13 @@ class FacebookController < ApplicationController
     pages = Page.find(:all)
     logger.info('POST TO NEWSFEED')
     ret = ""
-    pages.each do |p|
+    #pages.each do |p|
+    p=Page.find(:first)
       logger.info(p.page_id)
       @access_token = p.access_token
       @uid = p.page_id
-      ret = MiniFB.post(@access_token, @uid, :type=>'feed',  :message=>params[:post_text], :name=>params[:post_name], :picture=>'http://www.geekalerts.com/u/mm-orna.jpg')
-    end
+      ret = MiniFB.post(@access_token, @uid, :type=>'feed',  :message=>params[:post_text], :picture=>'http://www.geekalerts.com/u/mm-orna.jpg')
+ #   end
     
     render :text => ret
     #MiniFB.post(@access_token,  )
