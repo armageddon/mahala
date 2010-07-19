@@ -134,7 +134,7 @@ class FacebookController < ApplicationController
       logger.info(p.page_id)
       @access_token = p.access_token
       @uid = p.page_id
-      ret = MiniFB.post(@access_token, @uid, :type=>'feed',  :message=>params[:post_text], :picture => "http://blog.lovecapetownmusic.com/wp-content/uploads/IMG00242.jpg")
+      ret = MiniFB.post(@access_token, @uid, :type=>'feed',  :message=>params[:post_text], :link=>"http://www.blog.lovecapetownmusic.com"   ,:picture => "http://blog.lovecapetownmusic.com/wp-content/uploads/IMG00242.jpg")
  #   end
     
     render :text => ret
