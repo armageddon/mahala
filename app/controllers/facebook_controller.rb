@@ -1,6 +1,7 @@
 class FacebookController < ApplicationController
   require 'mini_fb'
   skip_before_filter :verify_authenticity_token, :only => [:post_from_m,:post_to_newsfeed]
+
   def get_pages
     begin
       @response_hash = MiniFB.get(@access_token, @uid, :type=>'accounts')
@@ -123,6 +124,18 @@ class FacebookController < ApplicationController
     render :template => 'facebook/show', :layout=>false
   end
 
+  def allow_page_admin
+    artist_id = params[:artist_id]
+    page_id = params[:page_id]
+    allow = params[:allow]
+    logger.debug(params)
+    page = Page.find_by_administrator_id_and_page_id(artist_id, page_id)
+    page.allow=allow
+    page.save
+
+    render :nothing
+  end
+
   def allow_page
     artist_id = params[:artist_id]
     page_id = params[:page_id]
@@ -130,7 +143,6 @@ class FacebookController < ApplicationController
     logger.debug(params)
     if allow=='false'
       aap = ArtistAllowedPage.find_by_artist_id_and_page_id(artist_id, page_id)
-
       aap.destroy
     else
       aap = ArtistAllowedPage.new(:artist_id => artist_id, :page_id => page_id)
@@ -138,7 +150,6 @@ class FacebookController < ApplicationController
     end
     render :nothing
   end
-
   
   def post_to_newsfeed
     logger.info(params)
@@ -150,9 +161,10 @@ class FacebookController < ApplicationController
     logger.info(p.page_id)
     @access_token = p.access_token
     @uid = p.page_id
-    ret = MiniFB.post(@access_token, @uid, :type=>'feed',  :message=>params[:post_text], :link=>"http://www.blog.lovecapetownmusic.com"   ,:picture => "http://blog.lovecapetownmusic.com/wp-content/uploads/IMG00242.jpg")
+
+
+    ret = MiniFB.post(@access_token, @uid, :type=>'feed',  :message=>params[:post_text], :link=>"http://www.blog.lovecapetownmusic.com" , :caption => "free MP3 downloads at Mahala Music"  ,:picture => "http://blog.lovecapetownmusic.com/wp-content/uploads/IMG00242.jpg")
     #   end
-    
     render :text => ret
     #MiniFB.post(@access_token,  )
   end
@@ -165,8 +177,6 @@ class FacebookController < ApplicationController
     #ret = MiniFB.post(@access_token, @uid, :type=>'feed',  :message=>DateTime.now.to_s)
     render :text => 'ret'
   end
-
-
 
   def new_visitor
     @uid = ""
@@ -231,7 +241,6 @@ class FacebookController < ApplicationController
     redirect_to "/account"
   end
 
-  #not used
   def fb_pull
     FbGrapher.pull(User.find_by_username("pierrearmageddon").access_token)
   end

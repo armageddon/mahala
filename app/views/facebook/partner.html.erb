@@ -41,7 +41,7 @@
         <div>
           Allow Mahala to post to these pages: <br />
           <%Page.find(:all, :conditions=>'administrator_id = ' + @hp_user.fb_user_id.to_s).each do |p|%>
-            <%= check_box_tag "allow",0,0, :width=>"25px" %>
+            <%= check_box_tag("allow_admin",p.page_id,p.allow, :width=>"25px", :class=>'allow_page_admin') %>
             <img src="http://graph.facebook.com/<%=p.page_id%>/picture" width="30" /><%=p.name%> <br />
           <%end%>
         </div>
