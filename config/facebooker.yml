@@ -9,8 +9,8 @@
 # This should only be necessary until the final version of the new profile is released.
 #ZMZ8SM
 development:
-  api_key: 6b47ec733b05df8cc3bcec60e2d5f7ef
-  secret_key: a30c002eeb58d601fa6c3c84de076301
+  api_key: 93be83437446f5288629ec944c0fd076
+  secret_key: 6f1304c0ca133fae62d90d4cb4b09f4b
   canvas_page_name:
   callback_url: http://localhost:3000/
   pretty_errors: true

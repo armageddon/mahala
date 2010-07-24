@@ -5,19 +5,19 @@
 #   http://dev.mysql.com/doc/refman/5.0/en/old-client.html
 test:
   adapter: mysql
-  database: pulse_test
+  database: mahala_test
   username: root
   password: pulse36
 
 development:
   adapter: mysql
-  database: pulse_development
-  username: root
-  password: pulse36
+  user: root
+  host: localhost
+  database: mahala_development
 
 production:
   adapter: mysql
-  database: pulse_production
+  database: mahala_production
   username: root
   password: pulse36
 

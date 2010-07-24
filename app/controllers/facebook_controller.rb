@@ -19,8 +19,6 @@ class FacebookController < ApplicationController
     end
   end
 
-
-
   def decode_cookie
     split_char = '='
     if params[:session].present?
@@ -65,7 +63,7 @@ class FacebookController < ApplicationController
     @access_token = ""
     @access_token =  decode_cookie[:access_token]
     @uid =  decode_cookie[:uid]
-    @hp_user = Visitor.find_by_fb_user_id(@uid)
+    @hp_user = Artist.find_by_fb_user_id(@uid)
     begin
       @fb_user = MiniFB.get(@access_token,'me')
       @first_name = @fb_user.first_name
@@ -76,6 +74,7 @@ class FacebookController < ApplicationController
     if @hp_user != nil && @hp_user.admin ==1     
       render :template => 'facebook/admin',:layout=>false
     elsif @hp_user != nil
+      logger.debug('admin')
       render :template => 'facebook/partner',:layout=>false
     else
       render :template => 'facebook/login',:layout=>false
@@ -90,7 +89,7 @@ class FacebookController < ApplicationController
   def facebook_stats
     MiniFB.enable_logging
     pages = Page.find(:all)
-    visitor = Visitor.find(:last)
+    artist = Artist.find(:last)
     logger.info(pages.length)
     @pages = []
     pages.each do |p|
@@ -124,6 +123,23 @@ class FacebookController < ApplicationController
     render :template => 'facebook/show', :layout=>false
   end
 
+  def allow_page
+    artist_id = params[:artist_id]
+    page_id = params[:page_id]
+    allow = params[:allow]
+    logger.debug(params)
+    if allow=='false'
+      aap = ArtistAllowedPage.find_by_artist_id_and_page_id(artist_id, page_id)
+
+      aap.destroy
+    else
+      aap = ArtistAllowedPage.new(:artist_id => artist_id, :page_id => page_id)
+      aap.save
+    end
+    render :nothing
+  end
+
+  
   def post_to_newsfeed
     logger.info(params)
     pages = Page.find(:all)
@@ -131,11 +147,11 @@ class FacebookController < ApplicationController
     ret = ""
     #pages.each do |p|
     p=Page.find(:first)
-      logger.info(p.page_id)
-      @access_token = p.access_token
-      @uid = p.page_id
-      ret = MiniFB.post(@access_token, @uid, :type=>'feed',  :message=>params[:post_text], :link=>"http://www.blog.lovecapetownmusic.com"   ,:picture => "http://blog.lovecapetownmusic.com/wp-content/uploads/IMG00242.jpg")
- #   end
+    logger.info(p.page_id)
+    @access_token = p.access_token
+    @uid = p.page_id
+    ret = MiniFB.post(@access_token, @uid, :type=>'feed',  :message=>params[:post_text], :link=>"http://www.blog.lovecapetownmusic.com"   ,:picture => "http://blog.lovecapetownmusic.com/wp-content/uploads/IMG00242.jpg")
+    #   end
     
     render :text => ret
     #MiniFB.post(@access_token,  )
@@ -172,7 +188,7 @@ class FacebookController < ApplicationController
         @access_token = item[1].chomp('"') if item[0].reverse.chomp('"').reverse == "access_token"
       end
     end
-    v = Visitor.new
+    v = Artist.new
     v.fb_user_id = @uid
     v.access_token =@access_token
     v.save

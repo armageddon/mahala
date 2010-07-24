@@ -25,8 +25,8 @@
     </script>
     <div class="hp_main" style="font-family:arial;font-size:16px">
       <div class="hp_header">
-        <div style="float:left;width:70px">
-          <%= image_tag "logo_smaller.png", :width=>70 %>
+        <div style="float:left;width:120px">
+          <%= image_tag "mahala_logo.png", :width=>120 %>
         </div>
         <div style="margin-left:30px;margin-top:15px;float:left;width:300px">
           <div style="height:70px;width:300px;font-size:24px;font-family:'arial';vertical-align:middle">Welcome <%=@fb_user.first_name %></div>
@@ -35,19 +35,22 @@
       <div style="clear: both;"></div>
       <div class="hp_main">
         <div >
-          Hey <%= @fb_user.first_name %><br />
-          <br />
           Thanks for joining Mahala Artists. We will post to your facebook newsfeed when we have your new tracks availalbe on the site.
         </div>
+        <br />
         <div>
-          Your pages: <br />
-        <%=Page.find_by_administrator_id(@hp_user.fb_user_id).class%>
-          <%if Page.find_by_administrator_id(@hp_user.fb_user_id) != nil && Page.find_by_administrator_id(@hp_user.fb_user_id).class == Page %>
-            <%=Page.find_by_administrator_id(@hp_user.fb_user_id).name%>
-          <%elsif Page.find_by_administrator_id(@hp_user.fb_user_id) != nil%>
-          <%Page.find_by_administrator_id(@hp_user.fb_user_id).each do |p|%>
-              <%=p.name%> <br />
-            <%end%>
+          Allow Mahala to post to these pages: <br />
+          <%Page.find(:all, :conditions=>'administrator_id = ' + @hp_user.fb_user_id.to_s).each do |p|%>
+            <%= check_box_tag "allow",0,0, :width=>"25px" %>
+            <img src="http://graph.facebook.com/<%=p.page_id%>/picture" width="30" /><%=p.name%> <br />
+          <%end%>
+        </div>
+        <br />
+        <div>
+          Get updates from these pages: <br />
+          <%Page.find(:all,:select=> 'pages.*, A.page_id as allow',:joins=>'left join artist_allowed_pages A on pages.page_id = A.page_id', :conditions=>'administrator_id != ' + @hp_user.fb_user_id.to_s).each do |p|%>
+            <%= check_box_tag("allow",p.page_id,p.allow!=nil, :width=>"25px", :class=>'allow_page_check') %>
+            <img src="http://graph.facebook.com/<%=p.page_id%>/picture" width="30" /><%=p.name%> <br />
           <%end%>
         </div>
         <br />
@@ -61,20 +64,55 @@
 </html>
 
 <script typ="text/javascript">
-  $(document).ready(function() {
-
-    FB.getLoginStatus(function(response) {
-      if (response.session) {
-        alert(response);
-      } else {
-        alert('no user session available, someone you dont know');
+  $('.allow_page_check').live('click', function() {
+    $.ajax({
+      type: 'post',
+      data: {
+        "artist_id" : <%=@fb_user.id%>,
+        "page_id" :$(this).val(),
+        "allow" : $(this).attr('checked')
+      },
+      url: '/allow_page',
+      success: function(p) {
+        
+      },
+      error: function(p) {
+        alert('an error occured');
       }
     });
+  });
+  $('.allow_page_admin').live('click', function() {
+    $.ajax({
+      type: 'post',
+      data: {
+        "artist_id" : <%=@fb_user.id%>,
+        "page_id" :$(this).val(),
+        "allow" : $(this).attr('checked')
+      },
+      url: '/allow_page_admin',
+      success: function(p) {
+        
+      },
+      error: function(p) {
+        alert('an error occured');
+      }
+    });
+  });
+  
+  $(document).ready(function() {
+
+    //FB.getLoginStatus(function(response) {
+   //   if (response.session) {
+   //     alert(response);
+    //  } else {
+    //    alert('no user session available, someone you dont know');
+    //  }
+    //});
 
     $('#post').live('click', function() {
       $.ajax({
         type: 'post',
-         data: {"text" : $('#post_text').val()},
+        data: {"text" : $('#post_text').val()},
         url: '/facebook/post_to_newsfeed',
         success: function(p) {
           alert('success');
@@ -87,7 +125,6 @@
     });
 
   });
-
 
   function graphStreamPublish(){
     alert('y');

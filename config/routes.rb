@@ -2,13 +2,14 @@ ActionController::Routing::Routes.draw do |map|
   map.resources :test3s
 
   map.messages_admin '/messages/admin', :controller => 'user_messages' , :action => 'admin'
-map.facebook_post '/facebook_post', :controller => 'facebook', :action=>'post_from_m'
+  map.facebook_post '/facebook_post', :controller => 'facebook', :action=>'post_from_m'
   #facebook controller
   map.resources :facebook
-
+  map.facebook_allow_page '/allow_page', :controller=>'facebook', :action=>'allow_page'
+  map.facebook_allow_page_admin '/allow_page_admin', :controller=>'facebook', :action=>'allow_page_admin'
   map.facebook_tab 'facebook/tab',  :controller => 'facebook', :action=>'facebook_tab'
   map.facebook_stats '/facebook_stats',  :controller => 'facebook', :action=>'facebook_stats'
-    map.post_to_newsfeed '/facebook_post_to_newsfeed',  :controller => 'facebook', :action=>'post_to_newsfeed'
+  map.post_to_newsfeed '/facebook_post_to_newsfeed',  :controller => 'facebook', :action=>'post_to_newsfeed'
   map.visitor '/visitor', :controller => 'facebook', :action=>'new_visitor'
   #maps controller
   map.map '/map',  :controller => 'maps', :action => 'index'
