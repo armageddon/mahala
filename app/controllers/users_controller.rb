@@ -7,7 +7,6 @@ class UsersController < ApplicationController
   before_filter :login_required, :except => [:redeem, :create, :link_user_accounts, :link, :quick_reg, :partner_reg, :partner_new, :facebook_user_exists]
   before_filter :check_user
   skip_before_filter :verify_authenticity_token, :only => [:admin_delete,:partner_new, :facebook_user_exists]
-  rescue_from Facebooker::Session::SessionExpired, :with => :facebook_session_expired
 before_filter :auth_url
 
   def auth_url
@@ -75,8 +74,7 @@ before_filter :auth_url
 
   def facebook_session_expired
     logger.debug('session expired')
-    clear_fb_cookies!
-    clear_facebook_session_information
+  
   end
 
   def quick_reg
