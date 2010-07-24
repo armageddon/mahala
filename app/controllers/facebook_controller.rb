@@ -133,7 +133,7 @@ class FacebookController < ApplicationController
     page.allow=allow
     page.save
 
-    render :nothing
+    render :text => 'success'
   end
 
   def allow_page
@@ -148,7 +148,7 @@ class FacebookController < ApplicationController
       aap = ArtistAllowedPage.new(:artist_id => artist_id, :page_id => page_id)
       aap.save
     end
-    render :nothing
+    render :text => 'success'
   end
   
   def post_to_newsfeed
