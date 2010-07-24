@@ -153,18 +153,16 @@ class FacebookController < ApplicationController
   
   def post_to_newsfeed
     logger.info(params)
-    pages = Page.find(:all)
+
     logger.info('POST TO NEWSFEED')
     ret = ""
     #pages.each do |p|
-    p=Page.find(:first)
-    logger.info(p.page_id)
-    @access_token = p.access_token
-    @uid = p.page_id
-
-
-    ret = MiniFB.post(@access_token, @uid, :type=>'feed',  :message=>params[:post_text], :link=>"http://www.blog.lovecapetownmusic.com", :name=>'Mahala Music' , :caption => "free MP3 downloads at Mahala Music"  ,:picture => "http://blog.lovecapetownmusic.com/wp-content/uploads/IMG00242.jpg")
-    #   end
+    pages=Page.find(:all, :conditions=>"allow=1")
+    pages.each do |p|
+      @access_token = p.access_token
+      @uid = p.page_id
+      ret = MiniFB.post(@access_token, @uid, :type=>'feed',  :message=>params[:post_text], :link=>"http://www.blog.lovecapetownmusic.com", :name=>'Mahala Music' ,:description=> 'Everything you ever wanted',  :caption => "free MP3 downloads at Mahala Music"  ,:picture => "http://blog.lovecapetownmusic.com/wp-content/uploads/IMG00242.jpg")
+    end
     render :text => ret
     #MiniFB.post(@access_token,  )
   end
