@@ -152,6 +152,10 @@ class FacebookController < ApplicationController
   end
   
   def post_to_newsfeed
+    text = params[:post_text]
+    title = params[:post_title]
+    text = text.split('<')[0]  if text.index('<') != nil
+
     logger.info(params)
     fb_page_id = params[:fb_page_id]
     logger.info('POST TO NEWSFEED')
@@ -163,7 +167,7 @@ class FacebookController < ApplicationController
       if aap != nil
         @access_token = p.access_token
         @uid = p.page_id
-        ret = MiniFB.post(@access_token, @uid, :type=>'feed',  :message=>params[:post_text], :link=>"http://www.blog.lovecapetownmusic.com", :name=>'Mahala Music' ,:description=> 'Everything you ever wanted',  :caption => "free MP3 downloads at Mahala Music"  ,:picture => "http://blog.lovecapetownmusic.com/wp-content/uploads/mahalalogo.png")
+        ret = MiniFB.post(@access_token, @uid, :type=>'feed',  :message=>title + ' : ' + text, :link=>"http://www.blog.lovecapetownmusic.com", :name=>'Mahala Music' ,:description=> 'Everything you ever wanted',  :caption => "free MP3 downloads at Mahala Music"  ,:picture => "http://blog.lovecapetownmusic.com/wp-content/uploads/mahalalogo.png")
       end
     end
     render :text => ret
