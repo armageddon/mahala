@@ -1,6 +1,6 @@
 class FacebookController < ApplicationController
   require 'mini_fb'
-  skip_before_filter :verify_authenticity_token, :only => [:post_from_m,:post_to_newsfeed]
+  skip_before_filter :verify_authenticity_token, :only => [:post_from_m,:post_to_newsfeed, :allow_page_admin]
 
   def get_pages
     begin
