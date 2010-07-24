@@ -5305,3 +5305,53 @@ ActionController::RoutingError (No route matches "/javascripts/controls.js" with
   /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
 
 Rendering /Users/pierrearmageddon/Development/mahala/vendor/plugins/facebooker/templates/layout.erb (200)
+  [4;35;1mSQL (0.3ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mActivity Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'mahala_development.activities' doesn't exist: SHOW FIELDS FROM `activities`[0m
+  [4;35;1mPlace Columns (0.0ms)[0m   [0mMysql::Error: Table 'mahala_development.places' doesn't exist: SHOW FIELDS FROM `places`[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'mahala_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+Swapping facebooker config: '93be83437446f5288629ec944c0fd076'
+
+
+Processing FacebookController#index (for 127.0.0.1 at 2010-07-24 16:29:05) [GET]
+  Parameters: {"fb_sig_app_id"=>"105093279544714", "fb_sig_iframe_key"=>"1ff1de774005f8da13f42943881c655f", "fb_sig_in_iframe"=>"1", "fb_sig_locale"=>"en_US", "fb_sig_in_new_facebook"=>true, "fb_sig"=>"5b4198495d7372f8c1550cae72ead7a0", "fb_sig_added"=>true, "fb_sig_expires"=>nil, "fb_sig_session_key"=>"024fb15986c203e8068ab58c-632510886", "fb_sig_cookie_sig"=>"5a971f430cade1811c3bfd20969184fb", "fb_sig_ext_perms"=>"status_update,photo_upload,video_upload,offline_access,create_note,share_item,publish_stream,manage_pages", "fb_sig_country"=>"in", "fb_sig_ss"=>"be02a101e8c392621a5348a134ab6e57", "fb_sig_api_key"=>"93be83437446f5288629ec944c0fd076", "fb_sig_time"=>Sat Jul 24 16:29:03 +0530 2010, "fb_sig_profile_update_time"=>Mon Apr 26 13:41:06 +0530 2010, "fb_sig_user"=>"632510886"}
+req from facebook
+fb_sig_app_id105093279544714fb_sig_iframe_key1ff1de774005f8da13f42943881c655ffb_sig_localeen_USfb_sig_in_iframe1actionindexfb_sig5b4198495d7372f8c1550cae72ead7a0fb_sig_in_new_facebooktruefb_sig_addedtruefb_sig_countryinfb_sig_ext_permsstatus_update,photo_upload,video_upload,offline_access,create_note,share_item,publish_stream,manage_pagesfb_sig_cookie_sig5a971f430cade1811c3bfd20969184fbfb_sig_session_key024fb15986c203e8068ab58c-632510886fb_sig_expiresfb_sig_ssbe02a101e8c392621a5348a134ab6e57controllerfacebookfb_sig_api_key93be83437446f5288629ec944c0fd076fb_sig_user632510886fb_sig_profile_update_timeMon Apr 26 13:41:06 +0530 2010fb_sig_timeSat Jul 24 16:29:03 +0530 2010
+cookie
+fbs_105093279544714
+"access_token=105093279544714|024fb15986c203e8068ab58c-632510886|KGqnvQyRVsGexUSEcaujgRteeY0.&expires=0&secret=be02a101e8c392621a5348a134ab6e57&session_key=024fb15986c203e8068ab58c-632510886&sig=cc74aac174c0b7c826a3f76ecca261a9&uid=632510886"
+path
+fbs_297512602099
+cookie
+fbs_105093279544714
+"access_token=105093279544714|024fb15986c203e8068ab58c-632510886|KGqnvQyRVsGexUSEcaujgRteeY0.&expires=0&secret=be02a101e8c392621a5348a134ab6e57&session_key=024fb15986c203e8068ab58c-632510886&sig=cc74aac174c0b7c826a3f76ecca261a9&uid=632510886"
+path
+fbs_297512602099
+  [4;35;1mArtist Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `artists`[0m
+  [4;36;1mArtist Load (0.6ms)[0m   [0;1mSELECT * FROM `artists` WHERE (`artists`.`fb_user_id` = '632510886') LIMIT 1[0m
+admin
+Rendering facebook/partner
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM `pages` WHERE (administrator_id = 632510886) [0m
+  [4;36;1mPage Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT pages.*, A.page_id as allow FROM `pages` left join artist_allowed_pages A on pages.page_id = A.page_id WHERE (administrator_id != 632510886) [0m
+Completed in 2921ms (View: 7, DB: 4) | 200 OK [http://localhost/facebook/?fb_sig_in_iframe=1&fb_sig_iframe_key=1ff1de774005f8da13f42943881c655f&fb_sig_locale=en_US&fb_sig_in_new_facebook=1&fb_sig_time=1279969143.2322&fb_sig_added=1&fb_sig_profile_update_time=1272269466&fb_sig_expires=0&fb_sig_user=632510886&fb_sig_session_key=024fb15986c203e8068ab58c-632510886&fb_sig_ss=be02a101e8c392621a5348a134ab6e57&fb_sig_cookie_sig=5a971f430cade1811c3bfd20969184fb&fb_sig_ext_perms=status_update%2Cphoto_upload%2Cvideo_upload%2Coffline_access%2Ccreate_note%2Cshare_item%2Cpublish_stream%2Cmanage_pages&fb_sig_country=in&fb_sig_api_key=93be83437446f5288629ec944c0fd076&fb_sig_app_id=105093279544714&fb_sig=5b4198495d7372f8c1550cae72ead7a0]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (0.0ms)[0m   [0mMysql::Error: Table 'mahala_development.activities' doesn't exist: SHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'mahala_development.places' doesn't exist: SHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (0.0ms)[0m   [0mMysql::Error: Table 'mahala_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-24 16:29:09) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/controls.js" with {:method=>:get, :canvas=>false}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (200)
