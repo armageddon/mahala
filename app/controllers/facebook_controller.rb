@@ -152,7 +152,7 @@ class FacebookController < ApplicationController
   end
   
   def post_to_newsfeed
-logger.info('POST TO NEWSFEED')
+    logger.info('POST TO NEWSFEED')
     text = params[:post_text]
     title = params[:post_title]
     text = text.split('<')[0]  if text.index('<') != nil
@@ -162,8 +162,12 @@ logger.info('POST TO NEWSFEED')
     
     ret = ""
     #pages.each do |p|
-    pages=Page.find(:all, :conditions=>"allow=1")
-    pages.each do |p|
+      pages=Page.find(:all, :conditions=>"allow=1")
+      
+      pages.each do |p|
+      logger.info(p)
+      logger.info(fb_page_id)
+       logger.info(p.administrator_id)
       aap = ArtistAllowedPage.find_by_artist_id_and_page_id(p.administrator_id, fb_page_id)
       if aap != nil
         @access_token = p.access_token
