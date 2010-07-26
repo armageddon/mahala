@@ -172,7 +172,8 @@ class FacebookController < ApplicationController
       if aap != nil
         @access_token = p.access_token
         @uid = p.page_id
-        ret = MiniFB.post(@access_token, @uid, :type=>'feed',  :message=>title + ' : ' + text, :link=>"http://www.blog.lovecapetownmusic.com", :name=>'Mahala Music' ,:description=> 'Join Mahala for hundreds of free tracks!',  :caption => "Discover the best Cape Town free music downloads"  ,:picture => "http://blog.lovecapetownmusic.com/wp-content/uploads/mahalalogo.png")
+        mes = title||'' + ' : ' + text||''
+        ret = MiniFB.post(@access_token, @uid, :type=>'feed',  :message=>mes, :link=>"http://www.blog.lovecapetownmusic.com", :name=>'Mahala Music' ,:description=> 'Join Mahala for hundreds of free tracks!',  :caption => "Discover the best Cape Town free music downloads"  ,:picture => "http://blog.lovecapetownmusic.com/wp-content/uploads/mahalalogo.png")
       end
     end
     render :text => ret
