@@ -158,7 +158,7 @@ class FacebookController < ApplicationController
     text = text.split('<')[0]  if text.index('<') != nil
 
     logger.info(params)
-    fb_page_id = params[:fb_page_id]
+    fb_page_id = params[:artist_fb_page_id]
     
     ret = ""
     #pages.each do |p|
