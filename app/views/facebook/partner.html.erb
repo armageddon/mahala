@@ -50,7 +50,7 @@
         <br />
         <div>
           Get updates from these pages: <br />
-          <%Page.find(:all,:select=> 'distinct pages.*, PPP.page_id as allow',:joins=>'left join page_publish_pages PPP on pages.page_id = PPP.publish_page_id', :conditions=>'page_publish_pages.page_id not in ( ' +this_artist_pages.chomp(',')+')').each do |p|%>
+          <%Page.find(:all,:select=> 'distinct pages.*, PPP.page_id as allow',:joins=>'left join page_publish_pages PPP on pages.page_id = PPP.publish_page_id', :conditions=>'PPP.page_id not in ( ' +this_artist_pages.chomp(',')+')').each do |p|%>
             <%= check_box_tag("allow",p.page_id,p.allow!=nil, :width=>"25px", :class=>'allow_page_check') %>
             <img src="http://graph.facebook.com/<%=p.page_id%>/picture" width="30" /><%=p.name%> <br />
           <%end%>
