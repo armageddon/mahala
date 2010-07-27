@@ -153,11 +153,15 @@ class FacebookController < ApplicationController
     pages = Page.find(:all, :select => 'pages.*' , :joins => 'inner join artist_pages AP on AP.page_id = pages.page_id', :conditions=>'AP.artist_id  = ' + artist_id.to_s)
     if allow=='false'
       pages.each do |p|
+        logger.debug(p.name)
+
       ppp = PagePublishPage.find_by_page_id_and_publish_page_id(p.page_id, page_id)
       ppp.destroy
       end
     else
       pages.each do |p|
+         logger.debug(p.name)
+   
       ppp = PagePublishPage.new(:page_id => p.page_id, :publish_page_id => page_id)
       ppp.save
       end
