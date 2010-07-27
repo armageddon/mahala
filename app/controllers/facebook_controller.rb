@@ -6,12 +6,21 @@ class FacebookController < ApplicationController
     begin
       @response_hash = MiniFB.get(@access_token, @uid, :type=>'accounts')
       @response_hash.data.each do |p|
-        page = Page.new
-        page.access_token = p.access_token
-        page.administrator_id = @uid
-        page.name = p.name
-        page.page_id = p.id
-        page.save
+        #check if page exists and add if it doesnt
+        page = Page.find_by_page_id(p.id)
+        if page == nil
+          page = Page.new
+          page.name = p.name
+          page.page_id = p.id
+          page.save
+        end
+        #add artist_page record
+        artist_page = ArtistPage.find_by_artist_id_and_page_id(@uid,page.page_id)
+        artist_page = ArtistPage.new if artist_page == nil
+        artist_page.page_id = page.page_id
+        artist_page.artist_id = @uid
+        artist_page.access_token = p.access_token
+        artist_page.save
       end
       logger.debug(@page_access_token)
       logger.debug(@response_hash)
@@ -129,7 +138,7 @@ class FacebookController < ApplicationController
     page_id = params[:page_id]
     allow = params[:allow]
     logger.debug(params)
-    page = Page.find_by_administrator_id_and_page_id(artist_id, page_id)
+    page = Page.find_by_page_id(page_id)
     page.allow=allow
     page.save
 
@@ -141,12 +150,17 @@ class FacebookController < ApplicationController
     page_id = params[:page_id]
     allow = params[:allow]
     logger.debug(params)
+    pages = Page.find(:all, :select => 'pages.*' , :joins => 'inner join artist_pages AP on AP.page_id = pages.page_id', :conditions=>'AP.artist_id  = ' + artist_id.to_s)
     if allow=='false'
-      aap = ArtistAllowedPage.find_by_artist_id_and_page_id(artist_id, page_id)
-      aap.destroy
+      pages.each do |p|
+      ppp = PagePublishPage.find_by_page_id_and_publish_page_id(p.page_id, page_id)
+      ppp.destroy
+      end
     else
-      aap = ArtistAllowedPage.new(:artist_id => artist_id, :page_id => page_id)
-      aap.save
+      pages.each do |p|
+      ppp = PagePublishPage.new(:page_id => p.page_id, :publish_page_id => page_id)
+      ppp.save
+      end
     end
     render :text => 'success'
   end
@@ -162,15 +176,15 @@ class FacebookController < ApplicationController
     
     ret = ""
     #pages.each do |p|
-      pages=Page.find(:all, :conditions=>"allow=1")
+    pages=Page.find(:all, :conditions=>"allow=1")
       
-      pages.each do |p|
+    pages.each do |p|
       logger.info(p)
       logger.info(fb_page_id)
-       logger.info(p.administrator_id)
-      aap = ArtistAllowedPage.find_by_artist_id_and_page_id(p.administrator_id, fb_page_id)
+      logger.info(p.administrator_id)
+      ppp = PagePublishPage.find_by_page_id_and_publish_page_id(p.page_id, fb_page_id)
       if aap != nil
-        @access_token = p.access_token
+        @access_token = ppp.access_token
         @uid = p.page_id
         mes = title||'' + ' : ' + text||''
         ret = MiniFB.post(@access_token, @uid, :type=>'feed',  :message=>mes, :link=>"http://www.blog.lovecapetownmusic.com", :name=>'Mahala Music' ,:description=> 'Join Mahala for hundreds of free tracks!',  :caption => "Discover the best Cape Town free music downloads"  ,:picture => "http://blog.lovecapetownmusic.com/wp-content/uploads/mahalalogo.png")
@@ -187,6 +201,45 @@ class FacebookController < ApplicationController
     logger.debug(params)
     #ret = MiniFB.post(@access_token, @uid, :type=>'feed',  :message=>DateTime.now.to_s)
     render :text => 'ret'
+  end
+
+  def fb_get_events
+    #get events for each artist
+    artists = Artist.find(:all)
+    logger.debug(artists.length)
+    @events = Array.new
+    artists.each do |a|
+      q="select uid, eid, rsvp_status  from event_member where uid = "+ a.fb_user_id.to_s 
+      logger.debug(q)
+      logger.debug(a.access_token)
+      @events = MiniFB.fql(a.access_token, q)
+      logger.debug(@events)
+      (0..@events.length-1).each do |e|
+        sql =<<-SQL
+       insert into events (object_id, object_type_id, event_id, rsvp_status) values (#{@events[e].uid},1,#{@events[e].eid},'#{@events[e].rsvp_status}')
+        SQL
+        r = ActiveRecord::Base.connection.execute sql
+      end
+    end
+
+    pages = Page.find(:all)
+    logger.debug(pages.length)
+    @events = Array.new
+    pages.each do |p|
+      q="select uid, eid, rsvp_status  from event_member where uid = "+ p.page_id.to_s
+      logger.debug(q)
+      logger.debug(p.access_token)
+      @events = MiniFB.fql(p.access_token, q)
+      logger.debug(@events)
+      (0..@events.length-1).each do |e|
+        sql =<<-SQL
+       insert into events (object_id, object_type_id, event_id, rsvp_status) values (#{@events[e].uid},2,#{@events[e].eid},'#{@events[e].rsvp_status}')
+        SQL
+        r = ActiveRecord::Base.connection.execute sql
+      end
+    end
+    #get events for each page
+
   end
 
   def new_visitor

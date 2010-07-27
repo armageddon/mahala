@@ -5,6 +5,7 @@ ActionController::Routing::Routes.draw do |map|
   map.facebook_post '/facebook_post', :controller => 'facebook', :action=>'post_from_m'
   #facebook controller
   map.resources :facebook
+  map.fb_get_events '/fb_get_events',   :controller=>'facebook', :action=>'fb_get_events'
   map.facebook_allow_page '/allow_page', :controller=>'facebook', :action=>'allow_page'
   map.facebook_allow_page_admin '/allow_page_admin', :controller=>'facebook', :action=>'allow_page_admin'
   map.facebook_tab 'facebook/tab',  :controller => 'facebook', :action=>'facebook_tab'
