@@ -175,6 +175,7 @@ class FacebookController < ApplicationController
     logger.info('POST TO NEWSFEED')
     text = params[:post_text]
     title = params[:post_title]
+    logger.info(text.index('<') )
     text = text.split('<')[0]  if text.index('<') != nil
 
     logger.info(params)
@@ -190,7 +191,6 @@ class FacebookController < ApplicationController
       logger.info(p.administrator_id)
       ppp = PagePublishPage.find_by_page_id_and_publish_page_id(p.page_id, fb_page_id)
       if ppp != nil
-       
         @access_token = p.access_token
         @uid = p.page_id
         mes = title||'' + ' : ' + text||''
