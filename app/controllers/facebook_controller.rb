@@ -12,6 +12,7 @@ class FacebookController < ApplicationController
           page = Page.new
           page.name = p.name
           page.page_id = p.id
+          page.access.token = p.access_token
           page.save
         end
         #add artist_page record
@@ -188,7 +189,8 @@ class FacebookController < ApplicationController
       logger.info(p.administrator_id)
       ppp = PagePublishPage.find_by_page_id_and_publish_page_id(p.page_id, fb_page_id)
       if ppp != nil
-        @access_token = ppp.access_token
+       
+        @access_token = p.access_token
         @uid = p.page_id
         mes = title||'' + ' : ' + text||''
         ret = MiniFB.post(@access_token, @uid, :type=>'feed',  :message=>mes, :link=>"http://www.blog.lovecapetownmusic.com", :name=>'Mahala Music' ,:description=> 'Join Mahala for hundreds of free tracks!',  :caption => "Discover the best Cape Town free music downloads"  ,:picture => "http://blog.lovecapetownmusic.com/wp-content/uploads/mahalalogo.png")
