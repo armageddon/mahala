@@ -187,7 +187,7 @@ class FacebookController < ApplicationController
       logger.info(fb_page_id)
       logger.info(p.administrator_id)
       ppp = PagePublishPage.find_by_page_id_and_publish_page_id(p.page_id, fb_page_id)
-      if aap != nil
+      if ppp != nil
         @access_token = ppp.access_token
         @uid = p.page_id
         mes = title||'' + ' : ' + text||''
