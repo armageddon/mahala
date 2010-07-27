@@ -6,13 +6,14 @@ class FacebookController < ApplicationController
     begin
       @response_hash = MiniFB.get(@access_token, @uid, :type=>'accounts')
       @response_hash.data.each do |p|
+        logger.info(p)
         #check if page exists and add if it doesnt
         page = Page.find_by_page_id(p.id)
         if page == nil
           page = Page.new
           page.name = p.name
           page.page_id = p.id
-          page.access.token = p.access_token
+          page.access_token = p.access_token
           page.save
         end
         #add artist_page record

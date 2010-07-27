@@ -15226,3 +15226,605 @@ Gunterstone Road
   [4;36;1mPagePublishPage Destroy (0.1ms)[0m   [0;1mDELETE FROM `page_publish_pages` WHERE `id` = 13[0m
   [4;35;1mSQL (0.4ms)[0m   [0mCOMMIT[0m
 Completed in 22ms (View: 1, DB: 8) | 200 OK [http://localhost/allow_page]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (0.0ms)[0m   [0mMysql::Error: Table 'mahala_development.activities' doesn't exist: SHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'mahala_development.places' doesn't exist: SHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (0.0ms)[0m   [0mMysql::Error: Table 'mahala_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+
+
+Processing FacebookController#index (for 127.0.0.1 at 2010-07-27 13:25:27) [GET]
+  Parameters: {"fb_sig_app_id"=>"105093279544714", "fb_sig_iframe_key"=>"02e74f10e0327ad868d138f2b4fdd6f0", "fb_sig_in_iframe"=>"1", "fb_sig_locale"=>"en_US", "fb_sig_in_new_facebook"=>"1", "fb_sig"=>"2fad78695289894048e6f026bbd42652", "fb_sig_added"=>"1", "fb_sig_expires"=>"0", "fb_sig_session_key"=>"3991bb8625660b638ebf9293-632510886", "fb_sig_cookie_sig"=>"c388b472d180d7d6193485c72e1a0477", "fb_sig_ext_perms"=>"status_update,photo_upload,video_upload,offline_access,create_note,share_item,publish_stream,manage_pages,user_events", "fb_sig_country"=>"in", "fb_sig_ss"=>"0257ed748462417b0ba79f28d216b531", "fb_sig_api_key"=>"93be83437446f5288629ec944c0fd076", "fb_sig_time"=>"1280217324.9628", "fb_sig_profile_update_time"=>"1272269466", "fb_sig_user"=>"632510886"}
+fb_sig_app_id105093279544714fb_sig_iframe_key02e74f10e0327ad868d138f2b4fdd6f0fb_sig_localeen_USfb_sig_in_iframe1actionindexfb_sig2fad78695289894048e6f026bbd42652fb_sig_in_new_facebook1fb_sig_added1fb_sig_countryinfb_sig_ext_permsstatus_update,photo_upload,video_upload,offline_access,create_note,share_item,publish_stream,manage_pages,user_eventsfb_sig_cookie_sigc388b472d180d7d6193485c72e1a0477fb_sig_session_key3991bb8625660b638ebf9293-632510886fb_sig_expires0fb_sig_ss0257ed748462417b0ba79f28d216b531controllerfacebookfb_sig_api_key93be83437446f5288629ec944c0fd076fb_sig_user632510886fb_sig_profile_update_time1272269466fb_sig_time1280217324.9628
+cookie
+fbs_105093279544714
+"access_token=105093279544714|3991bb8625660b638ebf9293-632510886|G-QBJyHIG8p-oZKIwmN-lp6eizs.&expires=0&secret=0257ed748462417b0ba79f28d216b531&session_key=3991bb8625660b638ebf9293-632510886&sig=cfda9ca561386f50d57b3116f0c07582&uid=632510886"
+path
+_pulse_session
+fbs_297512602099
+cookie
+fbs_105093279544714
+"access_token=105093279544714|3991bb8625660b638ebf9293-632510886|G-QBJyHIG8p-oZKIwmN-lp6eizs.&expires=0&secret=0257ed748462417b0ba79f28d216b531&session_key=3991bb8625660b638ebf9293-632510886&sig=cfda9ca561386f50d57b3116f0c07582&uid=632510886"
+path
+_pulse_session
+fbs_297512602099
+  [4;36;1mArtist Columns (4.7ms)[0m   [0;1mSHOW FIELDS FROM `artists`[0m
+  [4;35;1mArtist Load (0.7ms)[0m   [0mSELECT * FROM `artists` WHERE (`artists`.`fb_user_id` = '632510886') LIMIT 1[0m
+Rendering facebook/login
+Completed in 5192ms (View: 5, DB: 5) | 200 OK [http://localhost/facebook/?fb_sig_in_iframe=1&fb_sig_iframe_key=02e74f10e0327ad868d138f2b4fdd6f0&fb_sig_locale=en_US&fb_sig_in_new_facebook=1&fb_sig_time=1280217324.9628&fb_sig_added=1&fb_sig_profile_update_time=1272269466&fb_sig_expires=0&fb_sig_user=632510886&fb_sig_session_key=3991bb8625660b638ebf9293-632510886&fb_sig_ss=0257ed748462417b0ba79f28d216b531&fb_sig_cookie_sig=c388b472d180d7d6193485c72e1a0477&fb_sig_ext_perms=status_update%2Cphoto_upload%2Cvideo_upload%2Coffline_access%2Ccreate_note%2Cshare_item%2Cpublish_stream%2Cmanage_pages%2Cuser_events&fb_sig_country=in&fb_sig_api_key=93be83437446f5288629ec944c0fd076&fb_sig_app_id=105093279544714&fb_sig=2fad78695289894048e6f026bbd42652]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (0.0ms)[0m   [0mMysql::Error: Table 'mahala_development.activities' doesn't exist: SHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'mahala_development.places' doesn't exist: SHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (0.0ms)[0m   [0mMysql::Error: Table 'mahala_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-27 13:25:33) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/controls.js" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (0.0ms)[0m   [0mMysql::Error: Table 'mahala_development.activities' doesn't exist: SHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'mahala_development.places' doesn't exist: SHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (0.0ms)[0m   [0mMysql::Error: Table 'mahala_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+
+
+Processing FacebookController#new_visitor (for 127.0.0.1 at 2010-07-27 13:25:39) [PUT]
+"access_token=105093279544714|3991bb8625660b638ebf9293-632510886|G-QBJyHIG8p-oZKIwmN-lp6eizs.&expires=0&secret=0257ed748462417b0ba79f28d216b531&session_key=3991bb8625660b638ebf9293-632510886&sig=cfda9ca561386f50d57b3116f0c07582&uid=632510886"
+6
+"access_token      105093279544714|3991bb8625660b638ebf9293-632510886|G-QBJyHIG8p-oZKIwmN-lp6eizs.
+expires      0
+secret      0257ed748462417b0ba79f28d216b531
+session_key      3991bb8625660b638ebf9293-632510886
+sig      cfda9ca561386f50d57b3116f0c07582
+uid      632510886"
+  [4;36;1mArtist Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `artists`[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mArtist Create (0.2ms)[0m   [0;1mINSERT INTO `artists` (`created_at`, `fb_user_id`, `updated_at`, `admin`, `auth_code`, `access_token`) VALUES('2010-07-27 07:55:39', 632510886, '2010-07-27 07:55:39', NULL, NULL, '105093279544714|3991bb8625660b638ebf9293-632510886|G-QBJyHIG8p-oZKIwmN-lp6eizs.')[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mCOMMIT[0m
+<#Hashie::Mash access_token="105093279544714|3991bb8625660b638ebf9293-632510886|179867002844|fGskC7aWPZM9Rk6KHBoYZ0IxKZU." category="Musicians" id="179867002844" name="African Dope">
+  [4;36;1mPage Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`page_id` = '179867002844') LIMIT 1[0m
+Error
+Completed in 1356ms (View: 1, DB: 6) | 200 OK [http://localhost/visitor]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (0.0ms)[0m   [0mMysql::Error: Table 'mahala_development.activities' doesn't exist: SHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'mahala_development.places' doesn't exist: SHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (0.0ms)[0m   [0mMysql::Error: Table 'mahala_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+
+
+Processing FacebookController#index (for 127.0.0.1 at 2010-07-27 13:25:41) [GET]
+  Parameters: {"fb_sig_app_id"=>"105093279544714", "fb_sig_iframe_key"=>"02e74f10e0327ad868d138f2b4fdd6f0", "fb_sig_in_iframe"=>"1", "fb_sig_locale"=>"en_US", "fb_sig_in_new_facebook"=>"1", "fb_sig"=>"2fad78695289894048e6f026bbd42652", "fb_sig_added"=>"1", "fb_sig_expires"=>"0", "fb_sig_session_key"=>"3991bb8625660b638ebf9293-632510886", "fb_sig_cookie_sig"=>"c388b472d180d7d6193485c72e1a0477", "fb_sig_ext_perms"=>"status_update,photo_upload,video_upload,offline_access,create_note,share_item,publish_stream,manage_pages,user_events", "fb_sig_country"=>"in", "fb_sig_ss"=>"0257ed748462417b0ba79f28d216b531", "fb_sig_api_key"=>"93be83437446f5288629ec944c0fd076", "fb_sig_time"=>"1280217324.9628", "fb_sig_profile_update_time"=>"1272269466", "fb_sig_user"=>"632510886"}
+fb_sig_app_id105093279544714fb_sig_iframe_key02e74f10e0327ad868d138f2b4fdd6f0fb_sig_localeen_USfb_sig_in_iframe1actionindexfb_sig2fad78695289894048e6f026bbd42652fb_sig_in_new_facebook1fb_sig_added1fb_sig_countryinfb_sig_ext_permsstatus_update,photo_upload,video_upload,offline_access,create_note,share_item,publish_stream,manage_pages,user_eventsfb_sig_cookie_sigc388b472d180d7d6193485c72e1a0477fb_sig_session_key3991bb8625660b638ebf9293-632510886fb_sig_expires0fb_sig_ss0257ed748462417b0ba79f28d216b531controllerfacebookfb_sig_api_key93be83437446f5288629ec944c0fd076fb_sig_user632510886fb_sig_profile_update_time1272269466fb_sig_time1280217324.9628
+cookie
+fbs_105093279544714
+"access_token=105093279544714|3991bb8625660b638ebf9293-632510886|G-QBJyHIG8p-oZKIwmN-lp6eizs.&expires=0&secret=0257ed748462417b0ba79f28d216b531&session_key=3991bb8625660b638ebf9293-632510886&sig=cfda9ca561386f50d57b3116f0c07582&uid=632510886"
+path
+_pulse_session
+fbs_297512602099
+cookie
+fbs_105093279544714
+"access_token=105093279544714|3991bb8625660b638ebf9293-632510886|G-QBJyHIG8p-oZKIwmN-lp6eizs.&expires=0&secret=0257ed748462417b0ba79f28d216b531&session_key=3991bb8625660b638ebf9293-632510886&sig=cfda9ca561386f50d57b3116f0c07582&uid=632510886"
+path
+_pulse_session
+fbs_297512602099
+  [4;36;1mArtist Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `artists`[0m
+  [4;35;1mArtist Load (0.3ms)[0m   [0mSELECT * FROM `artists` WHERE (`artists`.`fb_user_id` = '632510886') LIMIT 1[0m
+admin
+Rendering facebook/partner
+  [4;36;1mPage Load (0.5ms)[0m   [0;1mSELECT pages.* FROM `pages` inner join artist_pages AP on AP.page_id = pages.page_id WHERE (AP.artist_id = 632510886) [0m
+Completed in 1409ms (View: 18, DB: 2) | 200 OK [http://localhost/facebook/?fb_sig_in_iframe=1&fb_sig_iframe_key=02e74f10e0327ad868d138f2b4fdd6f0&fb_sig_locale=en_US&fb_sig_in_new_facebook=1&fb_sig_time=1280217324.9628&fb_sig_added=1&fb_sig_profile_update_time=1272269466&fb_sig_expires=0&fb_sig_user=632510886&fb_sig_session_key=3991bb8625660b638ebf9293-632510886&fb_sig_ss=0257ed748462417b0ba79f28d216b531&fb_sig_cookie_sig=c388b472d180d7d6193485c72e1a0477&fb_sig_ext_perms=status_update%2Cphoto_upload%2Cvideo_upload%2Coffline_access%2Ccreate_note%2Cshare_item%2Cpublish_stream%2Cmanage_pages%2Cuser_events&fb_sig_country=in&fb_sig_api_key=93be83437446f5288629ec944c0fd076&fb_sig_app_id=105093279544714&fb_sig=2fad78695289894048e6f026bbd42652]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mActivity Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'mahala_development.activities' doesn't exist: SHOW FIELDS FROM `activities`[0m
+  [4;35;1mPlace Columns (0.0ms)[0m   [0mMysql::Error: Table 'mahala_development.places' doesn't exist: SHOW FIELDS FROM `places`[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'mahala_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+
+
+Processing FacebookController#index (for 127.0.0.1 at 2010-07-27 13:25:44) [GET]
+  Parameters: {"fb_sig_app_id"=>"105093279544714", "fb_sig_iframe_key"=>"02e74f10e0327ad868d138f2b4fdd6f0", "fb_sig_in_iframe"=>"1", "fb_sig_locale"=>"en_US", "fb_sig_in_new_facebook"=>"1", "fb_sig"=>"381f266159f4a47522307faa37c60558", "fb_sig_added"=>"1", "fb_sig_expires"=>"0", "fb_sig_session_key"=>"b2c8ab628e51e46f38b5a5e6-100000999791399", "fb_sig_cookie_sig"=>"83ca433f38b09edcbebf84887584e94b", "fb_sig_ext_perms"=>"status_update,photo_upload,video_upload,offline_access,create_note,share_item,publish_stream,manage_pages,user_events", "fb_sig_country"=>"in", "fb_sig_ss"=>"0890cebd14c61d34bd4e37234729f192", "fb_sig_api_key"=>"93be83437446f5288629ec944c0fd076", "fb_sig_time"=>"1280217334.7117", "fb_sig_profile_update_time"=>"1271246653", "fb_sig_user"=>"100000999791399"}
+fb_sig_app_id105093279544714fb_sig_iframe_key02e74f10e0327ad868d138f2b4fdd6f0fb_sig_localeen_USfb_sig_in_iframe1actionindexfb_sig381f266159f4a47522307faa37c60558fb_sig_in_new_facebook1fb_sig_added1fb_sig_countryinfb_sig_ext_permsstatus_update,photo_upload,video_upload,offline_access,create_note,share_item,publish_stream,manage_pages,user_eventsfb_sig_cookie_sig83ca433f38b09edcbebf84887584e94bfb_sig_session_keyb2c8ab628e51e46f38b5a5e6-100000999791399fb_sig_expires0fb_sig_ss0890cebd14c61d34bd4e37234729f192controllerfacebookfb_sig_api_key93be83437446f5288629ec944c0fd076fb_sig_user100000999791399fb_sig_profile_update_time1271246653fb_sig_time1280217334.7117
+cookie
+fbs_105093279544714
+"access_token=105093279544714|b2c8ab628e51e46f38b5a5e6-100000999791399|itoxvVbf-4br-y3IgtpAtA_srPY.&expires=0&secret=0890cebd14c61d34bd4e37234729f192&session_key=b2c8ab628e51e46f38b5a5e6-100000999791399&sig=38217aa62d72aa6571c4c92ae0b39777&uid=100000999791399"
+path
+fbs_297512602099
+cookie
+fbs_105093279544714
+"access_token=105093279544714|b2c8ab628e51e46f38b5a5e6-100000999791399|itoxvVbf-4br-y3IgtpAtA_srPY.&expires=0&secret=0890cebd14c61d34bd4e37234729f192&session_key=b2c8ab628e51e46f38b5a5e6-100000999791399&sig=38217aa62d72aa6571c4c92ae0b39777&uid=100000999791399"
+path
+fbs_297512602099
+  [4;35;1mArtist Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `artists`[0m
+  [4;36;1mArtist Load (6.4ms)[0m   [0;1mSELECT * FROM `artists` WHERE (`artists`.`fb_user_id` = '100000999791399') LIMIT 1[0m
+Rendering facebook/login
+Completed in 1550ms (View: 3, DB: 9) | 200 OK [http://localhost/facebook/?fb_sig_in_iframe=1&fb_sig_iframe_key=02e74f10e0327ad868d138f2b4fdd6f0&fb_sig_locale=en_US&fb_sig_in_new_facebook=1&fb_sig_time=1280217334.7117&fb_sig_added=1&fb_sig_profile_update_time=1271246653&fb_sig_expires=0&fb_sig_user=100000999791399&fb_sig_session_key=b2c8ab628e51e46f38b5a5e6-100000999791399&fb_sig_ss=0890cebd14c61d34bd4e37234729f192&fb_sig_cookie_sig=83ca433f38b09edcbebf84887584e94b&fb_sig_ext_perms=status_update%2Cphoto_upload%2Cvideo_upload%2Coffline_access%2Ccreate_note%2Cshare_item%2Cpublish_stream%2Cmanage_pages%2Cuser_events&fb_sig_country=in&fb_sig_api_key=93be83437446f5288629ec944c0fd076&fb_sig_app_id=105093279544714&fb_sig=381f266159f4a47522307faa37c60558]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mActivity Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'mahala_development.activities' doesn't exist: SHOW FIELDS FROM `activities`[0m
+  [4;35;1mPlace Columns (0.0ms)[0m   [0mMysql::Error: Table 'mahala_development.places' doesn't exist: SHOW FIELDS FROM `places`[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'mahala_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-27 13:25:47) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/controls.js" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mActivity Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'mahala_development.activities' doesn't exist: SHOW FIELDS FROM `activities`[0m
+  [4;35;1mPlace Columns (0.0ms)[0m   [0mMysql::Error: Table 'mahala_development.places' doesn't exist: SHOW FIELDS FROM `places`[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'mahala_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-27 13:25:47) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/controls.js" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mActivity Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'mahala_development.activities' doesn't exist: SHOW FIELDS FROM `activities`[0m
+  [4;35;1mPlace Columns (0.0ms)[0m   [0mMysql::Error: Table 'mahala_development.places' doesn't exist: SHOW FIELDS FROM `places`[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'mahala_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-27 13:25:48) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/controls.js" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mActivity Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'mahala_development.activities' doesn't exist: SHOW FIELDS FROM `activities`[0m
+  [4;35;1mPlace Columns (0.0ms)[0m   [0mMysql::Error: Table 'mahala_development.places' doesn't exist: SHOW FIELDS FROM `places`[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'mahala_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+
+
+Processing FacebookController#new_visitor (for 127.0.0.1 at 2010-07-27 13:26:31) [PUT]
+"access_token=105093279544714|b2c8ab628e51e46f38b5a5e6-100000999791399|itoxvVbf-4br-y3IgtpAtA_srPY.&expires=0&secret=0890cebd14c61d34bd4e37234729f192&session_key=b2c8ab628e51e46f38b5a5e6-100000999791399&sig=38217aa62d72aa6571c4c92ae0b39777&uid=100000999791399"
+6
+"access_token      105093279544714|b2c8ab628e51e46f38b5a5e6-100000999791399|itoxvVbf-4br-y3IgtpAtA_srPY.
+expires      0
+secret      0890cebd14c61d34bd4e37234729f192
+session_key      b2c8ab628e51e46f38b5a5e6-100000999791399
+sig      38217aa62d72aa6571c4c92ae0b39777
+uid      100000999791399"
+  [4;35;1mArtist Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `artists`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mArtist Create (0.3ms)[0m   [0mINSERT INTO `artists` (`created_at`, `fb_user_id`, `updated_at`, `admin`, `auth_code`, `access_token`) VALUES('2010-07-27 07:56:31', 100000999791399, '2010-07-27 07:56:31', NULL, NULL, '105093279544714|b2c8ab628e51e46f38b5a5e6-100000999791399|itoxvVbf-4br-y3IgtpAtA_srPY.')[0m
+  [4;36;1mSQL (21.6ms)[0m   [0;1mCOMMIT[0m
+<#Hashie::Mash access_token="105093279544714|b2c8ab628e51e46f38b5a5e6-100000999791399|136097313080866|Bv3dk8s9Ag-JnXz8D54Zf-bijJs." category="Local_business" id="136097313080866" name="toist">
+  [4;35;1mPage Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (1.4ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`page_id` = '136097313080866') LIMIT 1[0m
+Error
+Completed in 5198ms (View: 2, DB: 27) | 200 OK [http://localhost/visitor]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mActivity Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'mahala_development.activities' doesn't exist: SHOW FIELDS FROM `activities`[0m
+  [4;35;1mPlace Columns (0.0ms)[0m   [0mMysql::Error: Table 'mahala_development.places' doesn't exist: SHOW FIELDS FROM `places`[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'mahala_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+
+
+Processing FacebookController#index (for 127.0.0.1 at 2010-07-27 13:26:36) [GET]
+  Parameters: {"fb_sig_app_id"=>"105093279544714", "fb_sig_iframe_key"=>"02e74f10e0327ad868d138f2b4fdd6f0", "fb_sig_in_iframe"=>"1", "fb_sig_locale"=>"en_US", "fb_sig_in_new_facebook"=>"1", "fb_sig"=>"381f266159f4a47522307faa37c60558", "fb_sig_added"=>"1", "fb_sig_expires"=>"0", "fb_sig_session_key"=>"b2c8ab628e51e46f38b5a5e6-100000999791399", "fb_sig_cookie_sig"=>"83ca433f38b09edcbebf84887584e94b", "fb_sig_ext_perms"=>"status_update,photo_upload,video_upload,offline_access,create_note,share_item,publish_stream,manage_pages,user_events", "fb_sig_country"=>"in", "fb_sig_ss"=>"0890cebd14c61d34bd4e37234729f192", "fb_sig_api_key"=>"93be83437446f5288629ec944c0fd076", "fb_sig_time"=>"1280217334.7117", "fb_sig_profile_update_time"=>"1271246653", "fb_sig_user"=>"100000999791399"}
+fb_sig_app_id105093279544714fb_sig_iframe_key02e74f10e0327ad868d138f2b4fdd6f0fb_sig_localeen_USfb_sig_in_iframe1actionindexfb_sig381f266159f4a47522307faa37c60558fb_sig_in_new_facebook1fb_sig_added1fb_sig_countryinfb_sig_ext_permsstatus_update,photo_upload,video_upload,offline_access,create_note,share_item,publish_stream,manage_pages,user_eventsfb_sig_cookie_sig83ca433f38b09edcbebf84887584e94bfb_sig_session_keyb2c8ab628e51e46f38b5a5e6-100000999791399fb_sig_expires0fb_sig_ss0890cebd14c61d34bd4e37234729f192controllerfacebookfb_sig_api_key93be83437446f5288629ec944c0fd076fb_sig_user100000999791399fb_sig_profile_update_time1271246653fb_sig_time1280217334.7117
+cookie
+fbs_105093279544714
+"access_token=105093279544714|b2c8ab628e51e46f38b5a5e6-100000999791399|itoxvVbf-4br-y3IgtpAtA_srPY.&expires=0&secret=0890cebd14c61d34bd4e37234729f192&session_key=b2c8ab628e51e46f38b5a5e6-100000999791399&sig=38217aa62d72aa6571c4c92ae0b39777&uid=100000999791399"
+path
+fbs_297512602099
+cookie
+fbs_105093279544714
+"access_token=105093279544714|b2c8ab628e51e46f38b5a5e6-100000999791399|itoxvVbf-4br-y3IgtpAtA_srPY.&expires=0&secret=0890cebd14c61d34bd4e37234729f192&session_key=b2c8ab628e51e46f38b5a5e6-100000999791399&sig=38217aa62d72aa6571c4c92ae0b39777&uid=100000999791399"
+path
+fbs_297512602099
+  [4;35;1mArtist Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `artists`[0m
+  [4;36;1mArtist Load (0.6ms)[0m   [0;1mSELECT * FROM `artists` WHERE (`artists`.`fb_user_id` = '100000999791399') LIMIT 1[0m
+admin
+Rendering facebook/partner
+  [4;35;1mPage Load (0.4ms)[0m   [0mSELECT pages.* FROM `pages` inner join artist_pages AP on AP.page_id = pages.page_id WHERE (AP.artist_id = 100000999791399) [0m
+Completed in 1377ms (View: 5, DB: 3) | 200 OK [http://localhost/facebook/?fb_sig_in_iframe=1&fb_sig_iframe_key=02e74f10e0327ad868d138f2b4fdd6f0&fb_sig_locale=en_US&fb_sig_in_new_facebook=1&fb_sig_time=1280217334.7117&fb_sig_added=1&fb_sig_profile_update_time=1271246653&fb_sig_expires=0&fb_sig_user=100000999791399&fb_sig_session_key=b2c8ab628e51e46f38b5a5e6-100000999791399&fb_sig_ss=0890cebd14c61d34bd4e37234729f192&fb_sig_cookie_sig=83ca433f38b09edcbebf84887584e94b&fb_sig_ext_perms=status_update%2Cphoto_upload%2Cvideo_upload%2Coffline_access%2Ccreate_note%2Cshare_item%2Cpublish_stream%2Cmanage_pages%2Cuser_events&fb_sig_country=in&fb_sig_api_key=93be83437446f5288629ec944c0fd076&fb_sig_app_id=105093279544714&fb_sig=381f266159f4a47522307faa37c60558]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (0.0ms)[0m   [0mMysql::Error: Table 'mahala_development.activities' doesn't exist: SHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'mahala_development.places' doesn't exist: SHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (0.0ms)[0m   [0mMysql::Error: Table 'mahala_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-27 13:26:38) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/controls.js" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (0.0ms)[0m   [0mMysql::Error: Table 'mahala_development.activities' doesn't exist: SHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'mahala_development.places' doesn't exist: SHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (0.0ms)[0m   [0mMysql::Error: Table 'mahala_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+
+
+Processing FacebookController#index (for 127.0.0.1 at 2010-07-27 14:15:18) [GET]
+  Parameters: {"fb_sig_app_id"=>"105093279544714", "fb_sig_iframe_key"=>"02e74f10e0327ad868d138f2b4fdd6f0", "fb_sig_in_iframe"=>"1", "fb_sig_locale"=>"en_US", "fb_sig_in_new_facebook"=>"1", "fb_sig"=>"cf267205c6eb04affc02abb69af3061c", "fb_sig_added"=>"1", "fb_sig_expires"=>"0", "fb_sig_session_key"=>"3991bb8625660b638ebf9293-632510886", "fb_sig_cookie_sig"=>"c388b472d180d7d6193485c72e1a0477", "fb_sig_ext_perms"=>"status_update,photo_upload,video_upload,offline_access,create_note,share_item,publish_stream,manage_pages,user_events", "fb_sig_country"=>"in", "fb_sig_ss"=>"0257ed748462417b0ba79f28d216b531", "fb_sig_api_key"=>"93be83437446f5288629ec944c0fd076", "fb_sig_time"=>"1280220315.0605", "fb_sig_profile_update_time"=>"1272269466", "fb_sig_user"=>"632510886"}
+fb_sig_app_id105093279544714fb_sig_iframe_key02e74f10e0327ad868d138f2b4fdd6f0fb_sig_localeen_USfb_sig_in_iframe1actionindexfb_sigcf267205c6eb04affc02abb69af3061cfb_sig_in_new_facebook1fb_sig_added1fb_sig_countryinfb_sig_ext_permsstatus_update,photo_upload,video_upload,offline_access,create_note,share_item,publish_stream,manage_pages,user_eventsfb_sig_cookie_sigc388b472d180d7d6193485c72e1a0477fb_sig_session_key3991bb8625660b638ebf9293-632510886fb_sig_expires0fb_sig_ss0257ed748462417b0ba79f28d216b531controllerfacebookfb_sig_api_key93be83437446f5288629ec944c0fd076fb_sig_user632510886fb_sig_profile_update_time1272269466fb_sig_time1280220315.0605
+cookie
+fbs_105093279544714
+"access_token=105093279544714|3991bb8625660b638ebf9293-632510886|G-QBJyHIG8p-oZKIwmN-lp6eizs.&expires=0&secret=0257ed748462417b0ba79f28d216b531&session_key=3991bb8625660b638ebf9293-632510886&sig=cfda9ca561386f50d57b3116f0c07582&uid=632510886"
+path
+_pulse_session
+fbs_297512602099
+cookie
+fbs_105093279544714
+"access_token=105093279544714|3991bb8625660b638ebf9293-632510886|G-QBJyHIG8p-oZKIwmN-lp6eizs.&expires=0&secret=0257ed748462417b0ba79f28d216b531&session_key=3991bb8625660b638ebf9293-632510886&sig=cfda9ca561386f50d57b3116f0c07582&uid=632510886"
+path
+_pulse_session
+fbs_297512602099
+  [4;36;1mArtist Columns (9.9ms)[0m   [0;1mSHOW FIELDS FROM `artists`[0m
+  [4;35;1mArtist Load (0.3ms)[0m   [0mSELECT * FROM `artists` WHERE (`artists`.`fb_user_id` = '632510886') LIMIT 1[0m
+Rendering facebook/login
+Completed in 2313ms (View: 22, DB: 10) | 200 OK [http://localhost/facebook/?fb_sig_in_iframe=1&fb_sig_iframe_key=02e74f10e0327ad868d138f2b4fdd6f0&fb_sig_locale=en_US&fb_sig_in_new_facebook=1&fb_sig_time=1280220315.0605&fb_sig_added=1&fb_sig_profile_update_time=1272269466&fb_sig_expires=0&fb_sig_user=632510886&fb_sig_session_key=3991bb8625660b638ebf9293-632510886&fb_sig_ss=0257ed748462417b0ba79f28d216b531&fb_sig_cookie_sig=c388b472d180d7d6193485c72e1a0477&fb_sig_ext_perms=status_update%2Cphoto_upload%2Cvideo_upload%2Coffline_access%2Ccreate_note%2Cshare_item%2Cpublish_stream%2Cmanage_pages%2Cuser_events&fb_sig_country=in&fb_sig_api_key=93be83437446f5288629ec944c0fd076&fb_sig_app_id=105093279544714&fb_sig=cf267205c6eb04affc02abb69af3061c]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (0.0ms)[0m   [0mMysql::Error: Table 'mahala_development.activities' doesn't exist: SHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'mahala_development.places' doesn't exist: SHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (0.0ms)[0m   [0mMysql::Error: Table 'mahala_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-27 14:15:21) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/controls.js" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (0.0ms)[0m   [0mMysql::Error: Table 'mahala_development.activities' doesn't exist: SHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'mahala_development.places' doesn't exist: SHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (0.0ms)[0m   [0mMysql::Error: Table 'mahala_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+
+
+Processing FacebookController#new_visitor (for 127.0.0.1 at 2010-07-27 14:15:44) [PUT]
+"access_token=105093279544714|3991bb8625660b638ebf9293-632510886|G-QBJyHIG8p-oZKIwmN-lp6eizs.&expires=0&secret=0257ed748462417b0ba79f28d216b531&session_key=3991bb8625660b638ebf9293-632510886&sig=cfda9ca561386f50d57b3116f0c07582&uid=632510886"
+6
+"access_token      105093279544714|3991bb8625660b638ebf9293-632510886|G-QBJyHIG8p-oZKIwmN-lp6eizs.
+expires      0
+secret      0257ed748462417b0ba79f28d216b531
+session_key      3991bb8625660b638ebf9293-632510886
+sig      cfda9ca561386f50d57b3116f0c07582
+uid      632510886"
+  [4;36;1mArtist Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `artists`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mArtist Create (0.2ms)[0m   [0;1mINSERT INTO `artists` (`created_at`, `fb_user_id`, `updated_at`, `admin`, `auth_code`, `access_token`) VALUES('2010-07-27 08:45:44', 632510886, '2010-07-27 08:45:44', NULL, NULL, '105093279544714|3991bb8625660b638ebf9293-632510886|G-QBJyHIG8p-oZKIwmN-lp6eizs.')[0m
+  [4;35;1mSQL (17.1ms)[0m   [0mCOMMIT[0m
+<#Hashie::Mash access_token="105093279544714|3991bb8625660b638ebf9293-632510886|179867002844|fGskC7aWPZM9Rk6KHBoYZ0IxKZU." category="Musicians" id="179867002844" name="African Dope">
+  [4;36;1mPage Columns (4.5ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.7ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`page_id` = '179867002844') LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mPage Create (0.6ms)[0m   [0mINSERT INTO `pages` (`name`, `allow`, `created_at`, `administrator_id`, `updated_at`, `page_id`, `access_token`) VALUES('African Dope', 1, '2010-07-27 08:45:45', NULL, '2010-07-27 08:45:45', 179867002844, '105093279544714|3991bb8625660b638ebf9293-632510886|179867002844|fGskC7aWPZM9Rk6KHBoYZ0IxKZU.')[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mArtistPage Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `artist_pages`[0m
+  [4;36;1mArtistPage Load (1.7ms)[0m   [0;1mSELECT * FROM `artist_pages` WHERE (`artist_pages`.`artist_id` = '632510886' AND `artist_pages`.`page_id` = 179867002844) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mArtistPage Create (0.6ms)[0m   [0;1mINSERT INTO `artist_pages` (`created_at`, `updated_at`, `page_id`, `artist_id`, `access_token`) VALUES('2010-07-27 08:45:45', '2010-07-27 08:45:45', 179867002844, 632510886, '105093279544714|3991bb8625660b638ebf9293-632510886|179867002844|fGskC7aWPZM9Rk6KHBoYZ0IxKZU.')[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCOMMIT[0m
+<#Hashie::Mash access_token="105093279544714|3991bb8625660b638ebf9293-632510886|135589826470904|A6g4mM3p_FRXlcJRZxTrXzkdd-E." category="Public_figures_other" id="135589826470904" name="armageddon">
+  [4;36;1mPage Load (0.9ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`page_id` = '135589826470904') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPage Create (0.2ms)[0m   [0;1mINSERT INTO `pages` (`name`, `allow`, `created_at`, `administrator_id`, `updated_at`, `page_id`, `access_token`) VALUES('armageddon', 1, '2010-07-27 08:45:45', NULL, '2010-07-27 08:45:45', 135589826470904, '105093279544714|3991bb8625660b638ebf9293-632510886|135589826470904|A6g4mM3p_FRXlcJRZxTrXzkdd-E.')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mArtistPage Load (0.2ms)[0m   [0;1mSELECT * FROM `artist_pages` WHERE (`artist_pages`.`artist_id` = '632510886' AND `artist_pages`.`page_id` = 135589826470904) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mArtistPage Create (0.7ms)[0m   [0;1mINSERT INTO `artist_pages` (`created_at`, `updated_at`, `page_id`, `artist_id`, `access_token`) VALUES('2010-07-27 08:45:45', '2010-07-27 08:45:45', 135589826470904, 632510886, '105093279544714|3991bb8625660b638ebf9293-632510886|135589826470904|A6g4mM3p_FRXlcJRZxTrXzkdd-E.')[0m
+  [4;35;1mSQL (22.5ms)[0m   [0mCOMMIT[0m
+<#Hashie::Mash access_token="105093279544714|3991bb8625660b638ebf9293-632510886|279928867967|1Qux0A45fW2cY04ECJKdgU7x6lw." category="Websites" id="279928867967" name="HelloPulse">
+  [4;36;1mPage Load (0.3ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`page_id` = '279928867967') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPage Create (0.2ms)[0m   [0;1mINSERT INTO `pages` (`name`, `allow`, `created_at`, `administrator_id`, `updated_at`, `page_id`, `access_token`) VALUES('HelloPulse', 1, '2010-07-27 08:45:45', NULL, '2010-07-27 08:45:45', 279928867967, '105093279544714|3991bb8625660b638ebf9293-632510886|279928867967|1Qux0A45fW2cY04ECJKdgU7x6lw.')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mArtistPage Load (0.3ms)[0m   [0;1mSELECT * FROM `artist_pages` WHERE (`artist_pages`.`artist_id` = '632510886' AND `artist_pages`.`page_id` = 279928867967) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mArtistPage Create (0.4ms)[0m   [0;1mINSERT INTO `artist_pages` (`created_at`, `updated_at`, `page_id`, `artist_id`, `access_token`) VALUES('2010-07-27 08:45:45', '2010-07-27 08:45:45', 279928867967, 632510886, '105093279544714|3991bb8625660b638ebf9293-632510886|279928867967|1Qux0A45fW2cY04ECJKdgU7x6lw.')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+<#Hashie::Mash access_token="105093279544714|3991bb8625660b638ebf9293-632510886|304780402076|nJTM3V806rg0Xb-nfonWNUX-1nU." category="Nonprofit" id="304780402076" name="Gunterstone Road">
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`page_id` = '304780402076') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPage Create (1.1ms)[0m   [0;1mINSERT INTO `pages` (`name`, `allow`, `created_at`, `administrator_id`, `updated_at`, `page_id`, `access_token`) VALUES('Gunterstone Road', 1, '2010-07-27 08:45:45', NULL, '2010-07-27 08:45:45', 304780402076, '105093279544714|3991bb8625660b638ebf9293-632510886|304780402076|nJTM3V806rg0Xb-nfonWNUX-1nU.')[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mCOMMIT[0m
+  [4;36;1mArtistPage Load (0.3ms)[0m   [0;1mSELECT * FROM `artist_pages` WHERE (`artist_pages`.`artist_id` = '632510886' AND `artist_pages`.`page_id` = 304780402076) LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mArtistPage Create (0.2ms)[0m   [0;1mINSERT INTO `artist_pages` (`created_at`, `updated_at`, `page_id`, `artist_id`, `access_token`) VALUES('2010-07-27 08:45:45', '2010-07-27 08:45:45', 304780402076, 632510886, '105093279544714|3991bb8625660b638ebf9293-632510886|304780402076|nJTM3V806rg0Xb-nfonWNUX-1nU.')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+
+<#Hashie::Mash data=[<#Hashie::Mash access_token="105093279544714|3991bb8625660b638ebf9293-632510886|179867002844|fGskC7aWPZM9Rk6KHBoYZ0IxKZU." category="Musicians" id="179867002844" name="African Dope">, <#Hashie::Mash access_token="105093279544714|3991bb8625660b638ebf9293-632510886|135589826470904|A6g4mM3p_FRXlcJRZxTrXzkdd-E." category="Public_figures_other" id="135589826470904" name="armageddon">, <#Hashie::Mash access_token="105093279544714|3991bb8625660b638ebf9293-632510886|279928867967|1Qux0A45fW2cY04ECJKdgU7x6lw." category="Websites" id="279928867967" name="HelloPulse">, <#Hashie::Mash access_token="105093279544714|3991bb8625660b638ebf9293-632510886|304780402076|nJTM3V806rg0Xb-nfonWNUX-1nU." category="Nonprofit" id="304780402076" name="Gunterstone Road">]>
+Completed in 1691ms (View: 1, DB: 61) | 200 OK [http://localhost/visitor]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (0.0ms)[0m   [0mMysql::Error: Table 'mahala_development.activities' doesn't exist: SHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'mahala_development.places' doesn't exist: SHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (0.0ms)[0m   [0mMysql::Error: Table 'mahala_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+
+
+Processing FacebookController#index (for 127.0.0.1 at 2010-07-27 14:15:46) [GET]
+  Parameters: {"fb_sig_app_id"=>"105093279544714", "fb_sig_iframe_key"=>"02e74f10e0327ad868d138f2b4fdd6f0", "fb_sig_in_iframe"=>"1", "fb_sig_locale"=>"en_US", "fb_sig_in_new_facebook"=>"1", "fb_sig"=>"cf267205c6eb04affc02abb69af3061c", "fb_sig_added"=>"1", "fb_sig_expires"=>"0", "fb_sig_session_key"=>"3991bb8625660b638ebf9293-632510886", "fb_sig_cookie_sig"=>"c388b472d180d7d6193485c72e1a0477", "fb_sig_ext_perms"=>"status_update,photo_upload,video_upload,offline_access,create_note,share_item,publish_stream,manage_pages,user_events", "fb_sig_country"=>"in", "fb_sig_ss"=>"0257ed748462417b0ba79f28d216b531", "fb_sig_api_key"=>"93be83437446f5288629ec944c0fd076", "fb_sig_time"=>"1280220315.0605", "fb_sig_profile_update_time"=>"1272269466", "fb_sig_user"=>"632510886"}
+fb_sig_app_id105093279544714fb_sig_iframe_key02e74f10e0327ad868d138f2b4fdd6f0fb_sig_localeen_USfb_sig_in_iframe1actionindexfb_sigcf267205c6eb04affc02abb69af3061cfb_sig_in_new_facebook1fb_sig_added1fb_sig_countryinfb_sig_ext_permsstatus_update,photo_upload,video_upload,offline_access,create_note,share_item,publish_stream,manage_pages,user_eventsfb_sig_cookie_sigc388b472d180d7d6193485c72e1a0477fb_sig_session_key3991bb8625660b638ebf9293-632510886fb_sig_expires0fb_sig_ss0257ed748462417b0ba79f28d216b531controllerfacebookfb_sig_api_key93be83437446f5288629ec944c0fd076fb_sig_user632510886fb_sig_profile_update_time1272269466fb_sig_time1280220315.0605
+cookie
+fbs_105093279544714
+"access_token=105093279544714|3991bb8625660b638ebf9293-632510886|G-QBJyHIG8p-oZKIwmN-lp6eizs.&expires=0&secret=0257ed748462417b0ba79f28d216b531&session_key=3991bb8625660b638ebf9293-632510886&sig=cfda9ca561386f50d57b3116f0c07582&uid=632510886"
+path
+_pulse_session
+fbs_297512602099
+cookie
+fbs_105093279544714
+"access_token=105093279544714|3991bb8625660b638ebf9293-632510886|G-QBJyHIG8p-oZKIwmN-lp6eizs.&expires=0&secret=0257ed748462417b0ba79f28d216b531&session_key=3991bb8625660b638ebf9293-632510886&sig=cfda9ca561386f50d57b3116f0c07582&uid=632510886"
+path
+_pulse_session
+fbs_297512602099
+  [4;36;1mArtist Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `artists`[0m
+  [4;35;1mArtist Load (0.3ms)[0m   [0mSELECT * FROM `artists` WHERE (`artists`.`fb_user_id` = '632510886') LIMIT 1[0m
+admin
+Rendering facebook/partner
+  [4;36;1mPage Load (0.4ms)[0m   [0;1mSELECT pages.* FROM `pages` inner join artist_pages AP on AP.page_id = pages.page_id WHERE (AP.artist_id = 632510886) [0m
+  [4;35;1mPage Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (9.3ms)[0m   [0;1mSELECT distinct pages.*, PPP.publish_page_id as allow FROM `pages` left join page_publish_pages PPP on pages.page_id = PPP.publish_page_id WHERE (pages.page_id not in ( 179867002844,135589826470904,279928867967,304780402076)) [0m
+Completed in 1535ms (View: 17, DB: 13) | 200 OK [http://localhost/facebook/?fb_sig_in_iframe=1&fb_sig_iframe_key=02e74f10e0327ad868d138f2b4fdd6f0&fb_sig_locale=en_US&fb_sig_in_new_facebook=1&fb_sig_time=1280220315.0605&fb_sig_added=1&fb_sig_profile_update_time=1272269466&fb_sig_expires=0&fb_sig_user=632510886&fb_sig_session_key=3991bb8625660b638ebf9293-632510886&fb_sig_ss=0257ed748462417b0ba79f28d216b531&fb_sig_cookie_sig=c388b472d180d7d6193485c72e1a0477&fb_sig_ext_perms=status_update%2Cphoto_upload%2Cvideo_upload%2Coffline_access%2Ccreate_note%2Cshare_item%2Cpublish_stream%2Cmanage_pages%2Cuser_events&fb_sig_country=in&fb_sig_api_key=93be83437446f5288629ec944c0fd076&fb_sig_app_id=105093279544714&fb_sig=cf267205c6eb04affc02abb69af3061c]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mActivity Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'mahala_development.activities' doesn't exist: SHOW FIELDS FROM `activities`[0m
+  [4;35;1mPlace Columns (0.0ms)[0m   [0mMysql::Error: Table 'mahala_development.places' doesn't exist: SHOW FIELDS FROM `places`[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'mahala_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-27 14:15:50) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/controls.js" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mActivity Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'mahala_development.activities' doesn't exist: SHOW FIELDS FROM `activities`[0m
+  [4;35;1mPlace Columns (0.0ms)[0m   [0mMysql::Error: Table 'mahala_development.places' doesn't exist: SHOW FIELDS FROM `places`[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'mahala_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+
+
+Processing FacebookController#index (for 127.0.0.1 at 2010-07-27 14:16:01) [GET]
+  Parameters: {"fb_sig_app_id"=>"105093279544714", "fb_sig_iframe_key"=>"02e74f10e0327ad868d138f2b4fdd6f0", "fb_sig_in_iframe"=>"1", "fb_sig_locale"=>"en_US", "fb_sig_in_new_facebook"=>"1", "fb_sig"=>"ba058733d22edeb7c33d47bc3bb7a123", "fb_sig_added"=>"1", "fb_sig_expires"=>"0", "fb_sig_session_key"=>"b2c8ab628e51e46f38b5a5e6-100000999791399", "fb_sig_cookie_sig"=>"83ca433f38b09edcbebf84887584e94b", "fb_sig_ext_perms"=>"status_update,photo_upload,video_upload,offline_access,create_note,share_item,publish_stream,manage_pages,user_events", "fb_sig_country"=>"in", "fb_sig_ss"=>"0890cebd14c61d34bd4e37234729f192", "fb_sig_api_key"=>"93be83437446f5288629ec944c0fd076", "fb_sig_time"=>"1280220356.7349", "fb_sig_profile_update_time"=>"1271246653", "fb_sig_user"=>"100000999791399"}
+fb_sig_app_id105093279544714fb_sig_iframe_key02e74f10e0327ad868d138f2b4fdd6f0fb_sig_localeen_USfb_sig_in_iframe1actionindexfb_sigba058733d22edeb7c33d47bc3bb7a123fb_sig_in_new_facebook1fb_sig_added1fb_sig_countryinfb_sig_ext_permsstatus_update,photo_upload,video_upload,offline_access,create_note,share_item,publish_stream,manage_pages,user_eventsfb_sig_cookie_sig83ca433f38b09edcbebf84887584e94bfb_sig_session_keyb2c8ab628e51e46f38b5a5e6-100000999791399fb_sig_expires0fb_sig_ss0890cebd14c61d34bd4e37234729f192controllerfacebookfb_sig_api_key93be83437446f5288629ec944c0fd076fb_sig_user100000999791399fb_sig_profile_update_time1271246653fb_sig_time1280220356.7349
+cookie
+fbs_105093279544714
+"access_token=105093279544714|b2c8ab628e51e46f38b5a5e6-100000999791399|itoxvVbf-4br-y3IgtpAtA_srPY.&expires=0&secret=0890cebd14c61d34bd4e37234729f192&session_key=b2c8ab628e51e46f38b5a5e6-100000999791399&sig=38217aa62d72aa6571c4c92ae0b39777&uid=100000999791399"
+path
+fbs_297512602099
+cookie
+fbs_105093279544714
+"access_token=105093279544714|b2c8ab628e51e46f38b5a5e6-100000999791399|itoxvVbf-4br-y3IgtpAtA_srPY.&expires=0&secret=0890cebd14c61d34bd4e37234729f192&session_key=b2c8ab628e51e46f38b5a5e6-100000999791399&sig=38217aa62d72aa6571c4c92ae0b39777&uid=100000999791399"
+path
+fbs_297512602099
+  [4;35;1mArtist Columns (2.9ms)[0m   [0mSHOW FIELDS FROM `artists`[0m
+  [4;36;1mArtist Load (0.3ms)[0m   [0;1mSELECT * FROM `artists` WHERE (`artists`.`fb_user_id` = '100000999791399') LIMIT 1[0m
+Rendering facebook/login
+Completed in 1305ms (View: 3, DB: 3) | 200 OK [http://localhost/facebook/?fb_sig_in_iframe=1&fb_sig_iframe_key=02e74f10e0327ad868d138f2b4fdd6f0&fb_sig_locale=en_US&fb_sig_in_new_facebook=1&fb_sig_time=1280220356.7349&fb_sig_added=1&fb_sig_profile_update_time=1271246653&fb_sig_expires=0&fb_sig_user=100000999791399&fb_sig_session_key=b2c8ab628e51e46f38b5a5e6-100000999791399&fb_sig_ss=0890cebd14c61d34bd4e37234729f192&fb_sig_cookie_sig=83ca433f38b09edcbebf84887584e94b&fb_sig_ext_perms=status_update%2Cphoto_upload%2Cvideo_upload%2Coffline_access%2Ccreate_note%2Cshare_item%2Cpublish_stream%2Cmanage_pages%2Cuser_events&fb_sig_country=in&fb_sig_api_key=93be83437446f5288629ec944c0fd076&fb_sig_app_id=105093279544714&fb_sig=ba058733d22edeb7c33d47bc3bb7a123]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mActivity Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'mahala_development.activities' doesn't exist: SHOW FIELDS FROM `activities`[0m
+  [4;35;1mPlace Columns (0.0ms)[0m   [0mMysql::Error: Table 'mahala_development.places' doesn't exist: SHOW FIELDS FROM `places`[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'mahala_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-27 14:16:03) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/controls.js" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mActivity Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'mahala_development.activities' doesn't exist: SHOW FIELDS FROM `activities`[0m
+  [4;35;1mPlace Columns (0.0ms)[0m   [0mMysql::Error: Table 'mahala_development.places' doesn't exist: SHOW FIELDS FROM `places`[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'mahala_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+
+
+Processing FacebookController#new_visitor (for 127.0.0.1 at 2010-07-27 14:16:06) [PUT]
+"access_token=105093279544714|b2c8ab628e51e46f38b5a5e6-100000999791399|itoxvVbf-4br-y3IgtpAtA_srPY.&expires=0&secret=0890cebd14c61d34bd4e37234729f192&session_key=b2c8ab628e51e46f38b5a5e6-100000999791399&sig=38217aa62d72aa6571c4c92ae0b39777&uid=100000999791399"
+6
+"access_token      105093279544714|b2c8ab628e51e46f38b5a5e6-100000999791399|itoxvVbf-4br-y3IgtpAtA_srPY.
+expires      0
+secret      0890cebd14c61d34bd4e37234729f192
+session_key      b2c8ab628e51e46f38b5a5e6-100000999791399
+sig      38217aa62d72aa6571c4c92ae0b39777
+uid      100000999791399"
+  [4;35;1mArtist Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `artists`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mArtist Create (0.3ms)[0m   [0mINSERT INTO `artists` (`created_at`, `fb_user_id`, `updated_at`, `admin`, `auth_code`, `access_token`) VALUES('2010-07-27 08:46:06', 100000999791399, '2010-07-27 08:46:06', NULL, NULL, '105093279544714|b2c8ab628e51e46f38b5a5e6-100000999791399|itoxvVbf-4br-y3IgtpAtA_srPY.')[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+<#Hashie::Mash access_token="105093279544714|b2c8ab628e51e46f38b5a5e6-100000999791399|136097313080866|Bv3dk8s9Ag-JnXz8D54Zf-bijJs." category="Local_business" id="136097313080866" name="toist">
+  [4;35;1mPage Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`page_id` = '136097313080866') LIMIT 1[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPage Create (0.2ms)[0m   [0;1mINSERT INTO `pages` (`name`, `allow`, `created_at`, `administrator_id`, `updated_at`, `page_id`, `access_token`) VALUES('toist', 1, '2010-07-27 08:46:07', NULL, '2010-07-27 08:46:07', 136097313080866, '105093279544714|b2c8ab628e51e46f38b5a5e6-100000999791399|136097313080866|Bv3dk8s9Ag-JnXz8D54Zf-bijJs.')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mArtistPage Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `artist_pages`[0m
+  [4;35;1mArtistPage Load (1.9ms)[0m   [0mSELECT * FROM `artist_pages` WHERE (`artist_pages`.`artist_id` = '100000999791399' AND `artist_pages`.`page_id` = 136097313080866) LIMIT 1[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mArtistPage Create (0.2ms)[0m   [0mINSERT INTO `artist_pages` (`created_at`, `updated_at`, `page_id`, `artist_id`, `access_token`) VALUES('2010-07-27 08:46:07', '2010-07-27 08:46:07', 136097313080866, 100000999791399, '105093279544714|b2c8ab628e51e46f38b5a5e6-100000999791399|136097313080866|Bv3dk8s9Ag-JnXz8D54Zf-bijJs.')[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+
+<#Hashie::Mash data=[<#Hashie::Mash access_token="105093279544714|b2c8ab628e51e46f38b5a5e6-100000999791399|136097313080866|Bv3dk8s9Ag-JnXz8D54Zf-bijJs." category="Local_business" id="136097313080866" name="toist">]>
+Completed in 1596ms (View: 1, DB: 10) | 200 OK [http://localhost/visitor]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+  [4;36;1mActivity Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'mahala_development.activities' doesn't exist: SHOW FIELDS FROM `activities`[0m
+  [4;35;1mPlace Columns (0.0ms)[0m   [0mMysql::Error: Table 'mahala_development.places' doesn't exist: SHOW FIELDS FROM `places`[0m
+  [4;36;1mUser Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'mahala_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+
+
+Processing FacebookController#index (for 127.0.0.1 at 2010-07-27 14:16:08) [GET]
+  Parameters: {"fb_sig_app_id"=>"105093279544714", "fb_sig_iframe_key"=>"02e74f10e0327ad868d138f2b4fdd6f0", "fb_sig_in_iframe"=>"1", "fb_sig_locale"=>"en_US", "fb_sig_in_new_facebook"=>"1", "fb_sig"=>"ba058733d22edeb7c33d47bc3bb7a123", "fb_sig_added"=>"1", "fb_sig_expires"=>"0", "fb_sig_session_key"=>"b2c8ab628e51e46f38b5a5e6-100000999791399", "fb_sig_cookie_sig"=>"83ca433f38b09edcbebf84887584e94b", "fb_sig_ext_perms"=>"status_update,photo_upload,video_upload,offline_access,create_note,share_item,publish_stream,manage_pages,user_events", "fb_sig_country"=>"in", "fb_sig_ss"=>"0890cebd14c61d34bd4e37234729f192", "fb_sig_api_key"=>"93be83437446f5288629ec944c0fd076", "fb_sig_time"=>"1280220356.7349", "fb_sig_profile_update_time"=>"1271246653", "fb_sig_user"=>"100000999791399"}
+fb_sig_app_id105093279544714fb_sig_iframe_key02e74f10e0327ad868d138f2b4fdd6f0fb_sig_localeen_USfb_sig_in_iframe1actionindexfb_sigba058733d22edeb7c33d47bc3bb7a123fb_sig_in_new_facebook1fb_sig_added1fb_sig_countryinfb_sig_ext_permsstatus_update,photo_upload,video_upload,offline_access,create_note,share_item,publish_stream,manage_pages,user_eventsfb_sig_cookie_sig83ca433f38b09edcbebf84887584e94bfb_sig_session_keyb2c8ab628e51e46f38b5a5e6-100000999791399fb_sig_expires0fb_sig_ss0890cebd14c61d34bd4e37234729f192controllerfacebookfb_sig_api_key93be83437446f5288629ec944c0fd076fb_sig_user100000999791399fb_sig_profile_update_time1271246653fb_sig_time1280220356.7349
+cookie
+fbs_105093279544714
+"access_token=105093279544714|b2c8ab628e51e46f38b5a5e6-100000999791399|itoxvVbf-4br-y3IgtpAtA_srPY.&expires=0&secret=0890cebd14c61d34bd4e37234729f192&session_key=b2c8ab628e51e46f38b5a5e6-100000999791399&sig=38217aa62d72aa6571c4c92ae0b39777&uid=100000999791399"
+path
+fbs_297512602099
+cookie
+fbs_105093279544714
+"access_token=105093279544714|b2c8ab628e51e46f38b5a5e6-100000999791399|itoxvVbf-4br-y3IgtpAtA_srPY.&expires=0&secret=0890cebd14c61d34bd4e37234729f192&session_key=b2c8ab628e51e46f38b5a5e6-100000999791399&sig=38217aa62d72aa6571c4c92ae0b39777&uid=100000999791399"
+path
+fbs_297512602099
+  [4;35;1mArtist Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `artists`[0m
+  [4;36;1mArtist Load (1.2ms)[0m   [0;1mSELECT * FROM `artists` WHERE (`artists`.`fb_user_id` = '100000999791399') LIMIT 1[0m
+admin
+Rendering facebook/partner
+  [4;35;1mPage Load (0.5ms)[0m   [0mSELECT pages.* FROM `pages` inner join artist_pages AP on AP.page_id = pages.page_id WHERE (AP.artist_id = 100000999791399) [0m
+  [4;36;1mPage Columns (300.8ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.6ms)[0m   [0mSELECT distinct pages.*, PPP.publish_page_id as allow FROM `pages` left join page_publish_pages PPP on pages.page_id = PPP.publish_page_id WHERE (pages.page_id not in ( 136097313080866)) [0m
+Completed in 1712ms (View: 10, DB: 305) | 200 OK [http://localhost/facebook/?fb_sig_in_iframe=1&fb_sig_iframe_key=02e74f10e0327ad868d138f2b4fdd6f0&fb_sig_locale=en_US&fb_sig_in_new_facebook=1&fb_sig_time=1280220356.7349&fb_sig_added=1&fb_sig_profile_update_time=1271246653&fb_sig_expires=0&fb_sig_user=100000999791399&fb_sig_session_key=b2c8ab628e51e46f38b5a5e6-100000999791399&fb_sig_ss=0890cebd14c61d34bd4e37234729f192&fb_sig_cookie_sig=83ca433f38b09edcbebf84887584e94b&fb_sig_ext_perms=status_update%2Cphoto_upload%2Cvideo_upload%2Coffline_access%2Ccreate_note%2Cshare_item%2Cpublish_stream%2Cmanage_pages%2Cuser_events&fb_sig_country=in&fb_sig_api_key=93be83437446f5288629ec944c0fd076&fb_sig_app_id=105093279544714&fb_sig=ba058733d22edeb7c33d47bc3bb7a123]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (0.0ms)[0m   [0mMysql::Error: Table 'mahala_development.activities' doesn't exist: SHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'mahala_development.places' doesn't exist: SHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (0.0ms)[0m   [0mMysql::Error: Table 'mahala_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-27 14:16:10) [GET]
+
+ActionController::RoutingError (No route matches "/javascripts/controls.js" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (0.0ms)[0m   [0mMysql::Error: Table 'mahala_development.activities' doesn't exist: SHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'mahala_development.places' doesn't exist: SHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (0.0ms)[0m   [0mMysql::Error: Table 'mahala_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+
+
+Processing FacebookController#allow_page (for 127.0.0.1 at 2010-07-27 14:16:14) [POST]
+  Parameters: {"allow"=>"true", "page_id"=>"179867002844", "artist_id"=>"100000999791399"}
+allowtruepage_id179867002844actionallow_pagecontrollerfacebookartist_id100000999791399
+  [4;36;1mPage Load (1.2ms)[0m   [0;1mSELECT pages.* FROM `pages` inner join artist_pages AP on AP.page_id = pages.page_id WHERE (AP.artist_id = 100000999791399) [0m
+  [4;35;1mPage Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+toist
+  [4;36;1mPagePublishPage Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `page_publish_pages`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mBEGIN[0m
+  [4;36;1mPagePublishPage Create (0.2ms)[0m   [0;1mINSERT INTO `page_publish_pages` (`created_at`, `publish_page_id`, `updated_at`, `page_id`) VALUES('2010-07-27 08:46:14', 179867002844, '2010-07-27 08:46:14', 136097313080866)[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+Completed in 20ms (View: 4, DB: 5) | 200 OK [http://localhost/allow_page]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (0.0ms)[0m   [0mMysql::Error: Table 'mahala_development.activities' doesn't exist: SHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'mahala_development.places' doesn't exist: SHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (0.0ms)[0m   [0mMysql::Error: Table 'mahala_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+
+
+Processing FacebookController#allow_page (for 127.0.0.1 at 2010-07-27 14:16:16) [POST]
+  Parameters: {"allow"=>"true", "page_id"=>"135589826470904", "artist_id"=>"100000999791399"}
+allowtruepage_id135589826470904actionallow_pagecontrollerfacebookartist_id100000999791399
+  [4;36;1mPage Load (0.4ms)[0m   [0;1mSELECT pages.* FROM `pages` inner join artist_pages AP on AP.page_id = pages.page_id WHERE (AP.artist_id = 100000999791399) [0m
+  [4;35;1mPage Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+toist
+  [4;36;1mPagePublishPage Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `page_publish_pages`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPagePublishPage Create (0.2ms)[0m   [0;1mINSERT INTO `page_publish_pages` (`created_at`, `publish_page_id`, `updated_at`, `page_id`) VALUES('2010-07-27 08:46:16', 135589826470904, '2010-07-27 08:46:16', 136097313080866)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+Completed in 197ms (View: 1, DB: 4) | 200 OK [http://localhost/allow_page]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (0.0ms)[0m   [0mMysql::Error: Table 'mahala_development.activities' doesn't exist: SHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'mahala_development.places' doesn't exist: SHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (0.0ms)[0m   [0mMysql::Error: Table 'mahala_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+
+
+Processing FacebookController#allow_page (for 127.0.0.1 at 2010-07-27 14:16:17) [POST]
+  Parameters: {"allow"=>"true", "page_id"=>"279928867967", "artist_id"=>"100000999791399"}
+allowtruepage_id279928867967actionallow_pagecontrollerfacebookartist_id100000999791399
+  [4;36;1mPage Load (0.4ms)[0m   [0;1mSELECT pages.* FROM `pages` inner join artist_pages AP on AP.page_id = pages.page_id WHERE (AP.artist_id = 100000999791399) [0m
+  [4;35;1mPage Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+toist
+  [4;36;1mPagePublishPage Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `page_publish_pages`[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mPagePublishPage Create (0.6ms)[0m   [0;1mINSERT INTO `page_publish_pages` (`created_at`, `publish_page_id`, `updated_at`, `page_id`) VALUES('2010-07-27 08:46:17', 279928867967, '2010-07-27 08:46:17', 136097313080866)[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+Completed in 19ms (View: 2, DB: 4) | 200 OK [http://localhost/allow_page]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mActivity Columns (0.0ms)[0m   [0mMysql::Error: Table 'mahala_development.activities' doesn't exist: SHOW FIELDS FROM `activities`[0m
+  [4;36;1mPlace Columns (0.0ms)[0m   [0;1mMysql::Error: Table 'mahala_development.places' doesn't exist: SHOW FIELDS FROM `places`[0m
+  [4;35;1mUser Columns (0.0ms)[0m   [0mMysql::Error: Table 'mahala_development.users' doesn't exist: SHOW FIELDS FROM `users`[0m
+
+
+Processing FacebookController#allow_page (for 127.0.0.1 at 2010-07-27 14:16:18) [POST]
+  Parameters: {"allow"=>"true", "page_id"=>"304780402076", "artist_id"=>"100000999791399"}
+allowtruepage_id304780402076actionallow_pagecontrollerfacebookartist_id100000999791399
+  [4;36;1mPage Load (0.5ms)[0m   [0;1mSELECT pages.* FROM `pages` inner join artist_pages AP on AP.page_id = pages.page_id WHERE (AP.artist_id = 100000999791399) [0m
+  [4;35;1mPage Columns (2.4ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+toist
+  [4;36;1mPagePublishPage Columns (11.0ms)[0m   [0;1mSHOW FIELDS FROM `page_publish_pages`[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mBEGIN[0m
+  [4;36;1mPagePublishPage Create (0.3ms)[0m   [0;1mINSERT INTO `page_publish_pages` (`created_at`, `publish_page_id`, `updated_at`, `page_id`) VALUES('2010-07-27 08:46:18', 304780402076, '2010-07-27 08:46:18', 136097313080866)[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mCOMMIT[0m
+Completed in 38ms (View: 1, DB: 15) | 200 OK [http://localhost/allow_page]
