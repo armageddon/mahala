@@ -173,11 +173,12 @@ class FacebookController < ApplicationController
   
   def post_to_newsfeed
     logger.info('POST TO NEWSFEED')
-    text = params[:post_text]
+    posttext = params[:post_text]
     title = params[:post_title]
-    logger.info(text.index('<') )
-    text = text.split('<')[0]  if text.index('<') != nil
-
+     logger.info(posttext)
+    logger.info(posttext.index('<') )
+    posttext = text.split('<')[0]  if posttext.index('<') != nil
+  logger.info(posttext)
     logger.info(params)
     fb_page_id = params[:artist_fb_page_id]
     
@@ -193,7 +194,8 @@ class FacebookController < ApplicationController
       if ppp != nil
         @access_token = p.access_token
         @uid = p.page_id
-        mes = title||'' + ' : ' + text||''
+        mes = title.to_s + ' : ' + posttext.to_s
+        logger.info(mes)
         ret = MiniFB.post(@access_token, @uid, :type=>'feed',  :message=>mes, :link=>"http://www.blog.lovecapetownmusic.com", :name=>'Mahala Music' ,:description=> 'Join Mahala for hundreds of free tracks!',  :caption => "Discover the best Cape Town free music downloads"  ,:picture => "http://blog.lovecapetownmusic.com/wp-content/uploads/mahalalogo.png")
       end
     end
