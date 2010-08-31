@@ -186,7 +186,7 @@ class FacebookController < ApplicationController
     ret = ""
     #pages.each do |p|
     pages=Page.find(:all, :conditions=>"allow=1")
-    artist_page = Page.find(:all, :conditions=>'name = '  + artist_name)
+    artist_page = Page.find(:all, :conditions=>"name = '"  + artist_name + "'")
     fb_page_id = artist_page.id if artist_page != nil
     pages.each do |p|
       logger.info(p)
